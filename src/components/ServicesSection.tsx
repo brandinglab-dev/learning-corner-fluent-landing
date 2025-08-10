@@ -58,14 +58,19 @@ const ServicesSection = () => {
   };
 
   return (
-    <section id="servicios" className="py-20 bg-accent/30">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Nuestros Servicios
+    <section id="servicios" className="py-24 bg-accent/20 relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute inset-0 bg-texture-grid bg-grid opacity-20" />
+      <div className="absolute top-20 right-10 w-64 h-64 bg-gradient-primary rounded-full opacity-10 animate-float" />
+      <div className="absolute bottom-20 left-10 w-48 h-48 bg-gradient-secondary rounded-full opacity-10 animate-float animation-delay-400" />
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="text-center mb-20">
+          <h2 className="font-display text-5xl md:text-6xl font-bold mb-8 text-foreground">
+            Nuestros <span className="text-shimmer">Servicios</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Programas especializados para cada etapa de la vida. Encuentra el curso perfecto para alcanzar tus objetivos lingüísticos.
+          <p className="font-body text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            Programas especializados para cada etapa de la vida. Encuentra el curso perfecto para alcanzar tus objetivos lingüísticos y transformar tu futuro.
           </p>
         </div>
 
@@ -73,39 +78,48 @@ const ServicesSection = () => {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <Card key={index} className="group hover:shadow-strong transition-all duration-300 hover:-translate-y-2 bg-card border-border/50">
-                <CardContent className="p-8">
-                  <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-xl mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <IconComponent className="h-8 w-8 text-white" />
+              <div
+                key={index}
+                className="group hover-lift animate-fade-up"
+                style={{ animationDelay: `${index * 150}ms` }}
+              >
+                <div className="relative bg-card border border-border/50 rounded-2xl p-8 h-full hover:border-primary/30 transition-all duration-500 overflow-hidden">
+                  {/* Background decoration */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-primary rounded-full opacity-5 -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700" />
+                  
+                  <div className="relative z-10">
+                    <div className="flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-colored">
+                      <IconComponent className="h-10 w-10 text-white" />
+                    </div>
+                    
+                    <h3 className="font-display text-2xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors duration-300">
+                      {service.title}
+                    </h3>
+                    
+                    <p className="font-body text-muted-foreground mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                    
+                    <ul className="space-y-3 mb-8">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-center text-sm text-muted-foreground font-body">
+                          <div className="w-2 h-2 bg-gradient-primary rounded-full mr-3 group-hover:animate-pulse" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  
+                    <Button 
+                      onClick={scrollToContact}
+                      variant="outline" 
+                      className="w-full group/btn border-primary/30 text-primary hover:bg-gradient-primary hover:text-white hover:border-primary hover:shadow-glow transition-all duration-300 font-medium"
+                    >
+                      Más información
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                    </Button>
                   </div>
-                  
-                  <h3 className="text-2xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors">
-                    {service.title}
-                  </h3>
-                  
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    {service.description}
-                  </p>
-                  
-                  <ul className="space-y-2 mb-6">
-                    {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center text-sm text-muted-foreground">
-                        <div className="w-2 h-2 bg-primary rounded-full mr-3" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                  
-                  <Button 
-                    onClick={scrollToContact}
-                    variant="outline" 
-                    className="w-full group/btn border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    Más información
-                    <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
-                </CardContent>
-              </Card>
+                </div>
+              </div>
             );
           })}
         </div>

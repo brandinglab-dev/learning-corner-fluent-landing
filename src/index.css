@@ -46,9 +46,22 @@ All colors MUST be HSL.
     /* Custom gradients and effects */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-dark)));
     --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--secondary-dark)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--secondary) / 0.8));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.95), hsl(var(--secondary) / 0.85));
+    --gradient-radial: radial-gradient(circle at center, hsl(var(--primary) / 0.1), transparent 70%);
     --shadow-soft: 0 4px 20px hsl(var(--primary) / 0.1);
     --shadow-strong: 0 8px 30px hsl(var(--primary) / 0.2);
+    --shadow-colored: 0 8px 25px hsl(var(--primary) / 0.25);
+    
+    /* Typography scale */
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -116,13 +129,18 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
   }
 }
 
 @layer utilities {
+  /* Custom Animation Utilities */
   .animate-fade-up {
-    animation: fadeUp 0.6s ease-out forwards;
+    animation: fadeUp 0.8s ease-out forwards;
   }
   
   .animation-delay-200 {
@@ -131,6 +149,58 @@ All colors MUST be HSL.
   
   .animation-delay-400 {
     animation-delay: 0.4s;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 0.6s;
+  }
+
+  /* Interactive Hover Effects */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .hover-lift:hover {
+    @apply -translate-y-2 shadow-strong;
+  }
+  
+  .hover-glow:hover {
+    @apply shadow-glow;
+  }
+  
+  /* Text Effects */
+  .text-shimmer {
+    background: linear-gradient(120deg, hsl(var(--foreground)), hsl(var(--primary)), hsl(var(--foreground)));
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s ease-in-out infinite;
+  }
+  
+  /* Geometric Shapes */
+  .shape-circle {
+    @apply w-24 h-24 rounded-full bg-gradient-primary opacity-20 absolute;
+  }
+  
+  .shape-square {
+    @apply w-16 h-16 bg-gradient-secondary opacity-15 absolute rotate-45;
+  }
+  
+  .shape-triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 35px solid hsl(var(--primary) / 0.2);
+    @apply absolute;
+  }
+  
+  /* Glass Effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
   }
   
   @keyframes fadeUp {
@@ -142,5 +212,10 @@ All colors MUST be HSL.
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
   }
 }

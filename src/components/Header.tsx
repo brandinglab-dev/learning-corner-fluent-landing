@@ -14,32 +14,32 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-background/95 backdrop-blur-sm border-b border-border sticky top-0 z-50 shadow-soft">
+    <header className="bg-background/90 backdrop-blur-lg border-b border-border/50 sticky top-0 z-50 shadow-soft">
       <div className="container mx-auto px-4">
         {/* Top bar with contact info */}
-        <div className="hidden md:flex justify-between items-center py-2 text-sm border-b border-border/50">
-          <div className="flex items-center gap-4">
-            <a href="tel:+34123456789" className="flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
+        <div className="hidden md:flex justify-between items-center py-3 text-sm border-b border-border/30">
+          <div className="flex items-center gap-6">
+            <a href="tel:+34123456789" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Phone className="h-3 w-3" />
-              +34 123 456 789
+              <span className="font-medium">+34 123 456 789</span>
             </a>
-            <a href="mailto:info@learningcorner.es" className="flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:info@learningcorner.es" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Mail className="h-3 w-3" />
-              info@learningcorner.es
+              <span className="font-medium">info@learningcorner.es</span>
             </a>
           </div>
-          <div className="flex items-center gap-3">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+          <div className="flex items-center gap-4">
+            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-6">
               <Facebook className="h-4 w-4" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:-rotate-6">
               <Instagram className="h-4 w-4" />
             </a>
           </div>
         </div>
 
         {/* Main navigation */}
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-5">
           <div className="flex items-center">
             <img 
               src="/lovable-uploads/0ea3069a-d61b-4160-b672-046d5881f8f6.png" 
@@ -49,34 +49,38 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-10">
             <button 
               onClick={() => scrollToSection('inicio')} 
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Inicio
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('servicios')} 
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Servicios
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('ubicacion')} 
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Ubicación
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('contacto')} 
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Contacto
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <Button 
               onClick={() => scrollToSection('contacto')} 
-              className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-soft"
+              className="bg-gradient-primary hover:shadow-glow hover:scale-105 text-primary-foreground shadow-colored transition-all duration-300 font-medium px-6 py-2.5"
             >
               Reservar Clase
             </Button>
