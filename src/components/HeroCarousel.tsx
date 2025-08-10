@@ -13,32 +13,28 @@ const slides = [
     title: "Abre las puertas del mundo",
     subtitle: "Conecta con nuevas culturas através del poder de los idiomas",
     description: "Descubre un universo de oportunidades con nuestros programas innovadores",
-    cta: "Descubre nuestros cursos",
-    accent: "🌍"
+    cta: "Descubre nuestros cursos"
   },
   {
     image: kidsLearning,
     title: "Crecimiento desde pequeños",
     subtitle: "Formación integral que trasciende el aula",
     description: "Metodología lúdica diseñada para mentes jóvenes y curiosas",
-    cta: "Cursos para niños",
-    accent: "🎨"
+    cta: "Cursos para niños"
   },
   {
     image: adultsLearning,
     title: "Impulsa tu carrera profesional",
     subtitle: "Domina idiomas y destaca en el mundo laboral",
     description: "Programas ejecutivos adaptados a profesionales ambiciosos",
-    cta: "Formación profesional",
-    accent: "🚀"
+    cta: "Formación profesional"
   },
   {
     image: culturalIntegration,
     title: "Integración y nuevas oportunidades",
     subtitle: "Tu hogar en España comienza aquí",
     description: "Acompañamiento personalizado para residentes internacionales",
-    cta: "Programas de integración",
-    accent: "🤝"
+    cta: "Programas de integración"
   }
 ];
 
@@ -69,7 +65,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Decorative elements */}
       <DecorativeShapes />
       
@@ -93,16 +89,11 @@ const HeroCarousel = () => {
       {/* Content */}
       <div className="relative z-30 container mx-auto px-4 text-center text-white">
         <div className="max-w-5xl mx-auto">
-          {/* Accent icon */}
-          <div className="text-6xl mb-6 animate-float">
-            {slides[currentSlide].accent}
-          </div>
-          
-          <h1 className="font-display text-6xl md:text-8xl font-bold mb-6 animate-fade-up leading-tight">
+          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up leading-tight">
             {slides[currentSlide].title}
           </h1>
           
-          <p className="font-body text-2xl md:text-3xl mb-4 opacity-95 animate-fade-up animation-delay-200 font-light">
+          <p className="font-body text-xl md:text-2xl mb-4 opacity-95 animate-fade-up animation-delay-200 font-light">
             {slides[currentSlide].subtitle}
           </p>
           

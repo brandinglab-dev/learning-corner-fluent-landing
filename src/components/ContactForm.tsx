@@ -80,7 +80,7 @@ const ContactForm = () => {
                     ¡Primera clase de prueba gratuita!
                   </p>
                   <div className="bg-gradient-primary p-6 rounded-xl text-white text-center hover:shadow-glow transition-all duration-300">
-                    <p className="font-bold text-lg font-display">✨ Oferta especial ✨</p>
+                    <p className="font-bold text-lg font-display">Oferta especial</p>
                     <p className="text-sm font-body">Matrícula gratuita este mes</p>
                   </div>
                 </div>
