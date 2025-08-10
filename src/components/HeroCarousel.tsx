@@ -1,40 +1,39 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
-import DecorativeShapes from "./DecorativeShapes";
-import heroLanguages from "@/assets/hero-languages.jpg";
-import kidsLearning from "@/assets/kids-learning.jpg";
-import adultsLearning from "@/assets/adults-learning.jpg";
-import culturalIntegration from "@/assets/cultural-integration.jpg";
+import { ChevronLeft, ChevronRight, Play } from "lucide-react";
+import businessEnglish from "@/assets/business-english.jpg";
+import childrenClassroom from "@/assets/children-classroom.jpg";
+import languageStudy from "@/assets/language-study.jpg";
+import culturalCommunity from "@/assets/cultural-community.jpg";
 
 const slides = [
   {
-    image: heroLanguages,
-    title: "Abre las puertas del mundo",
-    subtitle: "Conecta con nuevas culturas através del poder de los idiomas",
-    description: "Descubre un universo de oportunidades con nuestros programas innovadores",
-    cta: "Descubre nuestros cursos"
+    image: businessEnglish,
+    title: "Domina idiomas para el éxito profesional",
+    subtitle: "Conecta con oportunidades globales",
+    description: "Desarrolla las habilidades lingüísticas que transformarán tu carrera",
+    cta: "Explorar programas"
   },
   {
-    image: kidsLearning,
-    title: "Crecimiento desde pequeños",
-    subtitle: "Formación integral que trasciende el aula",
-    description: "Metodología lúdica diseñada para mentes jóvenes y curiosas",
-    cta: "Cursos para niños"
+    image: childrenClassroom,
+    title: "Educación integral desde temprana edad",
+    subtitle: "Base sólida para el futuro",
+    description: "Metodología adaptada que hace del aprendizaje una experiencia natural",
+    cta: "Cursos infantiles"
   },
   {
-    image: adultsLearning,
-    title: "Impulsa tu carrera profesional",
-    subtitle: "Domina idiomas y destaca en el mundo laboral",
-    description: "Programas ejecutivos adaptados a profesionales ambiciosos",
-    cta: "Formación profesional"
+    image: languageStudy,
+    title: "Formación personalizada para adultos",
+    subtitle: "Flexibilidad que se adapta a tu vida",
+    description: "Programas diseñados para profesionales con horarios exigentes",
+    cta: "Conocer opciones"
   },
   {
-    image: culturalIntegration,
-    title: "Integración y nuevas oportunidades",
-    subtitle: "Tu hogar en España comienza aquí",
-    description: "Acompañamiento personalizado para residentes internacionales",
-    cta: "Programas de integración"
+    image: culturalCommunity,
+    title: "Integración cultural completa",
+    subtitle: "Tu nueva vida en España comienza aquí",
+    description: "Acompañamiento integral para residentes internacionales",
+    cta: "Programas especiales"
   }
 ];
 
@@ -65,10 +64,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <section id="inicio" className="relative h-[80vh] flex items-center justify-center overflow-hidden">
-      {/* Decorative elements */}
-      <DecorativeShapes />
-      
+    <section id="inicio" className="relative h-[75vh] flex items-center justify-center overflow-hidden">
       {/* Background images */}
       {slides.map((slide, index) => (
         <div
@@ -77,7 +73,7 @@ const HeroCarousel = () => {
             index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-105"
           }`}
         >
-          <div className="absolute inset-0 bg-gradient-hero z-10" />
+          <div className="absolute inset-0 bg-black/40 z-10" />
           <img
             src={slide.image}
             alt={slide.title}
@@ -88,16 +84,16 @@ const HeroCarousel = () => {
 
       {/* Content */}
       <div className="relative z-30 container mx-auto px-4 text-center text-white">
-        <div className="max-w-5xl mx-auto">
-          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up leading-tight">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="font-display text-4xl md:text-6xl font-bold mb-6 animate-fade-up leading-tight">
             {slides[currentSlide].title}
           </h1>
           
-          <p className="font-body text-xl md:text-2xl mb-4 opacity-95 animate-fade-up animation-delay-200 font-light">
+          <p className="font-body text-lg md:text-xl mb-4 opacity-90 animate-fade-up animation-delay-200">
             {slides[currentSlide].subtitle}
           </p>
           
-          <p className="font-body text-lg md:text-xl mb-10 opacity-80 animate-fade-up animation-delay-400 max-w-3xl mx-auto">
+          <p className="font-body text-base md:text-lg mb-8 opacity-80 animate-fade-up animation-delay-400 max-w-2xl mx-auto">
             {slides[currentSlide].description}
           </p>
           
@@ -105,18 +101,18 @@ const HeroCarousel = () => {
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="glass text-white border-white/30 hover:bg-white/20 hover:scale-105 transition-all duration-300 text-lg px-10 py-6 font-medium"
+              className="bg-primary hover:bg-primary-dark text-white transition-all duration-300 text-lg px-8 py-3 font-medium"
             >
-              <Sparkles className="mr-2 h-5 w-5" />
+              <Play className="mr-2 h-4 w-4" />
               {slides[currentSlide].cta}
             </Button>
             <Button
               onClick={scrollToContact}
               variant="outline"
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 hover:scale-105 transition-all duration-300 text-lg px-8 py-6 font-medium border-0 shadow-strong"
+              className="bg-white/10 text-white border-white/30 hover:bg-white/20 transition-all duration-300 text-lg px-6 py-3 font-medium backdrop-blur-sm"
             >
-              Clase gratuita
+              Clase de prueba
             </Button>
           </div>
         </div>
@@ -125,27 +121,27 @@ const HeroCarousel = () => {
       {/* Navigation arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-6 top-1/2 transform -translate-y-1/2 z-30 glass text-white p-4 rounded-full transition-all duration-300 hover:scale-110 hover:bg-white/30"
+        className="absolute left-6 top-1/2 transform -translate-y-1/2 z-30 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 hover:bg-white/30"
       >
-        <ChevronLeft className="h-6 w-6" />
+        <ChevronLeft className="h-5 w-5" />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-6 top-1/2 transform -translate-y-1/2 z-30 glass text-white p-4 rounded-full transition-all duration-300 hover:scale-110 hover:bg-white/30"
+        className="absolute right-6 top-1/2 transform -translate-y-1/2 z-30 bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 hover:bg-white/30"
       >
-        <ChevronRight className="h-6 w-6" />
+        <ChevronRight className="h-5 w-5" />
       </button>
 
       {/* Dots indicator */}
-      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-30 flex gap-4">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30 flex gap-3">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-4 h-4 rounded-full transition-all duration-300 ${
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${
               index === currentSlide 
-                ? "bg-white shadow-glow scale-110" 
-                : "bg-white/50 hover:bg-white/70 hover:scale-105"
+                ? "bg-white" 
+                : "bg-white/50 hover:bg-white/70"
             }`}
           />
         ))}
