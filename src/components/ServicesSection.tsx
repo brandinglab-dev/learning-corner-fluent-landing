@@ -13,39 +13,45 @@ import {
 const services = [
   {
     icon: Baby,
-    title: "Niños (4-12 años)",
-    description: "Aprendizaje divertido e interactivo adaptado a cada edad. Desarrollamos habilidades lingüísticas através del juego y actividades creativas.",
-    features: ["Clases lúdicas", "Grupos reducidos", "Metodología Cambridge", "Preparación exámenes YLE"]
+    title: "Clases para Niños y Adolescentes",
+    description: "Metodología adaptada que hace del aprendizaje una experiencia natural desde pequeños hasta preparación para exámenes oficiales.",
+    features: ["Grupos reducidos", "Actividades interactivas", "Preparación Cambridge", "Seguimiento personalizado"],
+    languages: ["Inglés", "Francés", "Alemán"]
   },
   {
     icon: GraduationCap,
-    title: "Adolescentes (13-17 años)",
-    description: "Preparación académica y desarrollo de competencias comunicativas. Enfoque en exámenes oficiales y habilidades para la vida.",
-    features: ["Preparación B1/B2", "Speaking intensivo", "Apoyo escolar", "Exámenes Cambridge"]
-  },
-  {
-    icon: Briefcase,
-    title: "Adultos",
-    description: "Formación profesional y personal adaptada a tus objetivos. Horarios flexibles para conciliar trabajo y estudio.",
-    features: ["Business English", "Conversación", "Horarios flexibles", "Todos los niveles"]
+    title: "Clases para Adultos",
+    description: "Conversación y negocios con enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas.",
+    features: ["Business English", "Conversación intensiva", "Horarios flexibles", "Grupos por nivel"],
+    languages: ["Inglés", "Francés", "Alemán", "Árabe"]
   },
   {
     icon: Heart,
-    title: "Residentes Extranjeros",
-    description: "Programas especiales de integración social y cultural. Te ayudamos a sentirte como en casa en España.",
-    features: ["Español básico", "Integración cultural", "Gestiones administrativas", "Apoyo personalizado"]
-  },
-  {
-    icon: Monitor,
-    title: "Formación Online",
-    description: "Aprende desde casa con la misma calidad de nuestras clases presenciales. Tecnología avanzada y tutorías personalizadas.",
-    features: ["Clases en vivo", "Plataforma interactiva", "Horarios mundiales", "Soporte 24/7"]
+    title: "Español para Extranjeros",
+    description: "Clases para desenvolverte en la vida diaria y superar exámenes oficiales DELE, CSE y examen de nacionalidad.",
+    features: ["DELE", "CSE", "Examen nacionalidad", "Integración cultural"],
+    languages: ["Español"]
   },
   {
     icon: TreePine,
     title: "English Camps",
-    description: "Campamentos de inmersión total en inglés. Diversión, aventura y aprendizaje en un entorno natural y estimulante.",
-    features: ["Inmersión 100%", "Actividades outdoor", "Monitores nativos", "Certificado participación"]
+    description: "Inmersión total en inglés durante las vacaciones escolares con actividades divertidas y educativas.",
+    features: ["Inmersión total", "Actividades temáticas", "Profesores nativos", "Diversión garantizada"],
+    languages: ["Inglés"]
+  },
+  {
+    icon: Monitor,
+    title: "Modalidad Online y Presencial",
+    description: "Flexibilidad total con clases virtuales interactivas o presenciales en nuestras sedes de Estepona y Fuengirola.",
+    features: ["Horarios flexibles", "Dos ubicaciones", "Profesores cualificados", "Grupos reducidos"],
+    languages: ["Todos los idiomas"]
+  },
+  {
+    icon: Briefcase,
+    title: "Preparación Exámenes Oficiales",
+    description: "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE y examen de nacionalidad.",
+    features: ["Cambridge · TOEFL", "DELF · DALF · TCF", "DELE · CSE", "Examen nacionalidad"],
+    languages: ["Inglés", "Francés", "Español"]
   }
 ];
 
@@ -66,11 +72,14 @@ const ServicesSection = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="font-display text-5xl md:text-6xl font-bold mb-8 text-foreground">
-            Nuestros <span className="text-shimmer">Servicios</span>
+          <h2 className="font-montserrat text-5xl md:text-6xl font-extrabold mb-8 text-foreground">
+            Nuestros Servicios
           </h2>
-          <p className="font-body text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Programas especializados para cada etapa de la vida. Encuentra el curso perfecto para alcanzar tus objetivos lingüísticos y transformar tu futuro.
+          <p className="font-opensans text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <span className="font-pacifico italic text-primary-light text-lg block mb-2">
+              Clases para todas las edades · Exámenes oficiales · Grupos reducidos
+            </span>
+            Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.
           </p>
         </div>
 
@@ -92,18 +101,29 @@ const ServicesSection = () => {
                       <IconComponent className="h-10 w-10 text-white" />
                     </div>
                     
-                    <h3 className="font-display text-2xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors duration-300">
+                    <h3 className="font-montserrat text-2xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors duration-300">
                       {service.title}
                     </h3>
                     
-                    <p className="font-body text-muted-foreground mb-6 leading-relaxed">
+                    <p className="font-opensans text-muted-foreground mb-4 leading-relaxed">
                       {service.description}
                     </p>
                     
+                    <div className="mb-4">
+                      <p className="text-sm font-montserrat font-medium text-primary mb-2">Idiomas:</p>
+                      <div className="flex flex-wrap gap-2">
+                        {service.languages.map((language, langIndex) => (
+                          <span key={langIndex} className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
+                            {language}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    
                     <ul className="space-y-3 mb-8">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center text-sm text-muted-foreground font-body">
-                          <div className="w-2 h-2 bg-gradient-primary rounded-full mr-3 group-hover:animate-pulse" />
+                        <li key={idx} className="flex items-center text-sm text-muted-foreground font-opensans">
+                          <div className="w-2 h-2 bg-secondary rounded-full mr-3 group-hover:animate-pulse" />
                           {feature}
                         </li>
                       ))}
@@ -112,9 +132,9 @@ const ServicesSection = () => {
                     <Button 
                       onClick={scrollToContact}
                       variant="outline" 
-                      className="w-full group/btn border-primary/30 text-primary hover:bg-gradient-primary hover:text-white hover:border-primary hover:shadow-glow transition-all duration-300 font-medium"
+                      className="w-full group/btn border-primary/30 text-primary hover:bg-primary hover:text-white hover:border-primary hover:shadow-glow transition-all duration-300 font-medium"
                     >
-                      Más información
+                      Solicita información
                       <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
                     </Button>
                   </div>

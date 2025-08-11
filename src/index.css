@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Learning Corner Brand Colors - Clean and Professional */
-    --primary: 216 100% 45%;  /* Professional blue */
+    /* Learning Corner Brand Colors - Institutional */
+    --primary: 212 100% 18%;  /* Azul oscuro institucional #002b5e */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 216 100% 90%;
-    --primary-dark: 216 100% 30%;
+    --primary-light: 214 45% 55%;  /* Azul claro script #4b76a2 */
+    --primary-dark: 212 100% 12%;
 
-    --secondary: 0 65% 45%;   /* Refined red */
+    --secondary: 0 62% 39%;   /* Rojo vino/terracota #9e2b2b */
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 0 65% 90%;
-    --secondary-dark: 0 65% 30%;
+    --secondary-light: 0 62% 90%;
+    --secondary-dark: 0 62% 25%;
 
     --muted: 210 30% 95%;
     --muted-foreground: 215.4 16.3% 40%;
@@ -114,11 +114,15 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-body;
+    @apply bg-background text-foreground font-opensans;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display;
+    @apply font-montserrat;
+  }
+  
+  .font-pacifico {
+    font-family: 'Pacifico', cursive;
   }
 }
 

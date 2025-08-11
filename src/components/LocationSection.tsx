@@ -3,18 +3,18 @@ import { MapPin, Clock, Phone } from "lucide-react";
 
 const locations = [
   {
-    name: "Estepona",
-    address: "Calle Real 123, 29680 Estepona, Málaga",
-    phone: "+34 952 123 456",
+    name: "Sede Central - Estepona",
+    address: "Pl. Miguel Ángel Loren Méndez, 5, 29680 Estepona, Málaga",
+    phone: "+34 634 48 93 86",
     hours: "Lun-Vie: 9:00-21:00, Sáb: 9:00-14:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.8!2d-5.1481!3d36.4273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDI1JzM4LjMiTiA1wrAwOCc1My4yIlc!5e0!3m2!1ses!2ses!4v1234567890"
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51388.41379793586!2d-5.231835180468727!3d36.39041965402949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f18d765ea7b5483%3A0x72999e1e7146e26c!2sLearning%20Corner%20School%20Estepona!5e0!3m2!1ses!2ses!4v1754898569381!5m2!1ses!2ses"
   },
   {
-    name: "Fuengirola", 
-    address: "Avenida Jesús Santos Rein 45, 29640 Fuengirola, Málaga",
-    phone: "+34 952 654 321",
+    name: "Nueva Sede - Fuengirola", 
+    address: "Av. Francisco Rivera Paquirri, 29640 Fuengirola, Málaga",
+    phone: "+34 634 48 93 86",
     hours: "Lun-Vie: 9:00-21:00, Sáb: 9:00-14:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.2!2d-4.6262!3d36.5467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDMyJzQ4LjEiTiA0wrAzNyczNC4zIlc!5e0!3m2!1ses!2ses!4v1234567890"
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6410.066271037066!2d-4.622158123712086!3d36.5533139815769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e3b50a4e5809%3A0xb96d4348f2596200!2sKampus%20Formaci%C3%B3n!5e0!3m2!1ses!2ses!4v1754898597843!5m2!1ses!2ses"
   }
 ];
 
@@ -23,10 +23,13 @@ const LocationSection = () => {
     <section id="ubicacion" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+          <h2 className="text-4xl md:text-5xl font-montserrat font-extrabold mb-6 text-foreground">
             Nuestras Ubicaciones
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto font-opensans leading-relaxed">
+            <span className="font-pacifico italic text-primary-light text-lg block mb-2">
+              Sedes en Estepona y Fuengirola
+            </span>
             Dos centros estratégicamente ubicados en la Costa del Sol para ofrecerte la mejor accesibilidad y comodidad.
           </p>
         </div>

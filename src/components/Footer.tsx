@@ -15,21 +15,25 @@ const Footer = () => {
                 alt="Learning Corner School" 
                 className="h-12 w-auto mb-4 brightness-0 invert"
               />
-              <p className="text-background/80 leading-relaxed">
-                Tu academia de idiomas de confianza en la Costa del Sol. 
-                Abriendo puertas al mundo através del aprendizaje de idiomas.
+              <p className="text-background/80 leading-relaxed font-opensans">
+                Academia de idiomas con sede en Estepona y Fuengirola. 
+                Enseñamos inglés, francés, alemán, árabe y español para extranjeros.
               </p>
             </div>
             <div className="flex gap-4">
               <a 
-                href="#" 
+                href="https://facebook.com/learningcornerschoolestepona" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-background/80 hover:text-background transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://instagram.com/lc_school_estepona" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="text-background/80 hover:text-background transition-colors"
                 aria-label="Instagram"
               >
@@ -68,43 +72,56 @@ const Footer = () => {
           {/* Services */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-background">Nuestros Servicios</h3>
-            <ul className="space-y-2 text-sm">
-              <li className="text-background/80">Cursos para niños</li>
-              <li className="text-background/80">Formación adolescentes</li>
-              <li className="text-background/80">Inglés profesional</li>
-              <li className="text-background/80">Programas integración</li>
-              <li className="text-background/80">Formación online</li>
+            <ul className="space-y-2 text-sm font-opensans">
+              <li className="text-background/80">Inglés · Francés · Alemán</li>
+              <li className="text-background/80">Árabe · Español extranjeros</li>
+              <li className="text-background/80">Preparación exámenes</li>
+              <li className="text-background/80">Online y presencial</li>
               <li className="text-background/80">English Camps</li>
+              <li className="text-background/80">Grupos reducidos</li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-background">Contacto</h3>
-            <div className="space-y-3">
-              <div className="flex items-center">
-                <Phone className="h-4 w-4 mr-2 text-background/80" />
-                <span className="text-background/80 text-sm">+34 123 456 789</span>
-              </div>
-              <div className="flex items-center">
-                <Mail className="h-4 w-4 mr-2 text-background/80" />
-                <span className="text-background/80 text-sm">info@learningcorner.es</span>
-              </div>
-              <div className="flex items-start">
-                <MapPin className="h-4 w-4 mr-2 mt-0.5 text-background/80 flex-shrink-0" />
-                <div className="text-background/80 text-sm">
-                  <p>Estepona & Fuengirola</p>
-                  <p>Costa del Sol, Málaga</p>
+              <div className="space-y-3">
+                <div className="flex items-center">
+                  <Phone className="h-4 w-4 mr-2 text-background/80" />
+                  <span className="text-background/80 text-sm font-opensans">+34 634 48 93 86</span>
+                </div>
+                <div className="flex items-center">
+                  <Mail className="h-4 w-4 mr-2 text-background/80" />
+                  <span className="text-background/80 text-sm font-opensans">info@learningcorner.com</span>
+                </div>
+                <div className="flex items-start">
+                  <MapPin className="h-4 w-4 mr-2 mt-0.5 text-background/80 flex-shrink-0" />
+                  <div className="text-background/80 text-sm font-opensans">
+                    <p>Estepona & Fuengirola</p>
+                    <p>Costa del Sol, Málaga</p>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
 
-        <div className="border-t border-background/20 mt-8 pt-8 text-center">
-          <p className="text-background/60 text-sm">
-            © {currentYear} Learning Corner School. Todos los derechos reservados.
-          </p>
+        <div className="border-t border-background/20 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-background/60 text-sm font-opensans">
+              © {currentYear} Learning Corner School. Todos los derechos reservados.
+            </p>
+            <div className="flex gap-4 text-sm">
+              <a href="/politica-privacidad" className="text-background/80 hover:text-background transition-colors font-opensans">
+                Política de privacidad
+              </a>
+              <a href="/politica-cookies" className="text-background/80 hover:text-background transition-colors font-opensans">
+                Política de cookies
+              </a>
+              <a href="/aviso-legal" className="text-background/80 hover:text-background transition-colors font-opensans">
+                Aviso legal
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

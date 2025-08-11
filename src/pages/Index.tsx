@@ -5,6 +5,7 @@ import LocationSection from "@/components/LocationSection";
 import ContactForm from "@/components/ContactForm";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <ContactForm />
       <Footer />
       <WhatsAppButton />
+      <CookieConsent />
     </div>
   );
 };

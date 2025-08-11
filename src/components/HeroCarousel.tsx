@@ -9,31 +9,31 @@ import culturalCommunity from "@/assets/cultural-community.jpg";
 const slides = [
   {
     image: businessEnglish,
-    title: "Domina idiomas para el éxito profesional",
-    subtitle: "Conecta con oportunidades globales",
-    description: "Desarrolla las habilidades lingüísticas que transformarán tu carrera",
-    cta: "Explorar programas"
+    title: "Aprender idiomas es abrirte al mundo",
+    subtitle: "Niños",
+    description: "Aprender jugando es aprender para siempre. Descubre el placer de aprender jugando. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
+    cta: "Reserva tu plaza ahora"
   },
   {
     image: childrenClassroom,
-    title: "Educación integral desde temprana edad",
-    subtitle: "Base sólida para el futuro",
-    description: "Metodología adaptada que hace del aprendizaje una experiencia natural",
-    cta: "Cursos infantiles"
+    title: "El idioma es un puente hacia tu futuro",
+    subtitle: "Adolescentes", 
+    description: "Diseñadas para motivar y reforzar la confianza, nuestras clases para jóvenes combinan práctica real con preparación para exámenes oficiales.",
+    cta: "Reserva tu plaza ahora"
   },
   {
     image: languageStudy,
-    title: "Formación personalizada para adultos",
-    subtitle: "Flexibilidad que se adapta a tu vida",
-    description: "Programas diseñados para profesionales con horarios exigentes",
-    cta: "Conocer opciones"
+    title: "Empieza hoy, habla mañana",
+    subtitle: "Adultos",
+    description: "Un enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos.",
+    cta: "Reserva tu plaza ahora"
   },
   {
     image: culturalCommunity,
-    title: "Integración cultural completa",
-    subtitle: "Tu nueva vida en España comienza aquí",
-    description: "Acompañamiento integral para residentes internacionales",
-    cta: "Programas especiales"
+    title: "Vive en español, piensa en español",
+    subtitle: "Español para extranjeros",
+    description: "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, además del examen de nacionalidad.",
+    cta: "Reserva tu plaza ahora"
   }
 ];
 
@@ -64,7 +64,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <section id="inicio" className="relative h-[75vh] flex items-center justify-center overflow-hidden">
+    <section id="inicio" className="relative h-[80vh] flex items-center justify-center overflow-hidden">
       {/* Background images */}
       {slides.map((slide, index) => (
         <div
@@ -84,17 +84,23 @@ const HeroCarousel = () => {
 
       {/* Content */}
       <div className="relative z-30 container mx-auto px-4 text-center text-white">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="font-display text-4xl md:text-6xl font-bold mb-6 animate-fade-up leading-tight">
-            {slides[currentSlide].title}
+        <div className="max-w-5xl mx-auto">
+          <h1 className="font-montserrat text-4xl md:text-6xl font-extrabold mb-6 animate-fade-up leading-tight">
+            <span className="font-pacifico italic text-3xl md:text-5xl block mb-2">
+              {slides[currentSlide].title}
+            </span>
           </h1>
           
-          <p className="font-body text-lg md:text-xl mb-4 opacity-90 animate-fade-up animation-delay-200">
+          <h2 className="font-montserrat text-2xl md:text-3xl font-bold mb-4 opacity-95 animate-fade-up animation-delay-200">
             {slides[currentSlide].subtitle}
+          </h2>
+          
+          <p className="font-opensans text-base md:text-lg mb-8 opacity-90 animate-fade-up animation-delay-400 max-w-3xl mx-auto leading-relaxed">
+            {slides[currentSlide].description}
           </p>
           
-          <p className="font-body text-base md:text-lg mb-8 opacity-80 animate-fade-up animation-delay-400 max-w-2xl mx-auto">
-            {slides[currentSlide].description}
+          <p className="font-montserrat text-sm md:text-base mb-8 opacity-80 animate-fade-up animation-delay-500 italic">
+            Te acompañamos con un método cercano, práctico y adaptado a ti. Clases para todas las edades, grupos reducidos y preparación para exámenes oficiales.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up animation-delay-600">
@@ -107,12 +113,12 @@ const HeroCarousel = () => {
               {slides[currentSlide].cta}
             </Button>
             <Button
-              onClick={scrollToContact}
+              onClick={() => window.open('https://wa.me/34634489386', '_blank')}
               variant="outline"
               size="lg"
               className="bg-white/10 text-white border-white/30 hover:bg-white/20 transition-all duration-300 text-lg px-6 py-3 font-medium backdrop-blur-sm"
             >
-              Clase de prueba
+              ¿Tienes dudas? Escríbenos
             </Button>
           </div>
         </div>

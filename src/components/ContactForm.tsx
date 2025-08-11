@@ -37,11 +37,14 @@ const ContactForm = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="font-display text-5xl md:text-6xl font-bold mb-8 text-foreground">
-            ¡Comienza tu <span className="text-shimmer">aventura lingüística</span>!
+          <h2 className="font-montserrat text-5xl md:text-6xl font-extrabold mb-8 text-foreground">
+            Solicita tu Clase de Prueba GRATIS
           </h2>
-          <p className="font-body text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Ponte en contacto con nosotros para una clase de prueba gratuita y descubre cómo podemos ayudarte a alcanzar tus objetivos más ambiciosos.
+          <p className="font-opensans text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <span className="font-pacifico italic text-primary-light text-lg block mb-2">
+              Aprender idiomas es confianza, integración y futuro.
+            </span>
+            ¿Listo para comenzar tu aventura de aprendizaje? Contacta con nosotros y descubre cómo podemos ayudarte a alcanzar tus objetivos.
           </p>
         </div>
 
@@ -49,39 +52,39 @@ const ContactForm = () => {
           {/* Contact Info */}
           <div className="lg:col-span-1">
             <div className="glass rounded-2xl p-8 shadow-strong hover-lift">
-              <h3 className="font-display text-2xl text-foreground mb-8">Información de Contacto</h3>
+              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">Información de Contacto</h3>
               <div className="space-y-6">
                 <div className="flex items-start group">
                   <Phone className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <p className="font-medium text-foreground font-body">Teléfono</p>
-                    <p className="text-muted-foreground font-body">+34 123 456 789</p>
+                    <p className="font-medium text-foreground font-montserrat">Teléfono</p>
+                    <a href="tel:+34634489386" className="text-muted-foreground font-opensans hover:text-primary transition-colors">+34 634 48 93 86</a>
                   </div>
                 </div>
                 
                 <div className="flex items-start group">
                   <Mail className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <p className="font-medium text-foreground font-body">Email</p>
-                    <p className="text-muted-foreground font-body">info@learningcorner.es</p>
+                    <p className="font-medium text-foreground font-montserrat">Email</p>
+                    <a href="mailto:info@learningcorner.com" className="text-muted-foreground font-opensans hover:text-primary transition-colors">info@learningcorner.com</a>
                   </div>
                 </div>
                 
                 <div className="flex items-start group">
                   <MapPin className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <p className="font-medium text-foreground font-body">Ubicaciones</p>
-                    <p className="text-muted-foreground font-body">Estepona & Fuengirola</p>
+                    <p className="font-medium text-foreground font-montserrat">Ubicaciones</p>
+                    <p className="text-muted-foreground font-opensans">Estepona & Fuengirola</p>
                   </div>
                 </div>
 
                 <div className="pt-6">
-                  <p className="text-sm text-muted-foreground mb-4 font-body">
+                  <p className="text-sm text-muted-foreground mb-4 font-opensans">
                     ¡Primera clase de prueba gratuita!
                   </p>
-                  <div className="bg-gradient-primary p-6 rounded-xl text-white text-center hover:shadow-glow transition-all duration-300">
-                    <p className="font-bold text-lg font-display">Oferta especial</p>
-                    <p className="text-sm font-body">Matrícula gratuita este mes</p>
+                  <div className="bg-primary p-6 rounded-xl text-white text-center hover:shadow-glow transition-all duration-300">
+                    <p className="font-bold text-lg font-montserrat">Oferta especial</p>
+                    <p className="text-sm font-opensans">Clase de prueba GRATIS</p>
                   </div>
                 </div>
               </div>
@@ -91,15 +94,15 @@ const ContactForm = () => {
           {/* Contact Form */}
           <div className="lg:col-span-2">
             <div className="glass rounded-2xl p-8 shadow-strong hover-lift">
-              <h3 className="font-display text-2xl text-foreground mb-8">Solicita información</h3>
+              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">Solicita información</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="name" className="font-body font-medium">Nombre completo *</Label>
+                    <Label htmlFor="name" className="font-opensans font-medium">Nombre completo *</Label>
                     <Input id="name" name="name" required className="mt-2 border-border/50 focus:border-primary transition-colors duration-300" />
                   </div>
                   <div>
-                    <Label htmlFor="phone" className="font-body font-medium">Teléfono *</Label>
+                    <Label htmlFor="phone" className="font-opensans font-medium">Teléfono *</Label>
                     <Input id="phone" name="phone" type="tel" required className="mt-2 border-border/50 focus:border-primary transition-colors duration-300" />
                   </div>
                 </div>
@@ -132,9 +135,10 @@ const ContactForm = () => {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="english">Inglés</SelectItem>
-                        <SelectItem value="spanish">Español</SelectItem>
                         <SelectItem value="french">Francés</SelectItem>
                         <SelectItem value="german">Alemán</SelectItem>
+                        <SelectItem value="arabic">Árabe</SelectItem>
+                        <SelectItem value="spanish">Español para extranjeros</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -184,20 +188,23 @@ const ContactForm = () => {
                 <Button 
                   type="submit" 
                   disabled={isSubmitting}
-                  className="w-full bg-gradient-primary hover:shadow-glow hover:scale-105 text-primary-foreground shadow-colored text-lg py-6 transition-all duration-300 font-medium"
+                  className="w-full bg-primary hover:bg-primary-dark hover:shadow-glow hover:scale-105 text-primary-foreground text-lg py-6 transition-all duration-300 font-medium"
                 >
                   {isSubmitting ? (
                     "Enviando..."
                   ) : (
                     <>
-                      Solicitar clase de prueba gratuita
+                      Reserva tu plaza ahora
                       <Send className="ml-2 h-5 w-5" />
                     </>
                   )}
                 </Button>
 
-                <p className="text-sm text-muted-foreground text-center font-body">
+                <p className="text-sm text-muted-foreground text-center font-opensans">
                   * Campos obligatorios. Te contactaremos en las próximas 24 horas.
+                  <br />
+                  Los datos personales solicitados serán tratados por Learning Corner School con la finalidad de atender su solicitud. 
+                  <a href="/politica-privacidad" className="text-primary hover:underline ml-1">Más información en nuestra Política de privacidad</a>.
                 </p>
               </form>
             </div>

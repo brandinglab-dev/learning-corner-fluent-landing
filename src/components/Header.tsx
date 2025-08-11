@@ -24,20 +24,20 @@ const Header = () => {
         {/* Top bar with contact info */}
         <div className="hidden md:flex justify-between items-center py-3 text-sm border-b border-border/30">
           <div className="flex items-center gap-6">
-            <a href="tel:+34123456789" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
+            <a href="tel:+34634489386" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Phone className="h-3 w-3" />
-              <span className="font-medium">+34 123 456 789</span>
+              <span className="font-medium">+34 634 48 93 86</span>
             </a>
-            <a href="mailto:info@learningcorner.es" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
+            <a href="mailto:info@learningcorner.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Mail className="h-3 w-3" />
-              <span className="font-medium">info@learningcorner.es</span>
+              <span className="font-medium">info@learningcorner.com</span>
             </a>
           </div>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-6">
+            <a href="https://facebook.com/learningcornerschoolestepona" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-6">
               <Facebook className="h-4 w-4" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:-rotate-6">
+            <a href="https://instagram.com/lc_school_estepona" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:-rotate-6">
               <Instagram className="h-4 w-4" />
             </a>
           </div>
