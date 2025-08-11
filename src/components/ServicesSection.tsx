@@ -72,19 +72,19 @@ const ServicesSection = () => {
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-20">
-          <h2 className="font-montserrat text-5xl md:text-6xl font-extrabold mb-8 text-foreground">
+        <div className="text-center mb-16 md:mb-20">
+          <h2 className="font-montserrat text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 md:mb-8 text-foreground">
             Nuestros Servicios
           </h2>
-          <p className="font-opensans text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            <span className="font-pacifico italic text-primary-light text-lg block mb-2">
+          <p className="font-opensans text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed px-4">
+            <span className="font-pacifico italic text-primary-light text-base md:text-lg block mb-2">
               Clases para todas las edades · Exámenes oficiales · Grupos reducidos
             </span>
             Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
@@ -93,16 +93,16 @@ const ServicesSection = () => {
                 className="group hover-lift animate-fade-up"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
-                <div className="relative bg-card border border-border/50 rounded-2xl p-8 h-full hover:border-primary/30 transition-all duration-500 overflow-hidden">
+                <div className="relative bg-card border border-border/50 rounded-2xl p-6 md:p-8 h-full hover:border-primary/30 transition-all duration-500 overflow-hidden">
                   {/* Background decoration */}
                   <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-primary rounded-full opacity-5 -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700" />
                   
                   <div className="relative z-10">
-                    <div className="flex items-center justify-center w-20 h-20 bg-primary rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
-                      <IconComponent className="h-10 w-10 text-white" />
+                    <div className="flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-primary rounded-2xl mb-4 md:mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                      <IconComponent className="h-8 w-8 md:h-10 md:w-10 text-white" />
                     </div>
                     
-                    <h3 className="font-montserrat text-2xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors duration-300">
+                    <h3 className="font-montserrat text-xl md:text-2xl font-bold mb-3 md:mb-4 text-foreground group-hover:text-primary transition-colors duration-300">
                       {service.title}
                     </h3>
                     
@@ -121,7 +121,7 @@ const ServicesSection = () => {
                       </div>
                     </div>
                     
-                    <ul className="space-y-3 mb-8">
+                    <ul className="space-y-2 md:space-y-3 mb-6 md:mb-8">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center text-sm text-muted-foreground font-opensans">
                           <div className="w-2 h-2 bg-secondary rounded-full mr-3 group-hover:animate-pulse" />
