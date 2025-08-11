@@ -7,7 +7,7 @@ const testimonials = [
     role: "Ejecutiva de Marketing",
     text: "Gracias a Learning Corner conseguí el B2 de inglés que necesitaba para mi promoción. Los profesores son excelentes y el ambiente muy profesional.",
     rating: 5,
-    course: "Business English"
+    course: "Inglés profesional"
   },
   {
     name: "James Mitchell",
@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
             Lo que dicen nuestros estudiantes
           </h2>
           <p className="font-opensans text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            <span className="font-pacifico italic text-primary-light text-base block mb-2">
+            <span className="font-montserrat font-medium italic text-primary-light text-base block mb-2">
               Historias reales de éxito
             </span>
             Descubre cómo hemos ayudado a miles de personas a alcanzar sus objetivos lingüísticos y profesionales.

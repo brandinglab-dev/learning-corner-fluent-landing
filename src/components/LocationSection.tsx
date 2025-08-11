@@ -33,7 +33,7 @@ const LocationSection = () => {
             Nuestras Ubicaciones
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto font-opensans leading-relaxed">
-            <span className="font-pacifico italic text-primary-light text-lg block mb-2">
+            <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
               Sedes en Estepona y Fuengirola
             </span>
             Dos centros estratégicamente ubicados en la Costa del Sol para ofrecerte la mejor accesibilidad y comodidad.

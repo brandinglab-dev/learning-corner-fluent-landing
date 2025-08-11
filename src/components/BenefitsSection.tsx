@@ -64,7 +64,7 @@ const BenefitsSection = () => {
             ¿Por qué elegir Learning Corner?
           </h2>
           <p className="font-opensans text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-            <span className="font-pacifico italic text-primary-light text-sm md:text-base block mb-2">
+            <span className="font-montserrat font-medium italic text-primary-light text-sm md:text-base block mb-2">
               Más que una academia, tu puerta al mundo
             </span>
             Descubre las ventajas que nos convierten en la mejor opción para aprender idiomas en la Costa del Sol.

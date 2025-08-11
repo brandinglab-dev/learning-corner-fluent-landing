@@ -42,7 +42,7 @@ const ContactForm = () => {
             Solicita tu Clase de Prueba GRATIS
           </h2>
           <p className="font-opensans text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            <span className="font-pacifico italic text-primary-light text-lg block mb-2">
+            <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
               Aprender idiomas es confianza, integración y futuro.
             </span>
             ¿Listo para comenzar tu aventura de aprendizaje? Contacta con nosotros y descubre cómo podemos ayudarte a alcanzar tus objetivos.

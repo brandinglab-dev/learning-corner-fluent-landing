@@ -22,7 +22,7 @@ const services = [
     icon: GraduationCap,
     title: "Clases para Adultos",
     description: "Conversación y negocios con enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas.",
-    features: ["Business English", "Conversación intensiva", "Horarios flexibles", "Grupos por nivel"],
+    features: ["Idiomas profesionales", "Conversación intensiva", "Horarios flexibles", "Grupos por nivel"],
     languages: ["Inglés", "Francés", "Alemán", "Árabe"]
   },
   {
@@ -77,7 +77,7 @@ const ServicesSection = () => {
             Nuestros Servicios
           </h2>
           <p className="font-opensans text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed px-4">
-            <span className="font-pacifico italic text-primary-light text-base md:text-lg block mb-2">
+            <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
               Clases para todas las edades · Exámenes oficiales · Grupos reducidos
             </span>
             Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.
