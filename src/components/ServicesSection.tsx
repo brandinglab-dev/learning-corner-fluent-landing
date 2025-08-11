@@ -64,11 +64,12 @@ const ServicesSection = () => {
   };
 
   return (
-    <section id="servicios" className="py-24 bg-accent/20 relative overflow-hidden">
+    <section id="servicios" className="py-24 bg-muted/20 relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute inset-0 bg-texture-grid bg-grid opacity-20" />
-      <div className="absolute top-20 right-10 w-64 h-64 bg-gradient-primary rounded-full opacity-10 animate-float" />
-      <div className="absolute bottom-20 left-10 w-48 h-48 bg-gradient-secondary rounded-full opacity-10 animate-float animation-delay-400" />
+      <div className="absolute inset-0">
+        <div className="absolute top-20 right-10 w-64 h-64 bg-primary/5 rounded-full animate-pulse"></div>
+        <div className="absolute bottom-20 left-10 w-48 h-48 bg-secondary/5 rounded-full animate-pulse" style={{animationDelay: '2s'}}></div>
+      </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
@@ -97,7 +98,7 @@ const ServicesSection = () => {
                   <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-primary rounded-full opacity-5 -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700" />
                   
                   <div className="relative z-10">
-                    <div className="flex items-center justify-center w-20 h-20 bg-gradient-primary rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-colored">
+                    <div className="flex items-center justify-center w-20 h-20 bg-primary rounded-2xl mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
                       <IconComponent className="h-10 w-10 text-white" />
                     </div>
                     

@@ -60,34 +60,34 @@ const Header = () => {
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Inicio
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('servicios')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Servicios
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('ubicacion')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Ubicación
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('contacto')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
               Contacto
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <Button 
               onClick={() => scrollToSection('contacto')} 
-              className="bg-gradient-primary hover:shadow-glow hover:scale-105 text-primary-foreground shadow-colored transition-all duration-300 font-medium px-6 py-2.5"
+              className="bg-primary hover:bg-primary-dark hover:shadow-lg hover:scale-105 text-primary-foreground transition-all duration-300 font-montserrat font-semibold px-6 py-2.5"
             >
-              Reservar Clase
+              Clase Gratuita
             </Button>
           </nav>
 
@@ -132,15 +132,15 @@ const Header = () => {
               </button>
               <Button 
                 onClick={() => scrollToSection('contacto')} 
-                className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-soft mt-2"
+                className="bg-primary hover:bg-primary-dark text-primary-foreground font-montserrat font-medium mt-2"
               >
-                Reservar Clase
+                Clase Gratuita
               </Button>
               <div className="flex items-center gap-4 pt-2">
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://facebook.com/learningcornerschoolestepona" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Facebook className="h-5 w-5" />
                 </a>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://instagram.com/lc_school_estepona" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Instagram className="h-5 w-5" />
                 </a>
               </div>
