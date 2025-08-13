@@ -168,7 +168,7 @@
     "subtitle": "Votre académie de langues à Estepona et Fuengirola",
     "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
     "cta": "Cours d'essai gratuit",
-    "method_description": "Nous vous accompagnons avec une méthode proche, pratique et adaptée à vous.",
+    "method_description": "Nous vous accompagnons avec une méthode personnalisée, pratique et adaptée à vos besoins.",
     "features": "Cours pour tous les âges • Petits groupes • Préparation aux examens officiels",
     "questions_button": "Vous avez des questions ? Écrivez-nous"
   },
@@ -289,14 +289,14 @@
       "title": "Petit nombre d'élèves par classe pour une attention personnalisée"
     },
     "flexible": {
-      "title": "Disponibilité horaire pour s'adapter à votre agenda",
-      "description": "Matins, après-midis et modalité en ligne"
+      "title": "Horaires flexibles pour s'adapter à votre emploi du temps",
+      "description": "Matins, après-midis et cours en ligne"
     },
     "communicative": {
       "title": "Approche communicative pour une communication fluide"
     },
     "active": {
-      "title": "Compréhension active dès le jour 1"
+      "title": "Compréhension active dès le premier jour"
     },
     "exam_prep": {
       "title": "Préparation aux examens officiels"
