@@ -67,7 +67,7 @@ const ContactForm = () => {
                   <Mail className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <p className="font-medium text-foreground font-montserrat">Email</p>
-                    <a href="mailto:info@learningcorner.com" className="text-muted-foreground font-opensans hover:text-primary transition-colors">info@learningcorner.com</a>
+                    <a href="mailto:info@learningcornerschool.com" className="text-muted-foreground font-opensans hover:text-primary transition-colors">info@learningcornerschool.com</a>
                   </div>
                 </div>
                 
@@ -204,7 +204,7 @@ const ContactForm = () => {
                 <p className="text-sm text-muted-foreground text-center font-opensans">
                   * Campos obligatorios. Te contactaremos en las próximas 24 horas.
                   <br />
-                  Los datos personales solicitados serán tratados por Learning Corner School con la finalidad de atender su solicitud. 
+                  Los datos personales solicitados serán tratados por Learning Corner School con la finalidad de atender su solicitud y mantenerle informado sobre nuestros cursos y actividades. La base legal para este tratamiento es su consentimiento, que podrá retirar en cualquier momento. Puede ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad mediante correo electrónico a info@learningcornerschool.com. 
                   <a href="/politica-privacidad" className="text-primary hover:underline ml-1">Más información en nuestra Política de privacidad</a>.
                 </p>
               </form>
