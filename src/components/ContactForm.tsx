@@ -22,7 +22,7 @@ const ContactForm = () => {
     await new Promise(resolve => setTimeout(resolve, 1000));
     
     toast({
-      title: "¡Mensaje enviado!",
+      title: t('contact.form.success_title'),
       description: t('contact.form.required'),
     });
     
@@ -55,7 +55,7 @@ const ContactForm = () => {
           {/* Contact Info */}
           <div className="lg:col-span-1">
             <div className="glass rounded-2xl p-8 shadow-strong hover-lift">
-              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">Información de {t('contact.contact')}</h3>
+              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">{t('contact.info_title')}</h3>
               <div className="space-y-6">
                 <div className="flex items-start group">
                   <Phone className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
@@ -83,10 +83,10 @@ const ContactForm = () => {
 
                 <div className="pt-6">
                   <p className="text-sm text-muted-foreground mb-4 font-opensans">
-                    ¡Primera clase de prueba gratuita!
+                    {t('contact.special_offer_text')}
                   </p>
                   <div className="bg-primary p-6 rounded-xl text-white text-center hover:shadow-glow transition-all duration-300">
-                    <p className="font-bold text-lg font-montserrat">Oferta especial</p>
+                    <p className="font-bold text-lg font-montserrat">{t('contact.special_offer_title')}</p>
                     <p className="text-sm font-opensans">{t('hero.cta')}</p>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ const ContactForm = () => {
           {/* Contact Form */}
           <div className="lg:col-span-2">
             <div className="glass rounded-2xl p-8 shadow-strong hover-lift">
-              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">Solicita información</h3>
+              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">{t('contact.form_title')}</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
@@ -117,31 +117,31 @@ const ContactForm = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="age" className="font-body font-medium">Edad/Nivel</Label>
+                    <Label htmlFor="age" className="font-body font-medium">{t('contact.form.age')}</Label>
                     <Select name="age">
                       <SelectTrigger className="mt-2 border-border/50 focus:border-primary transition-colors duration-300">
-                        <SelectValue placeholder="Selecciona" />
+                        <SelectValue placeholder={t('contact.form.select_placeholder')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="kids">Niños (4-12 años)</SelectItem>
-                        <SelectItem value="teens">Adolescentes (13-17 años)</SelectItem>
-                        <SelectItem value="adults">Adultos (18+ años)</SelectItem>
-                        <SelectItem value="seniors">Seniors (55+ años)</SelectItem>
+                        <SelectItem value="kids">{t('contact.options.ages.3-6')}</SelectItem>
+                        <SelectItem value="primary">{t('contact.options.ages.7-12')}</SelectItem>
+                        <SelectItem value="secondary">{t('contact.options.ages.13-16')}</SelectItem>
+                        <SelectItem value="adults">{t('contact.options.ages.adult')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
                   <div>
-                    <Label htmlFor="language" className="font-body font-medium">Idioma de interés</Label>
+                    <Label htmlFor="language" className="font-body font-medium">{t('contact.form.language')}</Label>
                     <Select name="language">
                       <SelectTrigger className="mt-2 border-border/50 focus:border-primary transition-colors duration-300">
-                        <SelectValue placeholder="Selecciona" />
+                        <SelectValue placeholder={t('contact.form.select_placeholder')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="english">Inglés</SelectItem>
-                        <SelectItem value="french">Francés</SelectItem>
-                        <SelectItem value="german">Alemán</SelectItem>
-                        <SelectItem value="arabic">Árabe</SelectItem>
-                        <SelectItem value="spanish">Español para extranjeros</SelectItem>
+                        <SelectItem value="english">{t('contact.options.languages.english')}</SelectItem>
+                        <SelectItem value="french">{t('contact.options.languages.french')}</SelectItem>
+                        <SelectItem value="german">{t('languages.german')}</SelectItem>
+                        <SelectItem value="arabic">{t('languages.arabic')}</SelectItem>
+                        <SelectItem value="spanish">{t('contact.options.languages.spanish')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -149,40 +149,38 @@ const ContactForm = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="schedule" className="font-body font-medium">Horario preferente</Label>
+                    <Label htmlFor="schedule" className="font-body font-medium">{t('contact.form.schedule')}</Label>
                     <Select name="schedule">
                       <SelectTrigger className="mt-2 border-border/50 focus:border-primary transition-colors duration-300">
-                        <SelectValue placeholder="Selecciona" />
+                        <SelectValue placeholder={t('contact.form.select_placeholder')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="morning">Mañanas</SelectItem>
-                        <SelectItem value="afternoon">Tardes</SelectItem>
-                        <SelectItem value="evening">Noches</SelectItem>
-                        <SelectItem value="weekend">Fines de semana</SelectItem>
+                        <SelectItem value="morning">{t('contact.options.schedules.morning')}</SelectItem>
+                        <SelectItem value="afternoon">{t('contact.options.schedules.afternoon')}</SelectItem>
+                        <SelectItem value="online">{t('contact.options.schedules.online')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
                   <div>
-                    <Label htmlFor="location" className="font-body font-medium">Centro preferido</Label>
+                    <Label htmlFor="location" className="font-body font-medium">{t('contact.form.location')}</Label>
                     <Select name="location">
                       <SelectTrigger className="mt-2 border-border/50 focus:border-primary transition-colors duration-300">
-                        <SelectValue placeholder="Selecciona" />
+                        <SelectValue placeholder={t('contact.form.select_placeholder')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="estepona">Estepona</SelectItem>
-                        <SelectItem value="fuengirola">Fuengirola</SelectItem>
-                        <SelectItem value="online">Online</SelectItem>
+                        <SelectItem value="estepona">{t('contact.options.locations.estepona')}</SelectItem>
+                        <SelectItem value="fuengirola">{t('contact.options.locations.fuengirola')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
                 </div>
 
                 <div>
-                  <Label htmlFor="message" className="font-body font-medium">Mensaje adicional</Label>
+                  <Label htmlFor="message" className="font-body font-medium">{t('contact.form.message')}</Label>
                   <Textarea 
                     id="message" 
                     name="message" 
-                    placeholder="Cuéntanos sobre tus objetivos y necesidades específicas..."
+                    placeholder={t('contact.form.message_placeholder')}
                     className="mt-2 border-border/50 focus:border-primary transition-colors duration-300"
                     rows={4}
                   />
@@ -194,10 +192,10 @@ const ContactForm = () => {
                   className="w-full bg-primary hover:bg-primary-dark hover:shadow-glow hover:scale-105 text-primary-foreground text-lg py-6 transition-all duration-300 font-medium"
                 >
                   {isSubmitting ? (
-                    "Enviando..."
+                    t('contact.form.submitting')
                   ) : (
                     <>
-                      Reserva tu plaza ahora
+                      {t('contact.form.submit')}
                       <Send className="ml-2 h-5 w-5" />
                     </>
                   )}
