@@ -82,7 +82,7 @@ const ServicesSection = () => {
             <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
               {t('services.subtitle')}
             </span>
-            Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.
+            {t('services.description')}
           </p>
         </div>
 

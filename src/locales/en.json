@@ -154,5 +154,104 @@
   "languages": {
     "german": "German",
     "arabic": "Arabic"
+  },
+  "hero": {
+    "title": "Learn languages naturally",
+    "subtitle": "Your language academy in Estepona and Fuengirola",
+    "description": "Personalized English, French and Spanish classes with native teachers. Discover the pleasure of learning languages in a close and family environment.",
+    "cta": "Free trial class",
+    "method_description": "We accompany you with a close, practical and adapted method.",
+    "features": "Classes for all ages • Small groups • Official exam preparation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Programs designed for every age and need",
+    "description": "We teach English, French, German, Arabic and Spanish for foreigners, with a practical, close and adapted approach for each student.",
+    "kids": {
+      "title": "Children's Classes",
+      "description": "Learning by playing is learning forever. Our children's classes combine fun and learning so that the language becomes natural from an early age.",
+      "age": "From 3 to 16 years",
+      "method": "Playful and interactive method"
+    },
+    "adults": {
+      "title": "Adult Classes",
+      "description": "Everyday conversation or business with a practical approach to speak from day one. Progress at your own pace with adapted classes.",
+      "levels": "All levels",
+      "focus": "Conversation and grammar"
+    },
+    "exams": {
+      "title": "Exam Preparation",
+      "description": "Classes to manage daily life and successfully pass official DELE and CSE exams, as well as nationality exams.",
+      "types": "DELE, CSE, Cambridge",
+      "success": "High pass rate"
+    }
+  },
+  "locations": {
+    "title": "Our Locations",
+    "subtitle": "Find the academy closest to you",
+    "description": "Two strategically located centers on the Costa del Sol to offer you the best accessibility and comfort.",
+    "estepona": {
+      "title": "Learning Corner School Estepona",
+      "address": "Plaza Miguel Ángel Loren Méndez 5, local A",
+      "hours": "Monday to Friday: 9:00 - 21:00"
+    },
+    "fuengirola": {
+      "title": "Kampus Formación Fuengirola",
+      "address": "Fuengirola Center",
+      "hours": "Monday to Friday: 9:00 - 21:00"
+    }
+  },
+  "testimonials": {
+    "title": "What our students say",
+    "subtitle": "Real testimonials from our community",
+    "description": "Discover how we have helped thousands of people achieve their linguistic and professional goals.",
+    "cta": {
+      "title": "Do you want to be the next to achieve your goals?",
+      "description": "Join thousands of students who have already transformed their future with us",
+      "free_class": "Request your free class",
+      "contact": "Talk to us"
+    }
+  },
+  "benefits": {
+    "title": "Why choose us?",
+    "subtitle": "Discover the advantages of learning with us",
+    "highlights": {
+      "individual_attention": "Guaranteed individual attention",
+      "native_accent": "Authentic accent from day one",
+      "high_success": "95% pass rate in exams",
+      "satisfied_students": "Thousands of satisfied students"
+    },
+    "native_teachers": {
+      "title": "Native Teachers",
+      "description": "International team of qualified and experienced teachers"
+    },
+    "experience": {
+      "title": "25 Years of Experience",
+      "description": "Consolidated trajectory in language teaching"
+    },
+    "playful": {
+      "title": "Learning by playing is learning forever",
+      "description": "Our children's classes combine fun and learning so that the language becomes natural from an early age."
+    },
+    "practical": {
+      "title": "A practical approach to communicate fluently",
+      "description": "Progress at your own pace with classes adapted to your needs and goals."
+    },
+    "small_groups": {
+      "title": "Small number of students per class for personalized attention"
+    },
+    "flexible": {
+      "title": "Schedule availability to adapt to your agenda",
+      "description": "Mornings, afternoons and online mode"
+    },
+    "communicative": {
+      "title": "Communicative approach for fluent communication"
+    },
+    "active": {
+      "title": "Active understanding from day 1"
+    },
+    "exam_prep": {
+      "title": "Official exam preparation"
+    }
   }
 }

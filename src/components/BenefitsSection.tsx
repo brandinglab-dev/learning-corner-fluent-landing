@@ -20,19 +20,19 @@ const BenefitsSection = () => {
       icon: Users,
       title: t('benefits.small_groups.title'),
       description: t('benefits.small_groups.title'),
-      highlight: "Atención individual garantizada"
+      highlight: t('benefits.highlights.individual_attention')
     },
     {
       icon: Globe,
-      title: "Profesores Nativos",
-      description: "Equipo internacional de profesores cualificados y experimentados",
-      highlight: "Acento auténtico desde el primer día"
+      title: t('benefits.native_teachers.title'),
+      description: t('benefits.native_teachers.description'),
+      highlight: t('benefits.highlights.native_accent')
     },
     {
       icon: Trophy,
       title: t('benefits.exam_prep.title'),
       description: t('benefits.exam_prep.title'),
-      highlight: "95% de aprobados en exámenes"
+      highlight: t('benefits.highlights.high_success')
     },
     {
       icon: Clock,
@@ -48,9 +48,9 @@ const BenefitsSection = () => {
     },
     {
       icon: Award,
-      title: "25 Años de Experiencia",
-      description: "Trayectoria consolidada en la enseñanza de idiomas",
-      highlight: "Miles de estudiantes satisfechos"
+      title: t('benefits.experience.title'),
+      description: t('benefits.experience.description'),
+      highlight: t('benefits.highlights.satisfied_students')
     }
   ];
   return (

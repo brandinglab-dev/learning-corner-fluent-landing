@@ -38,7 +38,7 @@ const LocationSection = () => {
             <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
               {t('locations.subtitle')}
             </span>
-            Dos centros estratégicamente ubicados en la Costa del Sol para ofrecerte la mejor accesibilidad y comodidad.
+            {t('locations.description')}
           </p>
         </div>
 

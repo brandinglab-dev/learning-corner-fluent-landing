@@ -120,8 +120,8 @@ const HeroCarousel = () => {
           </p>
           
           <p className="font-opensans text-xs md:text-sm lg:text-base mb-8 md:mb-10 opacity-90 max-w-3xl mx-auto font-medium px-2">
-            Te acompañamos con un método cercano, práctico y adaptado a ti.<br />
-            <span className="font-montserrat font-semibold">Clases para todas las edades • Grupos reducidos • Preparación para exámenes oficiales</span>
+            {t('hero.method_description')}<br />
+            <span className="font-montserrat font-semibold">{t('hero.features')}</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center px-4">

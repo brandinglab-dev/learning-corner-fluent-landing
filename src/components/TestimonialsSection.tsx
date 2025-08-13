@@ -66,7 +66,7 @@ const TestimonialsSection = () => {
             <span className="font-montserrat font-medium italic text-primary-light text-base block mb-2">
               {t('testimonials.subtitle')}
             </span>
-            Descubre cómo hemos ayudado a miles de personas a alcanzar sus objetivos lingüísticos y profesionales.
+            {t('testimonials.description')}
           </p>
         </div>
 
@@ -121,23 +121,23 @@ const TestimonialsSection = () => {
         <div className="text-center mt-16">
           <div className="inline-block p-8 bg-card border border-border/50 rounded-2xl shadow-lg">
             <h3 className="font-montserrat text-2xl font-bold mb-4 text-foreground">
-              ¿Quieres ser el próximo en conseguir tus objetivos?
+              {t('testimonials.cta.title')}
             </h3>
             <p className="font-opensans text-muted-foreground mb-6">
-              Únete a miles de estudiantes que ya han transformado su futuro con nosotros
+              {t('testimonials.cta.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })}
                 className="px-6 py-3 bg-primary hover:bg-primary-dark text-white font-montserrat font-medium rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg"
               >
-                Solicita tu clase gratuita
+                {t('testimonials.cta.free_class')}
               </button>
               <button 
                 onClick={() => window.open('https://wa.me/34634489386', '_blank')}
                 className="px-6 py-3 border border-primary text-primary hover:bg-primary hover:text-white font-montserrat font-medium rounded-lg transition-all duration-300"
               >
-                Habla con nosotros
+                {t('testimonials.cta.contact')}
               </button>
             </div>
           </div>

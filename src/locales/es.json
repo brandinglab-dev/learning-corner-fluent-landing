@@ -154,5 +154,104 @@
   "languages": {
     "german": "Alemán",
     "arabic": "Árabe"
+  },
+  "hero": {
+    "title": "Aprende idiomas de forma natural",
+    "subtitle": "Tu academia de idiomas en Estepona y Fuengirola",
+    "description": "Clases personalizadas de inglés, francés y español con profesores nativos. Descubre el placer de aprender idiomas en un ambiente cercano y familiar.",
+    "cta": "Clase de prueba gratuita",
+    "method_description": "Te acompañamos con un método cercano, práctico y adaptado a ti.",
+    "features": "Clases para todas las edades • Grupos reducidos • Preparación para exámenes oficiales"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Programas diseñados para cada edad y necesidad",
+    "description": "Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.",
+    "kids": {
+      "title": "Clases para Niños",
+      "description": "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
+      "age": "De 3 a 16 años",
+      "method": "Método lúdico e interactivo"
+    },
+    "adults": {
+      "title": "Clases para Adultos",
+      "description": "Conversación cotidiana o negocios con enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas.",
+      "levels": "Todos los niveles",
+      "focus": "Conversación y gramática"
+    },
+    "exams": {
+      "title": "Preparación de Exámenes",
+      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, del examen de nacionalidad.",
+      "types": "DELE, CSE, Cambridge",
+      "success": "Alto índice de aprobados"
+    }
+  },
+  "locations": {
+    "title": "Nuestras Ubicaciones",
+    "subtitle": "Encuentra la academia más cerca de ti",
+    "description": "Dos centros estratégicamente ubicados en la Costa del Sol para ofrecerte la mejor accesibilidad y comodidad.",
+    "estepona": {
+      "title": "Learning Corner School Estepona",
+      "address": "Plaza Miguel Ángel Loren Méndez 5, local A",
+      "hours": "Lunes a Viernes: 9:00 - 21:00"
+    },
+    "fuengirola": {
+      "title": "Kampus Formación Fuengirola",
+      "address": "Centro de Fuengirola",
+      "hours": "Lunes a Viernes: 9:00 - 21:00"
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros estudiantes",
+    "subtitle": "Testimonios reales de nuestra comunidad",
+    "description": "Descubre cómo hemos ayudado a miles de personas a alcanzar sus objetivos lingüísticos y profesionales.",
+    "cta": {
+      "title": "¿Quieres ser el próximo en conseguir tus objetivos?",
+      "description": "Únete a miles de estudiantes que ya han transformado su futuro con nosotros",
+      "free_class": "Solicita tu clase gratuita",
+      "contact": "Habla con nosotros"
+    }
+  },
+  "benefits": {
+    "title": "¿Por qué elegirnos?",
+    "subtitle": "Descubre las ventajas de aprender con nosotros",
+    "highlights": {
+      "individual_attention": "Atención individual garantizada",
+      "native_accent": "Acento auténtico desde el primer día",
+      "high_success": "95% de aprobados en exámenes",
+      "satisfied_students": "Miles de estudiantes satisfechos"
+    },
+    "native_teachers": {
+      "title": "Profesores Nativos",
+      "description": "Equipo internacional de profesores cualificados y experimentados"
+    },
+    "experience": {
+      "title": "25 Años de Experiencia",
+      "description": "Trayectoria consolidada en la enseñanza de idiomas"
+    },
+    "playful": {
+      "title": "Aprender jugando es aprender para siempre",
+      "description": "Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños."
+    },
+    "practical": {
+      "title": "Un enfoque práctico para comunicarte con fluidez",
+      "description": "Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos."
+    },
+    "small_groups": {
+      "title": "Número reducido de alumnos por clase para atención personalizada"
+    },
+    "flexible": {
+      "title": "Disponibilidad horaria para adaptarnos a tu agenda",
+      "description": "Mañanas, tardes y modalidad online"
+    },
+    "communicative": {
+      "title": "Enfoque comunicativo para una comunicación fluida"
+    },
+    "active": {
+      "title": "Comprensión activa desde el día 1"
+    },
+    "exam_prep": {
+      "title": "Preparación de exámenes oficiales"
+    }
   }
 }
