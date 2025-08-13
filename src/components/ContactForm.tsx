@@ -7,8 +7,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -21,7 +23,7 @@ const ContactForm = () => {
     
     toast({
       title: "¡Mensaje enviado!",
-      description: "Te contactaremos pronto para programar tu clase de prueba gratuita.",
+      description: t('contact.form.required'),
     });
     
     setIsSubmitting(false);
@@ -39,13 +41,13 @@ const ContactForm = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
           <h2 className="font-montserrat text-5xl md:text-6xl font-extrabold mb-8 text-foreground">
-            Solicita tu Clase de Prueba GRATIS
+            {t('contact.title')}
           </h2>
           <p className="font-opensans text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
-              Aprender idiomas es confianza, integración y futuro.
+              {t('hero.description')}
             </span>
-            ¿Listo para comenzar tu aventura de aprendizaje? Contacta con nosotros y descubre cómo podemos ayudarte a alcanzar tus objetivos.
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -58,23 +60,23 @@ const ContactForm = () => {
                 <div className="flex items-start group">
                   <Phone className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <p className="font-medium text-foreground font-montserrat">Teléfono</p>
-                    <a href="tel:+34634489386" className="text-muted-foreground font-opensans hover:text-primary transition-colors">+34 634 48 93 86</a>
+                    <p className="font-medium text-foreground font-montserrat">{t('contact.phone')}</p>
+                    <a href="tel:+34634489386" className="text-muted-foreground font-opensans hover:text-primary transition-colors">{t('header.phone')}</a>
                   </div>
                 </div>
                 
                 <div className="flex items-start group">
                   <Mail className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <p className="font-medium text-foreground font-montserrat">Email</p>
-                    <a href="mailto:info@learningcornerschool.com" className="text-muted-foreground font-opensans hover:text-primary transition-colors">info@learningcornerschool.com</a>
+                    <p className="font-medium text-foreground font-montserrat">{t('contact.email')}</p>
+                    <a href={`mailto:${t('header.email')}`} className="text-muted-foreground font-opensans hover:text-primary transition-colors">{t('header.email')}</a>
                   </div>
                 </div>
                 
                 <div className="flex items-start group">
                   <MapPin className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
-                    <p className="font-medium text-foreground font-montserrat">Ubicaciones</p>
+                    <p className="font-medium text-foreground font-montserrat">{t('contact.locations_label')}</p>
                     <p className="text-muted-foreground font-opensans">Estepona & Fuengirola</p>
                   </div>
                 </div>

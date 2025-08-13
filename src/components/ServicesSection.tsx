@@ -9,53 +9,55 @@ import {
   TreePine,
   ArrowRight 
 } from "lucide-react";
-
-const services = [
-  {
-    icon: Baby,
-    title: "Clases para Niños y Adolescentes",
-    description: "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
-    features: ["Grupos reducidos", "Actividades interactivas", "Preparación Cambridge", "Seguimiento personalizado"],
-    languages: ["Inglés", "Francés", "Alemán"]
-  },
-  {
-    icon: GraduationCap,
-    title: "Clases para Adultos",
-    description: "Conversación cotidiana o negocios con enfoque práctico para comunicarte con fluidez. Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos.",
-    features: ["Conversación intensiva", "Horarios flexibles", "Grupos por nivel"],
-    languages: ["Inglés", "Francés", "Alemán", "Árabe"]
-  },
-  {
-    icon: Heart,
-    title: "Español para Extranjeros",
-    description: "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, del examen de nacionalidad.",
-    features: ["DELE", "CSE", "Examen nacionalidad", "Integración cultural"],
-    languages: ["Español"]
-  },
-  {
-    icon: TreePine,
-    title: "English Camps",
-    description: "Inmersión total en inglés durante las vacaciones escolares con actividades divertidas y educativas.",
-    features: ["Inmersión total", "Actividades temáticas", "Profesores nativos", "Diversión garantizada"],
-    languages: ["Inglés"]
-  },
-  {
-    icon: Monitor,
-    title: "Modalidad Online y Presencial",
-    description: "Flexibilidad total con clases virtuales interactivas o presenciales en nuestras sedes de Estepona y Fuengirola.",
-    features: ["Horarios flexibles", "Dos ubicaciones", "Profesores cualificados", "Grupos reducidos"],
-    languages: ["Todos los idiomas"]
-  },
-  {
-    icon: Briefcase,
-    title: "Preparación Exámenes Oficiales",
-    description: "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE y examen de nacionalidad.",
-    features: ["Cambridge · TOEFL", "DELF · DALF · TCF", "DELE · CSE", "Examen nacionalidad"],
-    languages: ["Inglés", "Francés", "Español"]
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const ServicesSection = () => {
+  const { t } = useTranslation();
+
+  const services = [
+    {
+      icon: Baby,
+      title: t('services.kids.title'),
+      description: t('services.kids.description'),
+      features: [t('benefits.small_groups.title'), t('services.kids.method'), t('benefits.exam_prep.title'), "Seguimiento personalizado"],
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), "Alemán"]
+    },
+    {
+      icon: GraduationCap,
+      title: t('services.adults.title'),
+      description: t('services.adults.description'),
+      features: ["Conversación intensiva", t('benefits.flexible.title'), "Grupos por nivel"],
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), "Alemán", "Árabe"]
+    },
+    {
+      icon: Heart,
+      title: t('contact.options.languages.spanish') + " para Extranjeros",
+      description: t('services.exams.description'),
+      features: ["Conversación diaria", "Preparación DELE", "Cultura española", "Examen nacionalidad"],
+      languages: [t('contact.options.languages.spanish')]
+    },
+    {
+      icon: TreePine,
+      title: "English Camps",
+      description: "Inmersión total en inglés durante las vacaciones escolares con actividades divertidas y educativas.",
+      features: ["Inmersión total", "Actividades temáticas", "Profesores nativos", "Diversión garantizada"],
+      languages: [t('contact.options.languages.english')]
+    },
+    {
+      icon: Monitor,
+      title: "Modalidad Online y Presencial",
+      description: "Flexibilidad total con clases virtuales interactivas o presenciales en nuestras sedes de Estepona y Fuengirola.",
+      features: [t('benefits.flexible.title'), "Dos ubicaciones", "Profesores cualificados", t('benefits.small_groups.title')],
+      languages: ["Todos los idiomas"]
+    },
+    {
+      icon: Briefcase,
+      title: t('services.exams.title'),
+      description: "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE y examen de nacionalidad.",
+      features: ["Cambridge · TOEFL", "DELF · DALF · TCF", "DELE · CSE", "Examen nacionalidad"],
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('contact.options.languages.spanish')]
+    }
+  ];
   const scrollToContact = () => {
     const element = document.getElementById('contacto');
     if (element) {
@@ -74,11 +76,11 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 md:mb-20">
           <h2 className="font-montserrat text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6 md:mb-8 text-foreground">
-            Nuestros Servicios
+            {t('services.title')}
           </h2>
           <p className="font-opensans text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed px-4">
             <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
-              Clases para todas las edades · Exámenes oficiales · Grupos reducidos
+              {t('services.subtitle')}
             </span>
             Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.
           </p>

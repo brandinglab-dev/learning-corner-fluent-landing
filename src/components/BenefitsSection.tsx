@@ -7,49 +7,52 @@ import {
   CheckCircle, 
   BookOpen,
   Target,
-  Award
+  Award,
+  MessageSquare
 } from "lucide-react";
-
-const benefits = [
-  {
-    icon: Users,
-    title: "Grupos Reducidos",
-    description: "Número reducido de alumnos por clase para atención personalizada",
-    highlight: "Atención individual garantizada"
-  },
-  {
-    icon: Globe,
-    title: "Profesores Nativos",
-    description: "Equipo internacional de profesores cualificados y experimentados",
-    highlight: "Acento auténtico desde el primer día"
-  },
-  {
-    icon: Trophy,
-    title: "Exámenes Oficiales",
-    description: "Preparación de exámenes oficiales",
-    highlight: "95% de aprobados en exámenes"
-  },
-  {
-    icon: Clock,
-    title: "Horarios Flexibles",
-    description: "Mañanas, tardes y modalidad online",
-    highlight: "Disponibilidad horaria para adaptarnos a tu agenda"
-  },
-  {
-    icon: Target,
-    title: "Método Práctico",
-    description: "Enfoque comunicativo para una comunicación fluida",
-    highlight: "Comprensión activa desde el día 1"
-  },
-  {
-    icon: Award,
-    title: "25 Años de Experiencia",
-    description: "Trayectoria consolidada en la enseñanza de idiomas",
-    highlight: "Miles de estudiantes satisfechos"
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const BenefitsSection = () => {
+  const { t } = useTranslation();
+
+  const benefits = [
+    {
+      icon: Users,
+      title: t('benefits.small_groups.title'),
+      description: t('benefits.small_groups.title'),
+      highlight: "Atención individual garantizada"
+    },
+    {
+      icon: Globe,
+      title: "Profesores Nativos",
+      description: "Equipo internacional de profesores cualificados y experimentados",
+      highlight: "Acento auténtico desde el primer día"
+    },
+    {
+      icon: Trophy,
+      title: t('benefits.exam_prep.title'),
+      description: t('benefits.exam_prep.title'),
+      highlight: "95% de aprobados en exámenes"
+    },
+    {
+      icon: Clock,
+      title: t('benefits.flexible.title'),
+      description: t('benefits.flexible.description'),
+      highlight: t('benefits.flexible.title')
+    },
+    {
+      icon: Target,
+      title: t('benefits.communicative.title'),
+      description: t('benefits.communicative.title'),
+      highlight: t('benefits.active.title')
+    },
+    {
+      icon: Award,
+      title: "25 Años de Experiencia",
+      description: "Trayectoria consolidada en la enseñanza de idiomas",
+      highlight: "Miles de estudiantes satisfechos"
+    }
+  ];
   return (
     <section className="py-20 bg-background relative overflow-hidden">
       {/* Background decoration */}
@@ -61,13 +64,13 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="font-montserrat text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 md:mb-6 text-foreground">
-            ¿Por qué elegir Learning Corner?
+            {t('benefits.title')}
           </h2>
           <p className="font-opensans text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
             <span className="font-montserrat font-medium italic text-primary-light text-sm md:text-base block mb-2">
               Más que una academia, tu puerta al mundo
             </span>
-            Descubre las ventajas que nos convierten en la mejor opción para aprender idiomas en la Costa del Sol.
+            {t('benefits.subtitle')}
           </p>
         </div>
 

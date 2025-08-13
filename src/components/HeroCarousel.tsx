@@ -1,43 +1,45 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Play, ArrowRight } from "lucide-react";
-
-const slides = [
-  {
-    title: "Aprender idiomas es abrirte al mundo",
-    subtitle: "Niños",
-    description: "Aprender jugando es aprender para siempre. Descubre el placer de aprender jugando. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
-    cta: "Reserva tu plaza ahora",
-    bgColor: "bg-gradient-to-br from-primary to-primary-dark",
-    accent: "bg-secondary"
-  },
-  {
-    title: "El idioma es un puente hacia tu futuro",
-    subtitle: "Adolescentes", 
-    description: "Diseñadas para motivar y reforzar la confianza, nuestras clases para jóvenes combinan práctica real con preparación para exámenes oficiales.",
-    cta: "Reserva tu plaza ahora",
-    bgColor: "bg-gradient-to-br from-primary-light to-primary",
-    accent: "bg-secondary"
-  },
-  {
-    title: "Empieza hoy, habla mañana",
-    subtitle: "Adultos",
-    description: "Un enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos.",
-    cta: "Reserva tu plaza ahora",
-    bgColor: "bg-gradient-to-br from-secondary to-secondary-dark", 
-    accent: "bg-primary"
-  },
-  {
-    title: "Vive en español, piensa en español",
-    subtitle: "Español para extranjeros",
-    description: "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, además del examen de nacionalidad.",
-    cta: "Reserva tu plaza ahora",
-    bgColor: "bg-gradient-to-br from-primary-dark to-primary",
-    accent: "bg-secondary"
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const HeroCarousel = () => {
+  const { t } = useTranslation();
+  
+  const slides = [
+    {
+      title: t('hero.title'),
+      subtitle: t('navigation.home'),
+      description: t('hero.description'),
+      cta: t('hero.cta'),
+      bgColor: "bg-gradient-to-br from-primary to-primary-dark",
+      accent: "bg-secondary"
+    },
+    {
+      title: t('services.kids.title'),
+      subtitle: t('services.kids.age'), 
+      description: t('services.kids.description'),
+      cta: t('hero.cta'),
+      bgColor: "bg-gradient-to-br from-primary-light to-primary",
+      accent: "bg-secondary"
+    },
+    {
+      title: t('services.adults.title'),
+      subtitle: t('services.adults.levels'),
+      description: t('services.adults.description'),
+      cta: t('hero.cta'),
+      bgColor: "bg-gradient-to-br from-secondary to-secondary-dark", 
+      accent: "bg-primary"
+    },
+    {
+      title: t('services.exams.title'),
+      subtitle: t('services.exams.types'),
+      description: t('services.exams.description'),
+      cta: t('hero.cta'),
+      bgColor: "bg-gradient-to-br from-primary-dark to-primary",
+      accent: "bg-secondary"
+    }
+  ];
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
