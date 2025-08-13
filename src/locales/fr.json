@@ -150,5 +150,9 @@
     "reject": "Rejeter",
     "configure": "Configurer les cookies",
     "settings_title": "Configuration des Cookies"
+  },
+  "languages": {
+    "german": "Allemand",
+    "arabic": "Arabe"
   }
 }

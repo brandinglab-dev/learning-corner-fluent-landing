@@ -1,6 +1,8 @@
 import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -16,8 +18,7 @@ const Footer = () => {
                 className="h-12 w-auto mb-4 brightness-0 invert"
               />
               <p className="text-background/80 leading-relaxed font-opensans">
-                Academia de idiomas con sede en Estepona y Fuengirola. 
-                Enseñamos inglés, francés, alemán, árabe y español para extranjeros.
+                {t('footer.description')}
               </p>
             </div>
             <div className="flex gap-4">
@@ -44,26 +45,26 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-background">Enlaces Rápidos</h3>
+            <h3 className="text-lg font-semibold mb-4 text-background">{t('footer.quick_links')}</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#inicio" className="text-background/80 hover:text-background transition-colors">
-                  Inicio
+                  {t('navigation.home')}
                 </a>
               </li>
               <li>
                 <a href="#servicios" className="text-background/80 hover:text-background transition-colors">
-                  Servicios
+                  {t('navigation.services')}
                 </a>
               </li>
               <li>
                 <a href="#ubicacion" className="text-background/80 hover:text-background transition-colors">
-                  Ubicación
+                  {t('navigation.locations')}
                 </a>
               </li>
               <li>
                 <a href="#contacto" className="text-background/80 hover:text-background transition-colors">
-                  Contacto
+                  {t('navigation.contact')}
                 </a>
               </li>
             </ul>
@@ -71,28 +72,28 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-background">Nuestros Servicios</h3>
+            <h3 className="text-lg font-semibold mb-4 text-background">{t('footer.services')}</h3>
             <ul className="space-y-2 text-sm font-opensans">
-              <li className="text-background/80">Inglés · Francés · Alemán</li>
-              <li className="text-background/80">Árabe · Español extranjeros</li>
-              <li className="text-background/80">Preparación exámenes</li>
+              <li className="text-background/80">{t('contact.options.languages.english')} · {t('contact.options.languages.french')} · Alemán</li>
+              <li className="text-background/80">Árabe · {t('contact.options.languages.spanish')} extranjeros</li>
+              <li className="text-background/80">{t('services.exams.title')}</li>
               <li className="text-background/80">Online y presencial</li>
               <li className="text-background/80">English Camps</li>
-              <li className="text-background/80">Grupos reducidos</li>
+              <li className="text-background/80">{t('benefits.small_groups.title')}</li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-background">Contacto</h3>
+            <h3 className="text-lg font-semibold mb-4 text-background">{t('footer.contact')}</h3>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <Phone className="h-4 w-4 mr-2 text-background/80" />
-                  <span className="text-background/80 text-sm font-opensans">+34 634 48 93 86</span>
+                  <span className="text-background/80 text-sm font-opensans">{t('header.phone')}</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2 text-background/80" />
-                  <span className="text-background/80 text-sm font-opensans">info@learningcornerschool.com</span>
+                  <span className="text-background/80 text-sm font-opensans">{t('header.email')}</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="h-4 w-4 mr-2 mt-0.5 text-background/80 flex-shrink-0" />
@@ -108,17 +109,17 @@ const Footer = () => {
         <div className="border-t border-background/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/60 text-sm font-opensans">
-              © {currentYear} Learning Corner School. Todos los derechos reservados.
+              © {currentYear} Learning Corner School. {t('footer.copyright')}
             </p>
             <div className="flex gap-4 text-sm">
               <a href="/politica-privacidad" className="text-background/80 hover:text-background transition-colors font-opensans">
-                Política de privacidad
+                {t('footer.privacy')}
               </a>
               <a href="/politica-cookies" className="text-background/80 hover:text-background transition-colors font-opensans">
-                Política de cookies
+                {t('footer.cookies')}
               </a>
               <a href="/aviso-legal" className="text-background/80 hover:text-background transition-colors font-opensans">
-                Aviso legal
+                {t('footer.legal')}
               </a>
             </div>
           </div>

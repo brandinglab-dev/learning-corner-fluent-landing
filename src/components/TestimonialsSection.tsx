@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const testimonials = [
   {
@@ -47,6 +48,7 @@ const testimonials = [
 ];
 
 const TestimonialsSection = () => {
+  const { t } = useTranslation();
   return (
     <section className="py-20 bg-accent/10 relative overflow-hidden">
       {/* Background decoration */}
@@ -58,11 +60,11 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-montserrat text-4xl md:text-5xl font-extrabold mb-6 text-foreground">
-            Lo que dicen nuestros estudiantes
+            {t('testimonials.title')}
           </h2>
           <p className="font-opensans text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             <span className="font-montserrat font-medium italic text-primary-light text-base block mb-2">
-              Historias reales de éxito
+              {t('testimonials.subtitle')}
             </span>
             Descubre cómo hemos ayudado a miles de personas a alcanzar sus objetivos lingüísticos y profesionales.
           </p>

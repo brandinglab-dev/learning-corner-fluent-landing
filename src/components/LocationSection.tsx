@@ -1,24 +1,26 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Phone } from "lucide-react";
-
-const locations = [
-  {
-    name: "Sede Central - Estepona",
-    address: "Pl. Miguel Ángel Loren Méndez, 5, 29680 Estepona, Málaga",
-    phone: "+34 634 48 93 86",
-    hours: "Lun-Vie: 9:00-21:00, Sáb: 9:00-14:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51388.41379793586!2d-5.231835180468727!3d36.39041965402949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f18d765ea7b5483%3A0x72999e1e7146e26c!2sLearning%20Corner%20School%20Estepona!5e0!3m2!1ses!2ses!4v1754898569381!5m2!1ses!2ses"
-  },
-  {
-    name: "Nueva Sede - Fuengirola", 
-    address: "Av. Francisco Rivera Paquirri, 29640 Fuengirola, Málaga",
-    phone: "+34 634 48 93 86",
-    hours: "Lun-Vie: 9:00-21:00, Sáb: 9:00-14:00",
-    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6410.066271037066!2d-4.622158123712086!3d36.5533139815769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e3b50a4e5809%3A0xb96d4348f2596200!2sKampus%20Formaci%C3%B3n!5e0!3m2!1ses!2ses!4v1754898597843!5m2!1ses!2ses"
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const LocationSection = () => {
+  const { t } = useTranslation();
+  
+  const locations = [
+    {
+      name: t('locations.estepona.title'),
+      address: t('locations.estepona.address'),
+      phone: t('header.phone'),
+      hours: t('locations.estepona.hours'),
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51388.41379793586!2d-5.231835180468727!3d36.39041965402949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f18d765ea7b5483%3A0x72999e1e7146e26c!2sLearning%20Corner%20School%20Estepona!5e0!3m2!1ses!2ses!4v1754898569381!5m2!1ses!2ses"
+    },
+    {
+      name: t('locations.fuengirola.title'), 
+      address: t('locations.fuengirola.address'),
+      phone: t('header.phone'),
+      hours: t('locations.fuengirola.hours'),
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6410.066271037066!2d-4.622158123712086!3d36.5533139815769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e3b50a4e5809%3A0xb96d4348f2596200!2sKampus%20Formaci%C3%B3n!5e0!3m2!1ses!2ses!4v1754898597843!5m2!1ses!2ses"
+    }
+  ];
   return (
     <section id="ubicacion" className="py-20 bg-background relative overflow-hidden">
       {/* Background decoration */}
@@ -30,11 +32,11 @@ const LocationSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-montserrat font-extrabold mb-6 text-foreground">
-            Nuestras Ubicaciones
+            {t('locations.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto font-opensans leading-relaxed">
             <span className="font-montserrat font-medium italic text-primary-light text-base md:text-lg block mb-2">
-              Sedes en Estepona y Fuengirola
+              {t('locations.subtitle')}
             </span>
             Dos centros estratégicamente ubicados en la Costa del Sol para ofrecerte la mejor accesibilidad y comodidad.
           </p>

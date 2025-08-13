@@ -55,7 +55,7 @@ const ContactForm = () => {
           {/* Contact Info */}
           <div className="lg:col-span-1">
             <div className="glass rounded-2xl p-8 shadow-strong hover-lift">
-              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">Información de Contacto</h3>
+              <h3 className="font-montserrat text-2xl font-bold text-foreground mb-8">Información de {t('contact.contact')}</h3>
               <div className="space-y-6">
                 <div className="flex items-start group">
                   <Phone className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
@@ -87,7 +87,7 @@ const ContactForm = () => {
                   </p>
                   <div className="bg-primary p-6 rounded-xl text-white text-center hover:shadow-glow transition-all duration-300">
                     <p className="font-bold text-lg font-montserrat">Oferta especial</p>
-                    <p className="text-sm font-opensans">Clase de prueba GRATIS</p>
+                    <p className="text-sm font-opensans">{t('hero.cta')}</p>
                   </div>
                 </div>
               </div>
@@ -101,17 +101,17 @@ const ContactForm = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="name" className="font-opensans font-medium">Nombre completo *</Label>
+                    <Label htmlFor="name" className="font-opensans font-medium">{t('contact.form.name')} *</Label>
                     <Input id="name" name="name" required className="mt-2 border-border/50 focus:border-primary transition-colors duration-300" />
                   </div>
                   <div>
-                    <Label htmlFor="phone" className="font-opensans font-medium">Teléfono *</Label>
+                    <Label htmlFor="phone" className="font-opensans font-medium">{t('contact.form.phone')} *</Label>
                     <Input id="phone" name="phone" type="tel" required className="mt-2 border-border/50 focus:border-primary transition-colors duration-300" />
                   </div>
                 </div>
 
                 <div>
-                  <Label htmlFor="email" className="font-body font-medium">Correo electrónico *</Label>
+                  <Label htmlFor="email" className="font-body font-medium">{t('contact.form.email')} *</Label>
                   <Input id="email" name="email" type="email" required className="mt-2 border-border/50 focus:border-primary transition-colors duration-300" />
                 </div>
 
@@ -204,10 +204,10 @@ const ContactForm = () => {
                 </Button>
 
                 <p className="text-sm text-muted-foreground text-center font-opensans">
-                  * Campos obligatorios. Te contactaremos en las próximas 24 horas.
+                  {t('contact.form.required')}
                   <br />
-                  Los datos personales solicitados serán tratados por Learning Corner School con la finalidad de atender su solicitud y mantenerle informado sobre nuestros cursos y actividades. La base legal para este tratamiento es su consentimiento, que podrá retirar en cualquier momento. Puede ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad mediante correo electrónico a info@learningcornerschool.com. 
-                  <a href="/politica-privacidad" className="text-primary hover:underline ml-1">Más información en nuestra Política de privacidad</a>.
+                  {t('contact.form.privacy')} 
+                  <a href="/politica-privacidad" className="text-primary hover:underline ml-1">{t('contact.form.privacy_link')}</a>.
                 </p>
               </form>
             </div>
