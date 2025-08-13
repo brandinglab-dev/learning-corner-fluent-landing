@@ -1,0 +1,154 @@
+{
+  "header": {
+    "phone": "+34 634 48 93 86",
+    "email": "info@learningcornerschool.com"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "benefits": "Avantages",
+    "testimonials": "Témoignages",
+    "locations": "Emplacements",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Apprenez les langues naturellement",
+    "subtitle": "Votre académie de langues à Estepona et Fuengirola",
+    "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
+    "cta": "Cours d'essai gratuit"
+  },
+  "benefits": {
+    "title": "Pourquoi nous choisir ?",
+    "subtitle": "Découvrez les avantages d'apprendre avec nous",
+    "playful": {
+      "title": "Apprendre en jouant, c'est apprendre pour toujours",
+      "description": "Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge."
+    },
+    "practical": {
+      "title": "Une approche pratique pour communiquer avec fluidité",
+      "description": "Progressez à votre rythme avec des cours adaptés à vos besoins et objectifs."
+    },
+    "small_groups": {
+      "title": "Petit nombre d'élèves par classe pour une attention personnalisée"
+    },
+    "flexible": {
+      "title": "Disponibilité horaire pour s'adapter à votre agenda",
+      "description": "Matins, après-midis et modalité en ligne"
+    },
+    "communicative": {
+      "title": "Approche communicative pour une communication fluide"
+    },
+    "active": {
+      "title": "Compréhension active dès le jour 1"
+    },
+    "exam_prep": {
+      "title": "Préparation aux examens officiels"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Programmes conçus pour chaque âge et besoin",
+    "kids": {
+      "title": "Cours pour Enfants",
+      "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
+      "age": "De 3 à 16 ans",
+      "method": "Méthode ludique et interactive"
+    },
+    "adults": {
+      "title": "Cours pour Adultes",
+      "description": "Conversation quotidienne ou affaires avec une approche pratique pour parler dès le premier jour. Progressez à votre rythme avec des cours adaptés.",
+      "levels": "Tous les niveaux",
+      "focus": "Conversation et grammaire"
+    },
+    "exams": {
+      "title": "Préparation d'Examens",
+      "description": "Cours pour se débrouiller dans la vie quotidienne et réussir avec succès les examens officiels DELE et CSE, ainsi que l'examen de nationalité.",
+      "types": "DELE, CSE, Cambridge",
+      "success": "Taux de réussite élevé"
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos étudiants",
+    "subtitle": "Témoignages réels de notre communauté"
+  },
+  "locations": {
+    "title": "Nos Emplacements",
+    "subtitle": "Trouvez l'académie la plus proche de vous",
+    "estepona": {
+      "title": "Learning Corner School Estepona",
+      "address": "Plaza Miguel Ángel Loren Méndez 5, local A",
+      "hours": "Lundi au Vendredi : 9h00 - 21h00"
+    },
+    "fuengirola": {
+      "title": "Kampus Formación Fuengirola",
+      "address": "Centre de Fuengirola",
+      "hours": "Lundi au Vendredi : 9h00 - 21h00"
+    }
+  },
+  "contact": {
+    "title": "Demandez votre cours d'essai gratuit !",
+    "subtitle": "Sans engagement. Découvrez notre méthode et rencontrez nos professeurs.",
+    "phone": "Téléphone",
+    "email": "Email",
+    "locations_label": "Emplacements",
+    "form": {
+      "name": "Nom complet",
+      "phone": "Téléphone",
+      "email": "Email",
+      "age": "Âge/Niveau",
+      "language": "Langue d'intérêt",
+      "schedule": "Horaire préféré",
+      "location": "Emplacement préféré",
+      "message": "Message (optionnel)",
+      "submit": "Demander un cours gratuit",
+      "submitting": "Envoi en cours...",
+      "privacy": "Les données personnelles demandées seront traitées par Learning Corner School afin de répondre à votre demande et vous tenir informé de nos cours et activités. La base légale de ce traitement est votre consentement, que vous pouvez retirer à tout moment. Vous pouvez exercer vos droits d'accès, de rectification, de suppression, d'opposition, de limitation et de portabilité par email à info@learningcornerschool.com.",
+      "privacy_link": "Plus d'informations dans notre Politique de confidentialité",
+      "required": "* Champs obligatoires. Nous vous contactons dans les 24 heures."
+    },
+    "options": {
+      "ages": {
+        "3-6": "3-6 ans (Maternelle)",
+        "7-12": "7-12 ans (Primaire)",
+        "13-16": "13-16 ans (Secondaire)",
+        "adult": "Adulte"
+      },
+      "languages": {
+        "english": "Anglais",
+        "french": "Français",
+        "spanish": "Espagnol"
+      },
+      "schedules": {
+        "morning": "Matins",
+        "afternoon": "Après-midis",
+        "online": "En ligne"
+      },
+      "locations": {
+        "estepona": "Estepona",
+        "fuengirola": "Fuengirola"
+      }
+    }
+  },
+  "footer": {
+    "description": "Votre académie de langues de confiance sur la Costa del Sol. Apprenez l'anglais, le français et l'espagnol avec des professeurs natifs dans un environnement familial et proche.",
+    "quick_links": "Liens Rapides",
+    "services": "Nos Services",
+    "contact": "Contact",
+    "copyright": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique de cookies",
+    "legal": "Mentions légales"
+  },
+  "whatsapp": {
+    "tooltip": "Écrivez-nous maintenant !",
+    "message": "Bonjour ! Je suis intéressé(e) par des informations sur les cours de Learning Corner School."
+  },
+  "cookies": {
+    "message": "Nous utilisons nos propres cookies et ceux de tiers pour améliorer nos services, préparer des informations statistiques et analyser vos habitudes de navigation. Vous pouvez accepter tous les cookies en cliquant sur \"Accepter\" ou les configurer dans \"Configurer les cookies\".",
+    "more_info": "Plus d'informations dans notre Politique de cookies",
+    "accept": "Accepter tout",
+    "reject": "Rejeter",
+    "configure": "Configurer les cookies",
+    "settings_title": "Configuration des Cookies"
+  }
+}

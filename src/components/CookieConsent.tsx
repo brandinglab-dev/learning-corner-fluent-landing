@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { X, Settings } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const CookieConsent = () => {
+  const { t } = useTranslation();
   const [showConsent, setShowConsent] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
 
@@ -39,10 +41,9 @@ const CookieConsent = () => {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div className="flex-1">
               <p className="text-sm text-foreground font-opensans leading-relaxed">
-                Utilizamos cookies propias y de terceros para mejorar nuestros servicios, elaborar información estadística y analizar sus hábitos de navegación. 
-                Puede aceptar todas las cookies pulsando "Aceptar" o configurarlas en "Configurar cookies". 
+                {t('cookies.message')} 
                 <a href="/politica-cookies" target="_blank" className="text-primary hover:text-primary-dark underline ml-1">
-                  Más información en nuestra Política de cookies
+                  {t('cookies.more_info')}
                 </a>.
               </p>
             </div>
@@ -54,7 +55,7 @@ const CookieConsent = () => {
                 className="text-sm"
               >
                 <Settings className="h-4 w-4 mr-2" />
-                Configurar cookies
+                {t('cookies.configure')}
               </Button>
               <Button
                 onClick={rejectAll}
@@ -62,14 +63,14 @@ const CookieConsent = () => {
                 size="sm"
                 className="text-sm"
               >
-                Rechazar
+                {t('cookies.reject')}
               </Button>
               <Button
                 onClick={acceptAll}
                 size="sm"
                 className="bg-primary hover:bg-primary-dark text-white text-sm"
               >
-                Aceptar todas
+                {t('cookies.accept')}
               </Button>
             </div>
           </div>
@@ -80,7 +81,7 @@ const CookieConsent = () => {
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-lg max-w-2xl w-full max-h-[80vh] overflow-y-auto">
             <div className="p-6 border-b border-border flex justify-between items-center">
-              <h3 className="text-xl font-montserrat font-bold">Configuración de Cookies</h3>
+              <h3 className="text-xl font-montserrat font-bold">{t('cookies.settings_title')}</h3>
               <Button
                 onClick={() => setShowSettings(false)}
                 variant="ghost"
@@ -104,10 +105,10 @@ const CookieConsent = () => {
               </div>
               <div className="flex gap-2 pt-4">
                 <Button onClick={rejectAll} variant="outline">
-                  Rechazar todas
+                  {t('cookies.reject')}
                 </Button>
                 <Button onClick={acceptAll} className="bg-primary hover:bg-primary-dark text-white">
-                  Aceptar todas
+                  {t('cookies.accept')}
                 </Button>
               </div>
             </div>

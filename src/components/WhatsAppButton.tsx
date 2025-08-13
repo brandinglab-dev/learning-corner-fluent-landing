@@ -1,8 +1,10 @@
 import { MessageCircle } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 
 const WhatsAppButton = () => {
+  const { t } = useTranslation();
   const whatsappNumber = "+34634489386";
-  const message = "¡Hola! Me interesa información sobre los cursos de Learning Corner School.";
+  const message = t('whatsapp.message');
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (
@@ -15,7 +17,7 @@ const WhatsAppButton = () => {
     >
       <MessageCircle className="h-6 w-6 md:h-7 md:w-7 group-hover:animate-bounce" />
       <div className="absolute -top-12 md:-top-14 right-0 glass text-white text-xs md:text-sm py-2 md:py-3 px-3 md:px-4 rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap font-body font-medium">
-        ¡Escríbenos ahora!
+        {t('whatsapp.tooltip')}
         <div className="absolute top-full right-4 w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-white/10"></div>
       </div>
     </a>

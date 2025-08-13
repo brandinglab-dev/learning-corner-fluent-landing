@@ -1,0 +1,154 @@
+{
+  "header": {
+    "phone": "+34 634 48 93 86",
+    "email": "info@learningcornerschool.com"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "benefits": "Benefits",
+    "testimonials": "Testimonials",
+    "locations": "Locations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Learn languages naturally",
+    "subtitle": "Your language academy in Estepona and Fuengirola",
+    "description": "Personalized English, French and Spanish classes with native teachers. Discover the pleasure of learning languages in a close and family environment.",
+    "cta": "Free trial class"
+  },
+  "benefits": {
+    "title": "Why choose us?",
+    "subtitle": "Discover the advantages of learning with us",
+    "playful": {
+      "title": "Learning by playing is learning forever",
+      "description": "Our children's classes combine fun and learning so that the language becomes natural from an early age."
+    },
+    "practical": {
+      "title": "A practical approach to communicate fluently",
+      "description": "Progress at your own pace with classes adapted to your needs and goals."
+    },
+    "small_groups": {
+      "title": "Small number of students per class for personalized attention"
+    },
+    "flexible": {
+      "title": "Schedule availability to adapt to your agenda",
+      "description": "Mornings, afternoons and online mode"
+    },
+    "communicative": {
+      "title": "Communicative approach for fluent communication"
+    },
+    "active": {
+      "title": "Active understanding from day 1"
+    },
+    "exam_prep": {
+      "title": "Official exam preparation"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Programs designed for every age and need",
+    "kids": {
+      "title": "Children's Classes",
+      "description": "Learning by playing is learning forever. Our children's classes combine fun and learning so that the language becomes natural from an early age.",
+      "age": "From 3 to 16 years",
+      "method": "Playful and interactive method"
+    },
+    "adults": {
+      "title": "Adult Classes",
+      "description": "Everyday conversation or business with a practical approach to speak from day one. Progress at your own pace with adapted classes.",
+      "levels": "All levels",
+      "focus": "Conversation and grammar"
+    },
+    "exams": {
+      "title": "Exam Preparation",
+      "description": "Classes to manage daily life and successfully pass official DELE and CSE exams, as well as nationality exams.",
+      "types": "DELE, CSE, Cambridge",
+      "success": "High pass rate"
+    }
+  },
+  "testimonials": {
+    "title": "What our students say",
+    "subtitle": "Real testimonials from our community"
+  },
+  "locations": {
+    "title": "Our Locations",
+    "subtitle": "Find the academy closest to you",
+    "estepona": {
+      "title": "Learning Corner School Estepona",
+      "address": "Plaza Miguel Ángel Loren Méndez 5, local A",
+      "hours": "Monday to Friday: 9:00 - 21:00"
+    },
+    "fuengirola": {
+      "title": "Kampus Formación Fuengirola",
+      "address": "Fuengirola Center",
+      "hours": "Monday to Friday: 9:00 - 21:00"
+    }
+  },
+  "contact": {
+    "title": "Request your free trial class!",
+    "subtitle": "No commitment. Discover our method and meet our teachers.",
+    "phone": "Phone",
+    "email": "Email",
+    "locations_label": "Locations",
+    "form": {
+      "name": "Full name",
+      "phone": "Phone",
+      "email": "Email",
+      "age": "Age/Level",
+      "language": "Language of interest",
+      "schedule": "Preferred schedule",
+      "location": "Preferred location",
+      "message": "Message (optional)",
+      "submit": "Request free class",
+      "submitting": "Sending...",
+      "privacy": "The requested personal data will be processed by Learning Corner School in order to attend to your request and keep you informed about our courses and activities. The legal basis for this processing is your consent, which you may withdraw at any time. You can exercise your rights of access, rectification, deletion, opposition, limitation and portability by email to info@learningcornerschool.com.",
+      "privacy_link": "More information in our Privacy Policy",
+      "required": "* Required fields. We will contact you within the next 24 hours."
+    },
+    "options": {
+      "ages": {
+        "3-6": "3-6 years (Preschool)",
+        "7-12": "7-12 years (Primary)",
+        "13-16": "13-16 years (Secondary)",
+        "adult": "Adult"
+      },
+      "languages": {
+        "english": "English",
+        "french": "French",
+        "spanish": "Spanish"
+      },
+      "schedules": {
+        "morning": "Mornings",
+        "afternoon": "Afternoons",
+        "online": "Online"
+      },
+      "locations": {
+        "estepona": "Estepona",
+        "fuengirola": "Fuengirola"
+      }
+    }
+  },
+  "footer": {
+    "description": "Your trusted language academy on the Costa del Sol. Learn English, French and Spanish with native teachers in a family and close environment.",
+    "quick_links": "Quick Links",
+    "services": "Our Services",
+    "contact": "Contact",
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies Policy",
+    "legal": "Legal Notice"
+  },
+  "whatsapp": {
+    "tooltip": "Write to us now!",
+    "message": "Hello! I'm interested in information about Learning Corner School courses."
+  },
+  "cookies": {
+    "message": "We use our own and third-party cookies to improve our services, prepare statistical information and analyze your browsing habits. You can accept all cookies by clicking \"Accept\" or configure them in \"Configure cookies\".",
+    "more_info": "More information in our Cookies Policy",
+    "accept": "Accept all",
+    "reject": "Reject",
+    "configure": "Configure cookies",
+    "settings_title": "Cookie Settings"
+  }
+}

@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail, Facebook, Instagram } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
@@ -26,14 +29,15 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <a href="tel:+34634489386" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Phone className="h-3 w-3" />
-              <span className="font-medium">+34 634 48 93 86</span>
+              <span className="font-medium">{t('header.phone')}</span>
             </a>
-            <a href="mailto:info@learningcornerschool.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
+            <a href={`mailto:${t('header.email')}`} className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Mail className="h-3 w-3" />
-              <span className="font-medium">info@learningcornerschool.com</span>
+              <span className="font-medium">{t('header.email')}</span>
             </a>
           </div>
           <div className="flex items-center gap-4">
+            <LanguageSwitcher />
             <a href="https://facebook.com/learningcornerschoolestepona" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:rotate-6">
               <Facebook className="h-4 w-4" />
             </a>
@@ -59,35 +63,35 @@ const Header = () => {
               onClick={() => scrollToSection('inicio')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
-              Inicio
+              {t('navigation.home')}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('servicios')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
-              Servicios
+              {t('navigation.services')}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('ubicacion')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
-              Ubicación
+              {t('navigation.locations')}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <button 
               onClick={() => scrollToSection('contacto')} 
               className="relative text-foreground hover:text-primary transition-all duration-300 font-medium group"
             >
-              Contacto
+              {t('navigation.contact')}
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
             </button>
             <Button 
               onClick={() => scrollToSection('contacto')} 
               className="bg-primary hover:bg-primary-dark hover:shadow-lg hover:scale-105 text-primary-foreground transition-all duration-300 font-montserrat font-semibold px-6 py-2.5"
             >
-              Clase Gratuita
+              {t('hero.cta')}
             </Button>
           </nav>
 
@@ -110,33 +114,34 @@ const Header = () => {
                 onClick={() => scrollToSection('inicio')} 
                 className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
               >
-                Inicio
+                {t('navigation.home')}
               </button>
               <button 
                 onClick={() => scrollToSection('servicios')} 
                 className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
               >
-                Servicios
+                {t('navigation.services')}
               </button>
               <button 
                 onClick={() => scrollToSection('ubicacion')} 
                 className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
               >
-                Ubicación
+                {t('navigation.locations')}
               </button>
               <button 
                 onClick={() => scrollToSection('contacto')} 
                 className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
               >
-                Contacto
+                {t('navigation.contact')}
               </button>
               <Button 
                 onClick={() => scrollToSection('contacto')} 
                 className="bg-primary hover:bg-primary-dark text-primary-foreground font-montserrat font-medium mt-2"
               >
-                Clase Gratuita
+                {t('hero.cta')}
               </Button>
               <div className="flex items-center gap-4 pt-2">
+                <LanguageSwitcher />
                 <a href="https://facebook.com/learningcornerschoolestepona" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Facebook className="h-5 w-5" />
                 </a>
