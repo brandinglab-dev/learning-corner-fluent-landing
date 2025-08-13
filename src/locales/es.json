@@ -210,6 +210,38 @@
       "description": "Únete a miles de estudiantes que ya han transformado su futuro con nosotros",
       "free_class": "Solicita tu clase gratuita",
       "contact": "Habla con nosotros"
+    },
+    "reviews": {
+      "sebastian": {
+        "role": "Estudiante de Francés",
+        "text": "Dianne es una profesora excelente y con ella estoy aprendiendo mucho y bien el idioma Francés. Tiene un buen método y mucha paciencia conmigo. Las clases se hacen cortas y amenas.",
+        "course": "Francés"
+      },
+      "daniel": {
+        "role": "Padre de estudiante",
+        "text": "Tenemos a nuestro hijo. Ha mejorado muchísimo ya que antes siempre suspendía la asignatura y ahora es una de las mejores notas que saca. A él le encanta la forma de enseñar y está muy contento al igual que nosotros.",
+        "course": "Inglés"
+      },
+      "diana": {
+        "role": "Profesional",
+        "text": "Mi experiencia es positiva. No teniendo ya edad de ser estudiante, he comenzado un idioma que me servirá en el trabajo. Valoro aprender con profesorado nativo y que esté pendiente de la pronunciación. Las opciones horarias y la ubicación han sido un plus.",
+        "course": "Idiomas profesionales"
+      },
+      "veronica": {
+        "role": "Estudiante",
+        "text": "Los profesores se adaptan completamente al nivel de cada estudiante y personalizan las clases. El trato es muy amable y cercano, cualquier problema saben cómo ayudarte.",
+        "course": "Clases personalizadas"
+      },
+      "yolanda": {
+        "role": "Madre de estudiantes",
+        "text": "Estoy encantada con la academia, mis dos hijos dan tanto clases de Inglés y Francés y van genial. Las clases se hacen muy amenas. Lo recomiendo 100%.",
+        "course": "Inglés y Francés"
+      },
+      "rocio": {
+        "role": "Estudiante",
+        "text": "Gran Academia, clases muy personalizadas de pequeños grupos de alumnos que es la forma de aprender y practicar idiomas. El profe de inglés es de 10!!!! Y la seño de francés otro 10. La educación y la amabilidad que transmiten de 10. Los alumnos que quieran avanzar en un idioma este es el sitio ideal.",
+        "course": "Inglés y Francés"
+      }
     }
   },
   "benefits": {

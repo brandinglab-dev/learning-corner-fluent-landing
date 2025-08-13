@@ -210,6 +210,38 @@
       "description": "Join thousands of students who have already transformed their future with us",
       "free_class": "Request your free class",
       "contact": "Talk to us"
+    },
+    "reviews": {
+      "sebastian": {
+        "role": "French Student",
+        "text": "Dianne is an excellent teacher and with her I am learning the French language very well. She has a good method and a lot of patience with me. The classes are short and enjoyable.",
+        "course": "French"
+      },
+      "daniel": {
+        "role": "Parent of student",
+        "text": "We have our son there. He has improved tremendously since before he always failed the subject and now it's one of the best grades he gets. He loves the way of teaching and is very happy as we are.",
+        "course": "English"
+      },
+      "diana": {
+        "role": "Professional",
+        "text": "My experience is positive. No longer being of student age, I have started a language that will serve me at work. I value learning with native teachers who pay attention to pronunciation. The schedule options and location have been a plus.",
+        "course": "Professional languages"
+      },
+      "veronica": {
+        "role": "Student",
+        "text": "The teachers adapt completely to each student's level and personalize the classes. The treatment is very kind and close, any problem they know how to help you.",
+        "course": "Personalized classes"
+      },
+      "yolanda": {
+        "role": "Mother of students",
+        "text": "I am delighted with the academy, my two children take both English and French classes and they are doing great. The classes are very enjoyable. I recommend it 100%.",
+        "course": "English and French"
+      },
+      "rocio": {
+        "role": "Student",
+        "text": "Great Academy, very personalized classes with small groups of students which is the way to learn and practice languages. The English teacher is a 10!!!! And the French teacher another 10. The education and kindness they transmit is a 10. Students who want to advance in a language, this is the ideal place.",
+        "course": "English and French"
+      }
     }
   },
   "benefits": {

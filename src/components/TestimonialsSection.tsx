@@ -2,53 +2,54 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
-const testimonials = [
-  {
-    name: "Sebastián Ramos González",
-    role: "Estudiante de Francés",
-    text: "Dianne es una profesora excelente y con ella estoy aprendiendo mucho y bien el idioma Francés. Tiene un buen método y mucha paciencia conmigo. Las clases se hacen cortas y amenas.",
-    rating: 5,
-    course: "Francés"
-  },
-  {
-    name: "Daniel Muñoz Benitez",
-    role: "Padre de estudiante",
-    text: "Tenemos a nuestro hijo. Ha mejorado muchísimo ya que antes siempre suspendía la asignatura y ahora es una de las mejores notas que saca. A él le encanta la forma de enseñar y está muy contento al igual que nosotros.",
-    rating: 5,
-    course: "Inglés"
-  },
-  {
-    name: "Diana GG",
-    role: "Profesional",
-    text: "Mi experiencia es positiva. No teniendo ya edad de ser estudiante, he comenzado un idioma que me servirá en el trabajo. Valoro aprender con profesorado nativo y que esté pendiente de la pronunciación. Las opciones horarias y la ubicación han sido un plus.",
-    rating: 5,
-    course: "Idiomas profesionales"
-  },
-  {
-    name: "Verónica Díez",
-    role: "Estudiante",
-    text: "Los profesores se adaptan completamente al nivel de cada estudiante y personalizan las clases. El trato es muy amable y cercano, cualquier problema saben cómo ayudarte.",
-    rating: 5,
-    course: "Clases personalizadas"
-  },
-  {
-    name: "Yolanda Martínez Morales",
-    role: "Madre de estudiantes",
-    text: "Estoy encantada con la academia, mis dos hijos dan tanto clases de Inglés y Francés y van genial. Las clases se hacen muy amenas. Lo recomiendo 100%.",
-    rating: 5,
-    course: "Inglés y Francés"
-  },
-  {
-    name: "Rocío García Ramírez",
-    role: "Estudiante",
-    text: "Gran Academia, clases muy personalizadas de pequeños grupos de alumnos que es la forma de aprender y practicar idiomas. El profe de inglés es de 10!!!! Y la seño de francés otro 10. La educación y la amabilidad que transmiten de 10. Los alumnos que quieran avanzar en un idioma este es el sitio ideal.",
-    rating: 5,
-    course: "Inglés y Francés"
-  }
-];
-
 const TestimonialsSection = () => {
   const { t } = useTranslation();
+  
+  const testimonials = [
+    {
+      name: "Sebastián Ramos González",
+      role: t('testimonials.reviews.sebastian.role'),
+      text: t('testimonials.reviews.sebastian.text'),
+      rating: 5,
+      course: t('testimonials.reviews.sebastian.course')
+    },
+    {
+      name: "Daniel Muñoz Benitez",
+      role: t('testimonials.reviews.daniel.role'),
+      text: t('testimonials.reviews.daniel.text'),
+      rating: 5,
+      course: t('testimonials.reviews.daniel.course')
+    },
+    {
+      name: "Diana GG",
+      role: t('testimonials.reviews.diana.role'),
+      text: t('testimonials.reviews.diana.text'),
+      rating: 5,
+      course: t('testimonials.reviews.diana.course')
+    },
+    {
+      name: "Verónica Díez",
+      role: t('testimonials.reviews.veronica.role'),
+      text: t('testimonials.reviews.veronica.text'),
+      rating: 5,
+      course: t('testimonials.reviews.veronica.course')
+    },
+    {
+      name: "Yolanda Martínez Morales",
+      role: t('testimonials.reviews.yolanda.role'),
+      text: t('testimonials.reviews.yolanda.text'),
+      rating: 5,
+      course: t('testimonials.reviews.yolanda.course')
+    },
+    {
+      name: "Rocío García Ramírez",
+      role: t('testimonials.reviews.rocio.role'),
+      text: t('testimonials.reviews.rocio.text'),
+      rating: 5,
+      course: t('testimonials.reviews.rocio.course')
+    }
+  ];
+
   return (
     <section className="py-20 bg-accent/10 relative overflow-hidden">
       {/* Background decoration */}

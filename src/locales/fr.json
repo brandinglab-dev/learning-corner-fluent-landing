@@ -210,6 +210,38 @@
       "description": "Rejoignez des milliers d'étudiants qui ont déjà transformé leur avenir avec nous",
       "free_class": "Demandez votre cours gratuit",
       "contact": "Parlez-nous"
+    },
+    "reviews": {
+      "sebastian": {
+        "role": "Étudiant en français",
+        "text": "Dianne est un excellent professeur et avec elle j'apprends très bien la langue française. Elle a une bonne méthode et beaucoup de patience avec moi. Les cours sont courts et agréables.",
+        "course": "Français"
+      },
+      "daniel": {
+        "role": "Parent d'élève",
+        "text": "Nous avons notre fils là-bas. Il s'est énormément amélioré car avant il échouait toujours à la matière et maintenant c'est l'une des meilleures notes qu'il obtient. Il adore la façon d'enseigner et est très heureux comme nous le sommes.",
+        "course": "Anglais"
+      },
+      "diana": {
+        "role": "Professionnelle",
+        "text": "Mon expérience est positive. N'étant plus en âge d'être étudiante, j'ai commencé une langue qui me servira au travail. J'apprécie d'apprendre avec des professeurs natifs qui font attention à la prononciation. Les options d'horaire et l'emplacement ont été un plus.",
+        "course": "Langues professionnelles"
+      },
+      "veronica": {
+        "role": "Étudiante",
+        "text": "Les professeurs s'adaptent complètement au niveau de chaque étudiant et personnalisent les cours. Le traitement est très aimable et proche, tout problème ils savent comment vous aider.",
+        "course": "Cours personnalisés"
+      },
+      "yolanda": {
+        "role": "Mère d'étudiants",
+        "text": "Je suis ravie de l'académie, mes deux enfants prennent des cours d'anglais et de français et ils vont très bien. Les cours sont très agréables. Je le recommande à 100%.",
+        "course": "Anglais et français"
+      },
+      "rocio": {
+        "role": "Étudiante",
+        "text": "Grande Académie, cours très personnalisés avec de petits groupes d'étudiants qui est la façon d'apprendre et de pratiquer les langues. Le professeur d'anglais est un 10!!!! Et la professeure de français un autre 10. L'éducation et la gentillesse qu'ils transmettent sont un 10. Les étudiants qui veulent progresser dans une langue, c'est l'endroit idéal.",
+        "course": "Anglais et français"
+      }
     }
   },
   "benefits": {
