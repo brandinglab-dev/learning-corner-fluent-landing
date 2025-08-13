@@ -9,7 +9,10 @@ const CookieConsent = () => {
   useEffect(() => {
     const consent = localStorage.getItem('cookie-consent');
     if (!consent) {
-      setShowConsent(true);
+      // Small delay to ensure the page is fully loaded
+      setTimeout(() => {
+        setShowConsent(true);
+      }, 500);
     }
   }, []);
 
@@ -31,7 +34,7 @@ const CookieConsent = () => {
 
   return (
     <>
-      <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-border shadow-strong z-50 p-4">
+      <div className="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-900 border-t border-border shadow-strong z-[100] p-4 animate-in slide-in-from-bottom duration-500">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
             <div className="flex-1">
