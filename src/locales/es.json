@@ -169,12 +169,14 @@
     "description": "Clases personalizadas de inglés, francés y español con profesores nativos. Descubre el placer de aprender idiomas en un ambiente cercano y familiar.",
     "cta": "Clase de prueba gratuita",
     "method_description": "Te acompañamos con un método cercano, práctico y adaptado a ti.",
-    "features": "Clases para todas las edades • Grupos reducidos • Preparación para exámenes oficiales"
+    "features": "Clases para todas las edades • Grupos reducidos • Preparación para exámenes oficiales",
+    "questions_button": "¿Tienes dudas? Escríbenos"
   },
   "services": {
     "title": "Nuestros Servicios",
     "subtitle": "Programas diseñados para cada edad y necesidad",
     "description": "Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.",
+    "request_info": "Solicita información",
     "kids": {
       "title": "Clases para Niños",
       "description": "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
@@ -255,6 +257,12 @@
   "benefits": {
     "title": "¿Por qué elegirnos?",
     "subtitle": "Descubre las ventajas de aprender con nosotros",
+    "stats": {
+      "years_experience": "Años de experiencia",
+      "students_trained": "Estudiantes formados",
+      "exam_success": "Aprobados en exámenes",
+      "languages_available": "Idiomas disponibles"
+    },
     "highlights": {
       "individual_attention": "Atención individual garantizada",
       "native_accent": "Acento auténtico desde el primer día",

@@ -169,12 +169,14 @@
     "description": "Personalized English, French and Spanish classes with native teachers. Discover the pleasure of learning languages in a close and family environment.",
     "cta": "Free trial class",
     "method_description": "We accompany you with a close, practical and adapted method.",
-    "features": "Classes for all ages • Small groups • Official exam preparation"
+    "features": "Classes for all ages • Small groups • Official exam preparation",
+    "questions_button": "Have questions? Write to us"
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Programs designed for every age and need",
     "description": "We teach English, French, German, Arabic and Spanish for foreigners, with a practical, close and adapted approach for each student.",
+    "request_info": "Request information",
     "kids": {
       "title": "Children's Classes",
       "description": "Learning by playing is learning forever. Our children's classes combine fun and learning so that the language becomes natural from an early age.",
@@ -255,6 +257,12 @@
   "benefits": {
     "title": "Why choose us?",
     "subtitle": "Discover the advantages of learning with us",
+    "stats": {
+      "years_experience": "Years of experience",
+      "students_trained": "Students trained",
+      "exam_success": "Exam success rate",
+      "languages_available": "Available languages"
+    },
     "highlights": {
       "individual_attention": "Guaranteed individual attention",
       "native_accent": "Authentic accent from day one",

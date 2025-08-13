@@ -169,12 +169,14 @@
     "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
     "cta": "Cours d'essai gratuit",
     "method_description": "Nous vous accompagnons avec une méthode proche, pratique et adaptée à vous.",
-    "features": "Cours pour tous les âges • Petits groupes • Préparation aux examens officiels"
+    "features": "Cours pour tous les âges • Petits groupes • Préparation aux examens officiels",
+    "questions_button": "Vous avez des questions ? Écrivez-nous"
   },
   "services": {
     "title": "Nos Services",
     "subtitle": "Programmes conçus pour chaque âge et besoin",
     "description": "Nous enseignons l'anglais, le français, l'allemand, l'arabe et l'espagnol pour étrangers, avec une approche pratique, proche et adaptée à chaque élève.",
+    "request_info": "Demander des informations",
     "kids": {
       "title": "Cours pour Enfants",
       "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
@@ -255,6 +257,12 @@
   "benefits": {
     "title": "Pourquoi nous choisir ?",
     "subtitle": "Découvrez les avantages d'apprendre avec nous",
+    "stats": {
+      "years_experience": "Années d'expérience",
+      "students_trained": "Étudiants formés",
+      "exam_success": "Réussite aux examens",
+      "languages_available": "Langues disponibles"
+    },
     "highlights": {
       "individual_attention": "Attention individuelle garantie",
       "native_accent": "Accent authentique dès le premier jour",

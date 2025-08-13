@@ -139,7 +139,7 @@ const HeroCarousel = () => {
               size="lg"
               className="w-full sm:w-auto bg-transparent text-white border-white/40 hover:bg-white/10 transition-all duration-300 text-base md:text-lg px-4 md:px-6 py-3 md:py-4 font-montserrat font-medium backdrop-blur-sm border-2"
             >
-              ¿Tienes dudas? Escríbenos
+              {t('hero.questions_button')}
             </Button>
           </div>
         </div>

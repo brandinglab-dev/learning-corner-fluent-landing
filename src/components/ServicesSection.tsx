@@ -137,7 +137,7 @@ const ServicesSection = () => {
                       variant="outline" 
                       className="w-full group/btn border-primary/30 text-primary hover:bg-primary hover:text-white hover:border-primary hover:shadow-glow transition-all duration-300 font-medium"
                     >
-                      Solicita información
+                      {t('services.request_info')}
                       <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
                     </Button>
                   </div>

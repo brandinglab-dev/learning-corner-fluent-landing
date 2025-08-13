@@ -113,7 +113,7 @@ const BenefitsSection = () => {
               25+
             </div>
             <p className="font-opensans text-muted-foreground text-xs md:text-sm lg:text-base">
-              Años de experiencia
+              {t('benefits.stats.years_experience')}
             </p>
           </div>
           
@@ -122,7 +122,7 @@ const BenefitsSection = () => {
               2000+
             </div>
             <p className="font-opensans text-muted-foreground text-xs md:text-sm lg:text-base">
-              Estudiantes formados
+              {t('benefits.stats.students_trained')}
             </p>
           </div>
           
@@ -131,7 +131,7 @@ const BenefitsSection = () => {
               95%
             </div>
             <p className="font-opensans text-muted-foreground text-xs md:text-sm lg:text-base">
-              Aprobados en exámenes
+              {t('benefits.stats.exam_success')}
             </p>
           </div>
           
@@ -140,7 +140,7 @@ const BenefitsSection = () => {
               5
             </div>
             <p className="font-opensans text-muted-foreground text-xs md:text-sm lg:text-base">
-              Idiomas disponibles
+              {t('benefits.stats.languages_available')}
             </p>
           </div>
         </div>
