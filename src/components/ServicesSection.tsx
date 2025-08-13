@@ -14,21 +14,21 @@ const services = [
   {
     icon: Baby,
     title: "Clases para Niños y Adolescentes",
-    description: "Metodología adaptada que hace del aprendizaje una experiencia natural desde pequeños hasta preparación para exámenes oficiales.",
+    description: "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
     features: ["Grupos reducidos", "Actividades interactivas", "Preparación Cambridge", "Seguimiento personalizado"],
     languages: ["Inglés", "Francés", "Alemán"]
   },
   {
     icon: GraduationCap,
     title: "Clases para Adultos",
-    description: "Conversación y negocios con enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas.",
-    features: ["Idiomas profesionales", "Conversación intensiva", "Horarios flexibles", "Grupos por nivel"],
+    description: "Conversación cotidiana o negocios con enfoque práctico para comunicarte con fluidez. Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos.",
+    features: ["Conversación intensiva", "Horarios flexibles", "Grupos por nivel"],
     languages: ["Inglés", "Francés", "Alemán", "Árabe"]
   },
   {
     icon: Heart,
     title: "Español para Extranjeros",
-    description: "Clases para desenvolverte en la vida diaria y superar exámenes oficiales DELE, CSE y examen de nacionalidad.",
+    description: "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, del examen de nacionalidad.",
     features: ["DELE", "CSE", "Examen nacionalidad", "Integración cultural"],
     languages: ["Español"]
   },
@@ -98,8 +98,8 @@ const ServicesSection = () => {
                   <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-primary rounded-full opacity-5 -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700" />
                   
                   <div className="relative z-10">
-                    <div className="flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-primary rounded-2xl mb-4 md:mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
-                      <IconComponent className="h-8 w-8 md:h-10 md:w-10 text-white" />
+                    <div className="flex items-center justify-center w-20 h-20 md:w-24 md:h-24 bg-primary rounded-2xl mb-4 md:mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
+                      <IconComponent className="h-10 w-10 md:h-12 md:w-12 text-white" />
                     </div>
                     
                     <h3 className="font-montserrat text-xl md:text-2xl font-bold mb-3 md:mb-4 text-foreground group-hover:text-primary transition-colors duration-300">

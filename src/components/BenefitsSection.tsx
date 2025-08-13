@@ -14,7 +14,7 @@ const benefits = [
   {
     icon: Users,
     title: "Grupos Reducidos",
-    description: "Máximo 8 estudiantes por clase para atención personalizada",
+    description: "Número reducido de alumnos por clase para atención personalizada",
     highlight: "Atención individual garantizada"
   },
   {
@@ -26,20 +26,20 @@ const benefits = [
   {
     icon: Trophy,
     title: "Exámenes Oficiales",
-    description: "Preparación especializada para Cambridge, DELE, DELF y más",
+    description: "Preparación de exámenes oficiales",
     highlight: "95% de aprobados en exámenes"
   },
   {
     icon: Clock,
     title: "Horarios Flexibles",
-    description: "Mañanas, tardes, fines de semana y modalidad online",
-    highlight: "Se adapta a tu agenda"
+    description: "Mañanas, tardes y modalidad online",
+    highlight: "Disponibilidad horaria para adaptarnos a tu agenda"
   },
   {
     icon: Target,
     title: "Método Práctico",
-    description: "Enfoque comunicativo para hablar desde la primera clase",
-    highlight: "Habla desde el día 1"
+    description: "Enfoque comunicativo para una comunicación fluida",
+    highlight: "Comprensión activa desde el día 1"
   },
   {
     icon: Award,

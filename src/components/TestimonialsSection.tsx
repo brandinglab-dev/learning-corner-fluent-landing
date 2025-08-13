@@ -3,32 +3,46 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "María González",
-    role: "Ejecutiva de Marketing",
-    text: "Gracias a Learning Corner conseguí el B2 de inglés que necesitaba para mi promoción. Los profesores son excelentes y el ambiente muy profesional.",
+    name: "Sebastián Ramos González",
+    role: "Estudiante de Francés",
+    text: "Dianne es una profesora excelente y con ella estoy aprendiendo mucho y bien el idioma Francés. Tiene un buen método y mucha paciencia conmigo. Las clases se hacen cortas y amenas.",
     rating: 5,
-    course: "Inglés profesional"
+    course: "Francés"
   },
   {
-    name: "James Mitchell",
-    role: "Residente británico",
-    text: "Vine a España sin hablar español y ahora me desenvuelvo perfectamente. El curso de integración cultural fue clave para sentirme como en casa.",
+    name: "Daniel Muñoz Benitez",
+    role: "Padre de estudiante",
+    text: "Tenemos a nuestro hijo. Ha mejorado muchísimo ya que antes siempre suspendía la asignatura y ahora es una de las mejores notas que saca. A él le encanta la forma de enseñar y está muy contento al igual que nosotros.",
     rating: 5,
-    course: "Español para extranjeros"
+    course: "Inglés"
   },
   {
-    name: "Sophie Dubois",
-    role: "Estudiante universitaria",
-    text: "Conseguí mi certificado DELE B2 en tiempo récord. Las clases son dinámicas y los grupos pequeños permiten practicar mucho la conversación.",
+    name: "Diana GG",
+    role: "Profesional",
+    text: "Mi experiencia es positiva. No teniendo ya edad de ser estudiante, he comenzado un idioma que me servirá en el trabajo. Valoro aprender con profesorado nativo y que esté pendiente de la pronunciación. Las opciones horarias y la ubicación han sido un plus.",
     rating: 5,
-    course: "Preparación DELE"
+    course: "Idiomas profesionales"
   },
   {
-    name: "Ahmed Al-Rashid",
-    role: "Empresario",
-    text: "Excelente academia para aprender idiomas. Combiné inglés y español para mis negocios. Horarios flexibles perfectos para profesionales.",
+    name: "Verónica Díez",
+    role: "Estudiante",
+    text: "Los profesores se adaptan completamente al nivel de cada estudiante y personalizan las clases. El trato es muy amable y cercano, cualquier problema saben cómo ayudarte.",
     rating: 5,
-    course: "Cursos ejecutivos"
+    course: "Clases personalizadas"
+  },
+  {
+    name: "Yolanda Martínez Morales",
+    role: "Madre de estudiantes",
+    text: "Estoy encantada con la academia, mis dos hijos dan tanto clases de Inglés y Francés y van genial. Las clases se hacen muy amenas. Lo recomiendo 100%.",
+    rating: 5,
+    course: "Inglés y Francés"
+  },
+  {
+    name: "Rocío García Ramírez",
+    role: "Estudiante",
+    text: "Gran Academia, clases muy personalizadas de pequeños grupos de alumnos que es la forma de aprender y practicar idiomas. El profe de inglés es de 10!!!! Y la seño de francés otro 10. La educación y la amabilidad que transmiten de 10. Los alumnos que quieran avanzar en un idioma este es el sitio ideal.",
+    rating: 5,
+    course: "Inglés y Francés"
   }
 ];
 
@@ -54,7 +68,7 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index} 
