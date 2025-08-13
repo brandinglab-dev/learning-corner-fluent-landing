@@ -145,7 +145,12 @@
     "copyright": "Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "cookies": "Política de cookies",
-    "legal": "Aviso legal"
+    "legal": "Aviso legal",
+    "services_list": {
+      "spanish_foreigners": "Español para extranjeros",
+      "online_presential": "Online y presencial",
+      "english_camps": "English Camps"
+    }
   },
   "whatsapp": {
     "tooltip": "¡Escríbenos ahora!",
@@ -177,21 +182,55 @@
     "subtitle": "Programas diseñados para cada edad y necesidad",
     "description": "Enseñamos inglés, francés, alemán, árabe y español para extranjeros, con un enfoque práctico, cercano y adaptado a cada alumno.",
     "request_info": "Solicita información",
+    "languages_label": "Idiomas",
     "kids": {
       "title": "Clases para Niños",
       "description": "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
       "age": "De 3 a 16 años",
-      "method": "Método lúdico e interactivo"
+      "method": "Método lúdico e interactivo",
+      "personalized_tracking": "Seguimiento personalizado"
     },
     "adults": {
       "title": "Clases para Adultos",
       "description": "Conversación cotidiana o negocios con enfoque práctico para hablar desde el primer día. Avanza a tu ritmo con clases adaptadas.",
       "levels": "Todos los niveles",
-      "focus": "Conversación y gramática"
+      "focus": "Conversación y gramática",
+      "intensive_conversation": "Conversación intensiva",
+      "level_groups": "Grupos por nivel"
+    },
+    "spanish_foreigners": {
+      "title": "Español para Extranjeros",
+      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, así como el examen de nacionalidad.",
+      "daily_conversation": "Conversación diaria",
+      "dele_prep": "Preparación DELE",
+      "spanish_culture": "Cultura española",
+      "nationality_exam": "Examen nacionalidad"
+    },
+    "english_camps": {
+      "title": "English Camps",
+      "description": "Inmersión total en inglés durante las vacaciones escolares con actividades divertidas y educativas.",
+      "total_immersion": "Inmersión total",
+      "themed_activities": "Actividades temáticas",
+      "native_teachers": "Profesores nativos",
+      "guaranteed_fun": "Diversión garantizada"
+    },
+    "online_presential": {
+      "title": "Modalidad Online y Presencial",
+      "description": "Flexibilidad total con clases virtuales interactivas o presenciales en nuestras sedes de Estepona y Fuengirola.",
+      "two_locations": "Dos ubicaciones",
+      "qualified_teachers": "Profesores cualificados",
+      "all_languages": "Todos los idiomas"
+    },
+    "exam_prep": {
+      "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE y examen de nacionalidad.",
+      "cambridge_toefl": "Cambridge · TOEFL",
+      "delf_dalf_tcf": "DELF · DALF · TCF",
+      "dele_cse": "DELE · CSE",
+      "nationality_exam": "Examen nacionalidad"
     },
     "exams": {
-      "title": "Preparación de Exámenes",
-      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, del examen de nacionalidad.",
+      "title": "Preparación de exámenes",
+      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, así como el examen de nacionalidad.",
       "types": "DELE, CSE, Cambridge",
       "success": "Alto índice de aprobados"
     }

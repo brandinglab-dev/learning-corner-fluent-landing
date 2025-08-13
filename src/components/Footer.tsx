@@ -74,11 +74,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-background">{t('footer.services')}</h3>
             <ul className="space-y-2 text-sm font-opensans">
-              <li className="text-background/80">{t('contact.options.languages.english')} · {t('contact.options.languages.french')} · Alemán</li>
-              <li className="text-background/80">Árabe · {t('contact.options.languages.spanish')} extranjeros</li>
+              <li className="text-background/80">{t('contact.options.languages.english')} · {t('contact.options.languages.french')} · {t('languages.german')}</li>
+              <li className="text-background/80">{t('languages.arabic')} · {t('footer.services_list.spanish_foreigners')}</li>
               <li className="text-background/80">{t('services.exams.title')}</li>
-              <li className="text-background/80">Online y presencial</li>
-              <li className="text-background/80">English Camps</li>
+              <li className="text-background/80">{t('footer.services_list.online_presential')}</li>
+              <li className="text-background/80">{t('footer.services_list.english_camps')}</li>
               <li className="text-background/80">{t('benefits.small_groups.title')}</li>
             </ul>
           </div>

@@ -145,7 +145,12 @@
     "copyright": "Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "cookies": "Politique de cookies",
-    "legal": "Mentions légales"
+    "legal": "Mentions légales",
+    "services_list": {
+      "spanish_foreigners": "Espagnol pour étrangers",
+      "online_presential": "En ligne et en présentiel",
+      "english_camps": "English Camps"
+    }
   },
   "whatsapp": {
     "tooltip": "Écrivez-nous maintenant !",
@@ -177,21 +182,55 @@
     "subtitle": "Programmes conçus pour chaque âge et besoin",
     "description": "Nous enseignons l'anglais, le français, l'allemand, l'arabe et l'espagnol pour étrangers, avec une approche pratique, proche et adaptée à chaque élève.",
     "request_info": "Demander des informations",
+    "languages_label": "Langues",
     "kids": {
       "title": "Cours pour Enfants",
-      "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
+      "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants allient plaisir et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
       "age": "De 3 à 16 ans",
-      "method": "Méthode ludique et interactive"
+      "method": "Méthode ludique et interactive",
+      "personalized_tracking": "Suivi personnalisé"
     },
     "adults": {
       "title": "Cours pour Adultes",
-      "description": "Conversation quotidienne ou affaires avec une approche pratique pour parler dès le premier jour. Progressez à votre rythme avec des cours adaptés.",
-      "levels": "Tous les niveaux",
-      "focus": "Conversation et grammaire"
+      "description": "Conversation quotidienne ou professionnelle avec une approche pratique pour parler dès le premier jour. Progressez à votre rythme avec des cours adaptés.",
+      "levels": "Tous niveaux",
+      "focus": "Conversation et grammaire",
+      "intensive_conversation": "Conversation intensive",
+      "level_groups": "Groupes par niveau"
+    },
+    "spanish_foreigners": {
+      "title": "Espagnol pour Étrangers",
+      "description": "Cours pour évoluer dans la vie quotidienne et réussir les examens officiels DELE et CSE, ainsi que l'examen de nationalité.",
+      "daily_conversation": "Conversation quotidienne",
+      "dele_prep": "Préparation DELE",
+      "spanish_culture": "Culture espagnole",
+      "nationality_exam": "Examen de nationalité"
+    },
+    "english_camps": {
+      "title": "English Camps",
+      "description": "Immersion totale en anglais pendant les vacances scolaires avec des activités ludiques et éducatives.",
+      "total_immersion": "Immersion totale",
+      "themed_activities": "Activités thématiques",
+      "native_teachers": "Professeurs natifs",
+      "guaranteed_fun": "Plaisir garanti"
+    },
+    "online_presential": {
+      "title": "Cours en Ligne et en Présentiel",
+      "description": "Flexibilité totale avec des cours virtuels interactifs ou en présentiel dans nos centres d'Estepona et Fuengirola.",
+      "two_locations": "Deux centres",
+      "qualified_teachers": "Professeurs qualifiés",
+      "all_languages": "Toutes les langues"
+    },
+    "exam_prep": {
+      "description": "Préparation spécialisée pour Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE et examen de nationalité.",
+      "cambridge_toefl": "Cambridge · TOEFL",
+      "delf_dalf_tcf": "DELF · DALF · TCF",
+      "dele_cse": "DELE · CSE",
+      "nationality_exam": "Examen de nationalité"
     },
     "exams": {
-      "title": "Préparation d'Examens",
-      "description": "Cours pour se débrouiller dans la vie quotidienne et réussir avec succès les examens officiels DELE et CSE, ainsi que l'examen de nationalité.",
+      "title": "Préparation aux examens",
+      "description": "Cours pour évoluer dans la vie quotidienne et réussir les examens officiels DELE et CSE, ainsi que l'examen de nationalité.",
       "types": "DELE, CSE, Cambridge",
       "success": "Taux de réussite élevé"
     }

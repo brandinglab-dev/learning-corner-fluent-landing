@@ -145,7 +145,12 @@
     "copyright": "All rights reserved.",
     "privacy": "Privacy Policy",
     "cookies": "Cookies Policy",
-    "legal": "Legal Notice"
+    "legal": "Legal Notice",
+    "services_list": {
+      "spanish_foreigners": "Spanish for foreigners",
+      "online_presential": "Online and in-person",
+      "english_camps": "English Camps"
+    }
   },
   "whatsapp": {
     "tooltip": "Write to us now!",
@@ -177,17 +182,51 @@
     "subtitle": "Programs designed for every age and need",
     "description": "We teach English, French, German, Arabic and Spanish for foreigners, with a practical, close and adapted approach for each student.",
     "request_info": "Request information",
+    "languages_label": "Languages",
     "kids": {
       "title": "Children's Classes",
-      "description": "Learning by playing is learning forever. Our children's classes combine fun and learning so that the language becomes natural from an early age.",
+      "description": "Learning Through Play Is Learning Forever. Our children's classes combine fun and education so that language learning becomes natural from an early age.",
       "age": "From 3 to 16 years",
-      "method": "Playful and interactive method"
+      "method": "Playful and interactive method",
+      "personalized_tracking": "Personalized tracking"
     },
     "adults": {
       "title": "Adult Classes",
-      "description": "Everyday conversation or business with a practical approach to speak from day one. Progress at your own pace with adapted classes.",
+      "description": "Everyday conversation or business with a practical approach to speak from day one. Make progress at your own pace with adapted classes.",
       "levels": "All levels",
-      "focus": "Conversation and grammar"
+      "focus": "Conversation and grammar",
+      "intensive_conversation": "Intensive conversation",
+      "level_groups": "Level groups"
+    },
+    "spanish_foreigners": {
+      "title": "Spanish for Foreigners",
+      "description": "Classes to manage daily life and successfully pass official DELE and CSE exams, as well as nationality exams.",
+      "daily_conversation": "Daily conversation",
+      "dele_prep": "DELE preparation",
+      "spanish_culture": "Spanish culture",
+      "nationality_exam": "Nationality exam"
+    },
+    "english_camps": {
+      "title": "English Camps",
+      "description": "Total English immersion during school holidays with fun and educational activities.",
+      "total_immersion": "Total immersion",
+      "themed_activities": "Themed activities",
+      "native_teachers": "Native teachers",
+      "guaranteed_fun": "Guaranteed fun"
+    },
+    "online_presential": {
+      "title": "Online and In-Person Classes",
+      "description": "Total flexibility with interactive virtual classes or in-person at our Estepona and Fuengirola locations.",
+      "two_locations": "Two locations",
+      "qualified_teachers": "Qualified teachers",
+      "all_languages": "All languages"
+    },
+    "exam_prep": {
+      "description": "Specialized preparation for Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE and nationality exams.",
+      "cambridge_toefl": "Cambridge · TOEFL",
+      "delf_dalf_tcf": "DELF · DALF · TCF",
+      "dele_cse": "DELE · CSE",
+      "nationality_exam": "Nationality exam"
     },
     "exams": {
       "title": "Exam Preparation",

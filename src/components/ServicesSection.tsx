@@ -19,42 +19,42 @@ const ServicesSection = () => {
       icon: Baby,
       title: t('services.kids.title'),
       description: t('services.kids.description'),
-      features: [t('benefits.small_groups.title'), t('services.kids.method'), t('benefits.exam_prep.title'), "Seguimiento personalizado"],
-      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), "Alemán"]
+      features: [t('benefits.small_groups.title'), t('services.kids.method'), t('benefits.exam_prep.title'), t('services.kids.personalized_tracking')],
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('languages.german')]
     },
     {
       icon: GraduationCap,
       title: t('services.adults.title'),
       description: t('services.adults.description'),
-      features: ["Conversación intensiva", t('benefits.flexible.title'), "Grupos por nivel"],
-      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), "Alemán", "Árabe"]
+      features: [t('services.adults.intensive_conversation'), t('benefits.flexible.title'), t('services.adults.level_groups')],
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('languages.german'), t('languages.arabic')]
     },
     {
       icon: Heart,
-      title: t('contact.options.languages.spanish') + " para Extranjeros",
-      description: t('services.exams.description'),
-      features: ["Conversación diaria", "Preparación DELE", "Cultura española", "Examen nacionalidad"],
+      title: t('services.spanish_foreigners.title'),
+      description: t('services.spanish_foreigners.description'),
+      features: [t('services.spanish_foreigners.daily_conversation'), t('services.spanish_foreigners.dele_prep'), t('services.spanish_foreigners.spanish_culture'), t('services.spanish_foreigners.nationality_exam')],
       languages: [t('contact.options.languages.spanish')]
     },
     {
       icon: TreePine,
-      title: "English Camps",
-      description: "Inmersión total en inglés durante las vacaciones escolares con actividades divertidas y educativas.",
-      features: ["Inmersión total", "Actividades temáticas", "Profesores nativos", "Diversión garantizada"],
+      title: t('services.english_camps.title'),
+      description: t('services.english_camps.description'),
+      features: [t('services.english_camps.total_immersion'), t('services.english_camps.themed_activities'), t('services.english_camps.native_teachers'), t('services.english_camps.guaranteed_fun')],
       languages: [t('contact.options.languages.english')]
     },
     {
       icon: Monitor,
-      title: "Modalidad Online y Presencial",
-      description: "Flexibilidad total con clases virtuales interactivas o presenciales en nuestras sedes de Estepona y Fuengirola.",
-      features: [t('benefits.flexible.title'), "Dos ubicaciones", "Profesores cualificados", t('benefits.small_groups.title')],
-      languages: ["Todos los idiomas"]
+      title: t('services.online_presential.title'),
+      description: t('services.online_presential.description'),
+      features: [t('benefits.flexible.title'), t('services.online_presential.two_locations'), t('services.online_presential.qualified_teachers'), t('benefits.small_groups.title')],
+      languages: [t('services.online_presential.all_languages')]
     },
     {
       icon: Briefcase,
       title: t('services.exams.title'),
-      description: "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE y examen de nacionalidad.",
-      features: ["Cambridge · TOEFL", "DELF · DALF · TCF", "DELE · CSE", "Examen nacionalidad"],
+      description: t('services.exam_prep.description'),
+      features: [t('services.exam_prep.cambridge_toefl'), t('services.exam_prep.delf_dalf_tcf'), t('services.exam_prep.dele_cse'), t('services.exam_prep.nationality_exam')],
       languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('contact.options.languages.spanish')]
     }
   ];
@@ -113,7 +113,7 @@ const ServicesSection = () => {
                     </p>
                     
                     <div className="mb-4">
-                      <p className="text-sm font-montserrat font-medium text-primary mb-2">Idiomas:</p>
+                      <p className="text-sm font-montserrat font-medium text-primary mb-2">{t('services.languages_label')}:</p>
                       <div className="flex flex-wrap gap-2">
                         {service.languages.map((language, langIndex) => (
                           <span key={langIndex} className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full">
