@@ -86,8 +86,9 @@
     }
   },
   "contact": {
-    "title": "Request your free trial class!",
-    "subtitle": "No commitment. Discover our method and meet our teachers.",
+    "title": "Free trial class",
+    "subtitle": "Tailored lessons with native teachers in a welcoming, friendly environment.",
+    "description": "No obligation. Try our method and meet our teachers.",
     "phone": "Phone",
     "email": "Email",
     "locations_label": "Locations",
@@ -169,177 +170,171 @@
     "arabic": "Arabic"
   },
   "hero": {
-    "title": "Learn languages naturally",
-    "subtitle": "Your language academy in Estepona and Fuengirola",
-    "description": "Personalized English, French and Spanish classes with native teachers. Discover the pleasure of learning languages in a close and family environment.",
-    "cta": "Free trial class",
-    "method_description": "We accompany you with a personalized, practical approach adapted to your needs.",
-    "features": "Classes for all ages • Small groups • Official exam preparation",
-    "questions_button": "Have questions? Write to us"
+    "title": "Learn Languages Naturally",
+    "subtitle": "Tailor-made English, French and Spanish courses with native teachers. Enjoy learning in a warm, friendly and supportive atmosphere.",
+    "description": "We guide you with a practical, personalized approach designed around your needs.",
+    "cta": "Free Trial Class",
+    "method_description": "We guide you with a practical, personalized approach designed around your needs.",
+    "features": "All ages • Small class sizes • Official exam preparation",
+    "questions_button": "Questions? Get in touch."
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Programs designed for every age and need",
-    "description": "We teach English, French, German, Arabic and Spanish for foreigners, with a practical, close and adapted approach for each student.",
-    "request_info": "Request information",
+    "subtitle": "Courses for every age and learning goal",
+    "description": "We teach English, French, German, Arabic and Spanish for foreigners with a practical, engaging and personalized approach.",
+    "request_info": "Enquire now",
     "languages_label": "Languages",
     "kids": {
       "title": "Children's Classes",
-      "description": "Learning Through Play Is Learning Forever. Our children's classes combine fun and education so that language learning becomes natural from an early age.",
-      "age": "From 3 to 16 years",
-      "method": "Playful and interactive method",
-      "personalized_tracking": "Personalized tracking"
+      "description": "Learning through play is learning for life. Our lessons combine fun and education so language skills become natural from an early age.",
+      "languages": "English · French · German",
+      "small_groups": "Small groups for individual attention",
+      "interactive_methods": "Fun, interactive learning methods",
+      "exam_prep": "Official exam preparation",
+      "personalized_tracking": "Personalised progress tracking"
     },
     "adults": {
       "title": "Adult Classes",
-      "description": "Everyday conversation or business with a practical approach to speak from day one. Make progress at your own pace with adapted classes.",
-      "levels": "All levels",
-      "focus": "Conversation and grammar",
-      "intensive_conversation": "Intensive conversation",
-      "level_groups": "Level groups"
+      "description": "Everyday conversation or professional communication, taught with a hands-on approach so you start speaking from day one. Progress at your own pace with classes designed for you.",
+      "languages": "English · French · German · Arabic",
+      "intensive_conversation": "Intensive conversation practice",
+      "flexible_schedules": "Flexible schedules",
+      "level_groups": "Groups by level"
     },
     "spanish_foreigners": {
       "title": "Spanish for Foreigners",
-      "description": "Classes to manage daily life and successfully pass official DELE and CSE exams, as well as nationality exams.",
-      "daily_conversation": "Daily conversation",
+      "description": "Lessons to manage daily life in Spain and succeed in DELE, CSE and Spanish citizenship tests.",
+      "language": "Spanish",
+      "daily_conversation": "Everyday conversation",
       "dele_prep": "DELE preparation",
       "spanish_culture": "Spanish culture",
-      "nationality_exam": "Nationality exam"
+      "citizenship_prep": "Citizenship test preparation"
     },
     "english_camps": {
       "title": "English Camps",
-      "description": "Total English immersion during school holidays with fun and educational activities.",
+      "description": "Full English immersion during school holidays, with themed activities that combine learning and fun.",
+      "language": "English",
       "total_immersion": "Total immersion",
       "themed_activities": "Themed activities",
       "native_teachers": "Native teachers",
-      "guaranteed_fun": "Guaranteed fun"
+      "guaranteed_fun": "Fun guaranteed"
     },
     "online_presential": {
-      "title": "Online and In-Person Classes",
-      "description": "Total flexibility with interactive virtual classes or in-person at our Estepona and Fuengirola locations.",
-      "two_locations": "Two locations",
+      "title": "Online & In-Person Classes",
+      "description": "Total flexibility: join interactive online lessons or attend classes at our centres in Estepona and Fuengirola.",
+      "languages": "All",
+      "flexible_schedules": "Flexible schedules",
+      "two_locations": "Two convenient locations",
       "qualified_teachers": "Qualified teachers",
-      "all_languages": "All languages"
+      "small_classes": "Small class sizes"
     },
     "exam_prep": {
-      "description": "Specialized preparation for Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE and nationality exams.",
+      "title": "Exam Preparation",
+      "description": "Specialised training for Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE and Spanish citizenship tests.",
+      "languages": "English · French · Spanish",
       "cambridge_toefl": "Cambridge · TOEFL",
       "delf_dalf_tcf": "DELF · DALF · TCF",
       "dele_cse": "DELE · CSE",
-      "nationality_exam": "Nationality exam"
-    },
-    "exams": {
-      "title": "Exam Preparation",
-      "description": "Classes to manage daily life and successfully pass official DELE and CSE exams, as well as nationality exams.",
-      "types": "DELE, CSE, Cambridge",
-      "success": "High pass rate"
+      "citizenship_test": "Citizenship test"
     }
   },
   "locations": {
     "title": "Our Locations",
-    "subtitle": "Find the academy closest to you",
-    "description": "Two strategically located centers on the Costa del Sol to offer you the best accessibility and comfort.",
+    "subtitle": "Two convenient centres on the Costa del Sol:",
+    "description": "Two convenient centres on the Costa del Sol:",
     "estepona": {
       "title": "Learning Corner School Estepona",
       "address": "Plaza Miguel Ángel Loren Méndez 5, local A",
-      "hours": "Monday to Friday: 9:00 - 21:00"
+      "hours": "Mon–Fri: 9:00–21:00"
     },
     "fuengirola": {
       "title": "Kampus Formación Fuengirola",
-      "address": "Fuengirola Center",
-      "hours": "Monday to Friday: 9:00 - 21:00"
+      "address": "Fuengirola Centre",
+      "hours": "Mon–Fri: 9:00–21:00"
     }
   },
   "testimonials": {
-    "title": "What our students say",
+    "title": "What Our Students Say",
     "subtitle": "Real testimonials from our community",
     "description": "Discover how we have helped thousands of people achieve their linguistic and professional goals.",
     "cta": {
-      "title": "Do you want to be the next to achieve your goals?",
-      "description": "Join thousands of students who have already transformed their future with us",
-      "free_class": "Request your free class",
+      "title": "Ready to achieve your goals?",
+      "description": "Join thousands of learners who have already transformed their future with us.",
+      "free_class": "Book your free trial class today",
       "contact": "Talk to us"
     },
     "reviews": {
       "sebastian": {
         "role": "French Student",
-        "text": "Dianne is an excellent teacher and with her I am learning the French language very well. She has a good method and a lot of patience with me. The classes are short and enjoyable.",
+        "text": "Dianne is an excellent teacher, and thanks to her I'm learning French very well. She has a great method and lots of patience. The classes are enjoyable and go by quickly.",
         "course": "French"
       },
       "daniel": {
-        "role": "Parent of student",
-        "text": "We have our son there. He has improved tremendously since before he always failed the subject and now it's one of the best grades he gets. He loves the way of teaching and is very happy as we are.",
+        "role": "Parent",
+        "text": "Our son has improved enormously – he used to fail the subject, now it's one of his best grades. He loves the teaching style, and we couldn't be happier.",
         "course": "English"
       },
       "diana": {
-        "role": "Professional",
-        "text": "My experience is positive. No longer being of student age, I have started a language that will serve me at work. I value learning with native teachers who pay attention to pronunciation. The schedule options and location have been a plus.",
-        "course": "Professional languages"
+        "role": "Languages for Professionals",
+        "text": "My experience has been very positive. Even as an adult, I started learning a language that's useful for my work. I value learning with native teachers who focus on pronunciation. Flexible schedules and a great location have been a real plus.",
+        "course": "Languages for Professionals"
       },
       "veronica": {
-        "role": "Student",
-        "text": "The teachers adapt completely to each student's level and personalize the classes. The treatment is very kind and close, any problem they know how to help you.",
-        "course": "Personalized classes"
+        "role": "Personalised Classes",
+        "text": "The teachers adapt completely to each student's level and personalise the lessons. The atmosphere is friendly and supportive, and they always know how to help.",
+        "course": "Personalised Classes"
       },
       "yolanda": {
-        "role": "Mother of students",
-        "text": "I am delighted with the academy, my two children take both English and French classes and they are doing great. The classes are very enjoyable. I recommend it 100%.",
-        "course": "English and French"
+        "role": "English & French",
+        "text": "I'm delighted with the school. My two children take both English and French classes and they're doing great. Lessons are enjoyable and motivating. I highly recommend it.",
+        "course": "English & French"
       },
       "rocio": {
-        "role": "Student",
-        "text": "Great Academy, very personalized classes with small groups of students which is the way to learn and practice languages. The English teacher is a 10!!!! And the French teacher another 10. The education and kindness they transmit is a 10. Students who want to advance in a language, this is the ideal place.",
-        "course": "English and French"
+        "role": "English & French",
+        "text": "Excellent academy – very personalised classes in small groups, which is the best way to learn and practise languages. The English teacher is amazing, and so is the French teacher. Their professionalism and kindness are exceptional. For anyone wanting to improve a language, this is the ideal place.",
+        "course": "English & French"
       }
     }
   },
   "benefits": {
-    "title": "Why choose us?",
-    "subtitle": "Discover the advantages of learning with us",
-    "tagline": "More than an academy, your gateway to the world",
+    "title": "Why Choose Us?",
+    "subtitle": "Discover the advantages of learning with us:",
+    "tagline": "More than a school – your gateway to the world",
     "stats": {
-      "years_experience": "Years of experience",
-      "students_trained": "Students trained",
-      "exam_success": "Exam success rate",
-      "languages_available": "Available languages"
+      "years_experience": "years of experience",
+      "students_trained": "students trained",
+      "exam_success": "exam success rate",
+      "languages_available": "languages taught"
     },
     "highlights": {
-      "individual_attention": "Guaranteed individual attention",
-      "native_accent": "Authentic accent from day one",
-      "high_success": "95% pass rate in exams",
-      "satisfied_students": "Thousands of satisfied students"
+      "individual_attention": "Individual attention guaranteed.",
+      "native_accent": "Natural pronunciation from day one.",
+      "high_success": "95% pass rate in official exams.",
+      "satisfied_students": "Thousands of happy learners."
     },
     "native_teachers": {
       "title": "Native Teachers",
-      "description": "International team of qualified and experienced teachers"
+      "description": "International team of qualified, experienced instructors."
     },
     "experience": {
       "title": "25 Years of Experience",
-      "description": "Consolidated trajectory in language teaching"
-    },
-    "playful": {
-      "title": "Learning Through Play Is Learning Forever",
-      "description": "Our children's classes combine fun and education so that language learning becomes natural from an early age."
-    },
-    "practical": {
-      "title": "A Practical Approach to Communicate Fluently",
-      "description": "Make progress at your own pace with classes tailored to your specific needs and goals."
+      "description": "Proven track record in language education."
     },
     "small_groups": {
-      "title": "Small Groups for Personalized Attention"
+      "title": "Small Class Sizes",
+      "description": "Individual attention guaranteed."
     },
     "flexible": {
-      "title": "Flexible schedule to adapt to your agenda",
-      "description": "Available mornings, afternoons, and online"
+      "title": "Flexible Schedules",
+      "description": "Mornings, afternoons and online lessons available."
     },
     "communicative": {
-      "title": "Communicative approach for fluent communication"
-    },
-    "active": {
-      "title": "Active understanding from day one"
+      "title": "Communicative Teaching Method",
+      "description": "Practical speaking and listening skills from day one."
     },
     "exam_prep": {
-      "title": "Official exam preparation"
+      "title": "Exam Preparation Experts",
+      "description": "95% pass rate in official exams."
     }
   }
 }
