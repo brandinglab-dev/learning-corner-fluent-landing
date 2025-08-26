@@ -250,12 +250,12 @@
     "estepona": {
       "title": "Learning Corner School Estepona",
       "address": "Plaza Miguel Ángel Loren Méndez 5, local A",
-      "hours": "Mon–Fri: 9:00–21:00"
+      "hours": "Monday to Friday: 10h-14h, 16h-21h"
     },
     "fuengirola": {
       "title": "Learning Corner School Fuengirola",
       "address": "Av Francisco Rivera Paquirri S/N, Los Boliches, Fuengirola",
-      "hours": "Mon–Fri: 9:00–21:00"
+      "hours": "Monday to Friday: 16h-21h"
     }
   },
   "testimonials": {
