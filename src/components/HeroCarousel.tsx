@@ -66,7 +66,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <section id="inicio" className="relative min-h-[80vh] md:h-[85vh] flex items-center justify-center overflow-hidden px-4">
+    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
       {/* Background with brand colors */}
       {slides.map((slide, index) => (
         <div
@@ -94,8 +94,8 @@ const HeroCarousel = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-30 container mx-auto px-4 text-center text-white pb-16 md:pb-20">
-        <div className="max-w-6xl mx-auto">
+      <div className="relative z-30 container mx-auto px-4 text-center text-white py-8 pb-20 md:pb-24">
+        <div className="max-w-5xl mx-auto">
           {/* Logo/Brand */}
           <div className="mb-6 md:mb-8">
             <img 
@@ -105,7 +105,7 @@ const HeroCarousel = () => {
             />
           </div>
           
-          <h1 className="font-montserrat text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 leading-tight px-2">
+          <h1 className="font-montserrat text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 leading-tight px-2">
             {slides[currentSlide].title}
           </h1>
           
@@ -115,11 +115,11 @@ const HeroCarousel = () => {
             </span>
           </div>
           
-          <p className="font-opensans text-sm md:text-base lg:text-lg xl:text-xl mb-6 md:mb-8 opacity-95 max-w-4xl mx-auto leading-relaxed px-2">
+          <p className="font-opensans text-base md:text-lg lg:text-xl mb-6 md:mb-8 opacity-95 max-w-4xl mx-auto leading-relaxed px-2">
             {slides[currentSlide].description}
           </p>
           
-          <p className="font-opensans text-xs md:text-sm lg:text-base mb-6 md:mb-8 opacity-90 max-w-3xl mx-auto font-medium px-2">
+          <p className="font-opensans text-sm md:text-base lg:text-lg mb-6 md:mb-8 opacity-90 max-w-4xl mx-auto font-medium px-2">
             {t('hero.method_description')}<br />
             <span className="font-montserrat font-semibold">{t('hero.features')}</span>
           </p>
