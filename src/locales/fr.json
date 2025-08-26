@@ -14,7 +14,7 @@
   "hero": {
     "title": "Apprenez les langues naturellement",
     "subtitle": "Votre académie de langues à Estepona et Fuengirola",
-    "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs ou hautement qualifiés. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
+    "description": "Cours personnalisés d'anglais, de français et d'espagnol avec des professeurs natifs. Découvrez le plaisir d'apprendre les langues dans un cadre chaleureux et familial.",
     "cta": "Cours d'essai gratuit"
   },
   "benefits": {
@@ -22,7 +22,7 @@
     "subtitle": "Découvrez les avantages d'apprendre avec nous",
     "playful": {
       "title": "Apprendre en jouant, c'est apprendre pour toujours",
-      "description": "Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge."
+      "description": "Avec nos cours ludiques, les enfants découvrent le plaisir d'apprendre et la langue devient naturelle dès les premiers pas."
     },
     "practical": {
       "title": "Une approche pratique pour communiquer avec fluidité",
@@ -184,13 +184,13 @@
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Programmes conçus pour chaque âge et besoin",
-    "description": "Nous enseignons l'anglais, le français, l'allemand, l'arabe et l'espagnol pour étrangers, avec une approche pratique, proche et adaptée à chaque élève.",
+    "subtitle": "Des programmes adaptés à chaque âge et à chaque besoin",
+    "description": "Nous enseignons l'anglais, le français, l'allemand, l'arabe et l'espagnol pour étrangers, avec une approche pratique, personnalisée et adaptée à chaque élève.",
     "request_info": "Demander des informations",
     "languages_label": "Langues",
     "kids": {
       "title": "Cours pour Enfants",
-      "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants allient plaisir et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
+      "description": "Apprendre en s'amusant, c'est apprendre pour la vie. Avec nos cours ludiques, les enfants découvrent le plaisir d'apprendre et la langue devient naturelle dès les premiers pas.",
       "languages": "Anglais · Français · Allemand · Espagnol · Arabe",
       "small_groups": "Petits groupes pour une attention individuelle",
       "interactive_methods": "Méthodes d'apprentissage ludiques et interactives",
@@ -244,7 +244,7 @@
   },
   "locations": {
     "title": "Nos Emplacements",
-    "subtitle": "Trouvez l'académie la plus proche de vous",
+    "subtitle": "Trouvez l'école la plus proche de vous",
     "description": "Deux centres stratégiquement situés sur la Costa del Sol pour vous offrir la meilleure accessibilité et commodité.",
     "estepona": {
       "title": "Learning Corner School Estepona",
@@ -303,7 +303,7 @@
   "benefits": {
     "title": "Pourquoi nous choisir ?",
     "subtitle": "Découvrez les avantages d'apprendre avec nous",
-    "tagline": "Plus qu'une académie, votre porte vers le monde",
+    "tagline": "Plus qu'une école de langues, une fenêtre sur le monde.",
     "stats": {
       "years_experience": "Années d'expérience",
       "students_trained": "Étudiants formés",
@@ -322,10 +322,10 @@
     },
     "experience": {
       "title": "25 Ans d'Expérience",
-      "description": "Trajectoire consolidée dans l'enseignement des langues"
+      "description": "Une expertise reconnue dans l'enseignement des langues"
     },
     "playful": {
-      "title": "Apprendre en jouant, c'est apprendre pour toujours",
+      "title": "Apprendre en s'amusant, c'est apprendre pour la vie",
       "description": "Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge."
     },
     "practical": {
