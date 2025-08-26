@@ -55,6 +55,7 @@
     "kids": {
       "title": "Cours pour Enfants",
       "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants combinent amusement et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
+      "languages": "Anglais · Français · Allemand · Espagnol · Arabe",
       "age": "De 3 à 16 ans",
       "method": "Méthode ludique et interactive"
     },
@@ -190,8 +191,10 @@
     "kids": {
       "title": "Cours pour Enfants",
       "description": "Apprendre en jouant, c'est apprendre pour toujours. Nos cours pour enfants allient plaisir et apprentissage pour que la langue devienne naturelle dès le plus jeune âge.",
-      "age": "De 3 à 16 ans",
-      "method": "Méthode ludique et interactive",
+      "languages": "Anglais · Français · Allemand · Espagnol · Arabe",
+      "small_groups": "Petits groupes pour une attention individuelle",
+      "interactive_methods": "Méthodes d'apprentissage ludiques et interactives",
+      "exam_prep": "Préparation aux examens officiels",
       "personalized_tracking": "Suivi personnalisé"
     },
     "adults": {

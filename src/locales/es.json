@@ -55,6 +55,7 @@
     "kids": {
       "title": "Clases para Niños",
       "description": "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
+      "languages": "Inglés · Francés · Alemán · Español · Árabe",
       "age": "De 3 a 16 años",
       "method": "Método lúdico e interactivo"
     },
@@ -190,8 +191,10 @@
     "kids": {
       "title": "Clases para Niños",
       "description": "Aprender jugando es aprender para siempre. Nuestras clases para niños combinan diversión y aprendizaje para que el idioma se convierta en algo natural desde pequeños.",
-      "age": "De 3 a 16 años",
-      "method": "Método lúdico e interactivo",
+      "languages": "Inglés · Francés · Alemán · Español · Árabe",
+      "small_groups": "Grupos reducidos para atención individual",
+      "interactive_methods": "Métodos de aprendizaje divertidos e interactivos",
+      "exam_prep": "Preparación de exámenes oficiales",
       "personalized_tracking": "Seguimiento personalizado"
     },
     "adults": {
