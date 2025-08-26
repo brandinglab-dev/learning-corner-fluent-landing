@@ -229,11 +229,10 @@
       "all_languages": "Toutes les langues"
     },
     "exam_prep": {
-      "description": "Préparation spécialisée pour Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE et examen de nationalité.",
+      "description": "Préparation spécialisée pour Cambridge, TOEFL, DELF, DALF, TCF, DELE et CSE.",
       "cambridge_toefl": "Cambridge · TOEFL",
       "delf_dalf_tcf": "DELF · DALF · TCF",
-      "dele_cse": "DELE · CSE",
-      "nationality_exam": "Examen de nationalité"
+      "dele_cse": "DELE · CSE"
     },
     "exams": {
       "title": "Préparation aux examens",

@@ -207,8 +207,7 @@
       "language": "Spanish",
       "daily_conversation": "Everyday conversation",
       "dele_prep": "DELE preparation",
-      "spanish_culture": "Spanish culture",
-      "citizenship_prep": "Citizenship test preparation"
+      "spanish_culture": "Spanish culture"
     },
     "english_camps": {
       "title": "Summer Camps",
@@ -230,12 +229,11 @@
     },
     "exam_prep": {
       "title": "Exam Preparation",
-      "description": "Specialised training for Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE and Spanish citizenship tests.",
+      "description": "Specialised training for Cambridge, TOEFL, DELF, DALF, TCF, DELE and CSE.",
       "languages": "English · French · Spanish",
       "cambridge_toefl": "Cambridge · TOEFL",
       "delf_dalf_tcf": "DELF · DALF · TCF",
-      "dele_cse": "DELE · CSE",
-      "citizenship_test": "Citizenship test"
+      "dele_cse": "DELE · CSE"
     }
   },
   "locations": {

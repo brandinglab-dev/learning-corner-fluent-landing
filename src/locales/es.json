@@ -232,8 +232,7 @@
       "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE y CSE.",
       "cambridge_toefl": "Cambridge · TOEFL",
       "delf_dalf_tcf": "DELF · DALF · TCF",
-      "dele_cse": "DELE · CSE",
-      "nationality_exam": "Examen nacionalidad"
+      "dele_cse": "DELE · CSE"
     },
     "exams": {
       "title": "Preparación de exámenes",
