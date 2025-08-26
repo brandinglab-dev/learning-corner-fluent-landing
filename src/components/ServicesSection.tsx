@@ -19,15 +19,15 @@ const ServicesSection = () => {
       icon: Baby,
       title: t('services.kids.title'),
       description: t('services.kids.description'),
-      features: [t('benefits.small_groups.title'), t('services.kids.method'), t('benefits.exam_prep.title'), t('services.kids.personalized_tracking')],
-      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('languages.german')]
+      features: [t('services.kids.small_groups'), t('services.kids.interactive_methods'), t('services.kids.exam_prep'), t('services.kids.personalized_tracking')],
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('languages.german'), t('contact.options.languages.spanish'), t('languages.arabic')]
     },
     {
       icon: GraduationCap,
       title: t('services.adults.title'),
       description: t('services.adults.description'),
       features: [t('services.adults.intensive_conversation'), t('benefits.flexible.title'), t('services.adults.level_groups')],
-      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('languages.german'), t('languages.arabic')]
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('languages.german'), t('contact.options.languages.spanish'), t('languages.arabic')]
     },
     {
       icon: Heart,
