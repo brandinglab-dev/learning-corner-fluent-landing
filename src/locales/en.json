@@ -237,7 +237,11 @@
       "english_exams": "Cambridge · Trinity · Aptis · Selectividad",
       "french_exams": "DELF · DALF · TCF · Selectividad",
       "spanish_exams": "DELE · CCSE",
-      "levels": "Levels A2, B1, B2, C1, C2"
+      "levels": "Levels A2, B1, B2, C1, C2",
+      "cambridge_toefl": "English: Cambridge, Trinity, Aptis, Selectividad",
+      "delf_dalf_tcf": "French: DELF, DALF, TCF, Selectividad",
+      "dele_cse": "Spanish: DELE, CCSE nationality exam",
+      "all_levels": "All levels (A2, B1, B2, C1, C2)"
     },
     "exams": {
       "title": "Exam Preparation",

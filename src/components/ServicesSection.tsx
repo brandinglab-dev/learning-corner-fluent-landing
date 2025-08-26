@@ -54,7 +54,7 @@ const ServicesSection = () => {
       icon: Briefcase,
       title: t('services.exams.title'),
       description: t('services.exam_prep.description'),
-      features: [t('services.exam_prep.cambridge_toefl'), t('services.exam_prep.delf_dalf_tcf'), t('services.exam_prep.dele_cse')],
+      features: [t('services.exam_prep.cambridge_toefl'), t('services.exam_prep.delf_dalf_tcf'), t('services.exam_prep.dele_cse'), t('services.exam_prep.all_levels')],
       languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('contact.options.languages.spanish')]
     }
   ];
