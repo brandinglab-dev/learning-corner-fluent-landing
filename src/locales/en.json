@@ -188,6 +188,7 @@
       "title": "Children's Classes",
       "description": "Learning through play is learning for life. Our lessons combine fun and education so language skills become natural from an early age.",
       "languages": "English · French · German · Spanish · Arabic",
+      "age": "Ages 3-16",
       "small_groups": "Small groups for individual attention",
       "interactive_methods": "Fun, interactive learning methods",
       "exam_prep": "Official exam preparation",
@@ -197,6 +198,7 @@
       "title": "Adult Classes",
       "description": "Everyday conversation or professional communication, taught with a hands-on approach so you start speaking from day one. Progress at your own pace with classes designed for you.",
       "languages": "English · French · German · Arabic",
+      "levels": "All levels",
       "intensive_conversation": "Intensive conversation practice",
       "flexible_schedules": "Flexible schedules",
       "level_groups": "Groups by level"
@@ -234,6 +236,11 @@
       "cambridge_toefl": "Cambridge · TOEFL",
       "delf_dalf_tcf": "DELF · DALF · TCF",
       "dele_cse": "DELE · CSE"
+    },
+    "exams": {
+      "title": "Exam Preparation",
+      "types": "DELE, CSE, Cambridge",
+      "description": "Specialised training for Cambridge, TOEFL, DELF, DALF, TCF, DELE and CSE."
     }
   },
   "locations": {

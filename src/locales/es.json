@@ -236,7 +236,7 @@
     },
     "exams": {
       "title": "Preparación de exámenes",
-      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE.",
+      "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE y CSE.",
       "types": "DELE, CSE, Cambridge",
       "success": "Alto índice de aprobados"
     }

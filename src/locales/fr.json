@@ -236,7 +236,7 @@
     },
     "exams": {
       "title": "Préparation aux examens",
-      "description": "Cours pour évoluer dans la vie quotidienne et réussir les examens officiels DELE et CSE, ainsi que l'examen de nationalité.",
+      "description": "Préparation spécialisée pour Cambridge, TOEFL, DELF, DALF, TCF, DELE et CSE.",
       "types": "DELE, CSE, Cambridge",
       "success": "Taux de réussite élevé"
     }
