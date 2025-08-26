@@ -332,7 +332,8 @@
       "description": "Progressez à votre rythme avec des cours adaptés à vos besoins et objectifs."
     },
     "small_groups": {
-      "title": "Petit nombre d'élèves par classe pour une attention personnalisée"
+      "title": "Petit nombre d'élèves par classe pour une attention personnalisée",
+      "description": "Attention individuelle garantie."
     },
     "flexible": {
       "title": "Horaires flexibles pour s'adapter à votre emploi du temps",
