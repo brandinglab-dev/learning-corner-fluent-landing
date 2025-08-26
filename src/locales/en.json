@@ -150,7 +150,7 @@
     "services_list": {
       "spanish_foreigners": "Spanish for foreigners",
       "online_presential": "Online and in-person",
-      "english_camps": "English Camps"
+      "english_camps": "Summer Camps"
     }
   },
   "whatsapp": {
@@ -211,9 +211,9 @@
       "citizenship_prep": "Citizenship test preparation"
     },
     "english_camps": {
-      "title": "English Camps",
-      "description": "Full English immersion during school holidays, with themed activities that combine learning and fun.",
-      "language": "English",
+      "title": "Summer Camps",
+      "description": "Full language immersion during school holidays, with themed activities that combine learning and fun.",
+      "language": "English · French · Spanish",
       "total_immersion": "Total immersion",
       "themed_activities": "Themed activities",
       "native_teachers": "Native or highly qualified teachers",

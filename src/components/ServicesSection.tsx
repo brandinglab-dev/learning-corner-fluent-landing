@@ -41,7 +41,7 @@ const ServicesSection = () => {
       title: t('services.english_camps.title'),
       description: t('services.english_camps.description'),
       features: [t('services.english_camps.total_immersion'), t('services.english_camps.themed_activities'), t('services.english_camps.native_teachers'), t('services.english_camps.guaranteed_fun')],
-      languages: [t('contact.options.languages.english')]
+      languages: [t('contact.options.languages.english'), t('contact.options.languages.french'), t('contact.options.languages.spanish')]
     },
     {
       icon: Monitor,
