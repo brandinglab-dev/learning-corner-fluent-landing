@@ -33,7 +33,7 @@ const ServicesSection = () => {
       icon: Heart,
       title: t('services.spanish_foreigners.title'),
       description: t('services.spanish_foreigners.description'),
-      features: [t('services.spanish_foreigners.daily_conversation'), t('services.spanish_foreigners.dele_prep'), t('services.spanish_foreigners.spanish_culture'), t('services.spanish_foreigners.nationality_exam')],
+      features: [t('services.spanish_foreigners.daily_conversation'), t('services.spanish_foreigners.dele_prep'), t('services.spanish_foreigners.spanish_culture')],
       languages: [t('contact.options.languages.spanish')]
     },
     {

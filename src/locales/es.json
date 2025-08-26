@@ -67,7 +67,7 @@
     },
     "exams": {
       "title": "Preparación de exámenes",
-      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, así como el examen de nacionalidad.",
+      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE.",
       "types": "DELE, CSE, Cambridge",
       "success": "Alto índice de aprobados"
     }
@@ -207,7 +207,7 @@
     },
     "spanish_foreigners": {
       "title": "Español para Extranjeros",
-      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, así como el examen de nacionalidad.",
+      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE.",
       "daily_conversation": "Conversación diaria",
       "dele_prep": "Preparación DELE",
       "spanish_culture": "Cultura española",
@@ -229,7 +229,7 @@
       "all_languages": "Todos los idiomas"
     },
     "exam_prep": {
-      "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE, CSE y examen de nacionalidad.",
+      "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE y CSE.",
       "cambridge_toefl": "Cambridge · TOEFL",
       "delf_dalf_tcf": "DELF · DALF · TCF",
       "dele_cse": "DELE · CSE",
@@ -237,7 +237,7 @@
     },
     "exams": {
       "title": "Preparación de exámenes",
-      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE, así como el examen de nacionalidad.",
+      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE.",
       "types": "DELE, CSE, Cambridge",
       "success": "Alto índice de aprobados"
     }
