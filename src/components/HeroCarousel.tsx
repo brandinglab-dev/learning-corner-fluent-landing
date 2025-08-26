@@ -94,7 +94,7 @@ const HeroCarousel = () => {
       ))}
 
       {/* Content */}
-      <div className="relative z-30 container mx-auto px-4 text-center text-white">
+      <div className="relative z-30 container mx-auto px-4 text-center text-white pb-16 md:pb-20">
         <div className="max-w-6xl mx-auto">
           {/* Logo/Brand */}
           <div className="mb-6 md:mb-8">
@@ -119,7 +119,7 @@ const HeroCarousel = () => {
             {slides[currentSlide].description}
           </p>
           
-          <p className="font-opensans text-xs md:text-sm lg:text-base mb-8 md:mb-10 opacity-90 max-w-3xl mx-auto font-medium px-2">
+          <p className="font-opensans text-xs md:text-sm lg:text-base mb-6 md:mb-8 opacity-90 max-w-3xl mx-auto font-medium px-2">
             {t('hero.method_description')}<br />
             <span className="font-montserrat font-semibold">{t('hero.features')}</span>
           </p>
