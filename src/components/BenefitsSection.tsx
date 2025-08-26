@@ -19,7 +19,7 @@ const BenefitsSection = () => {
     {
       icon: Users,
       title: t('benefits.small_groups.title'),
-      description: t('benefits.small_groups.title'),
+      description: t('benefits.small_groups.description'),
       highlight: t('benefits.highlights.individual_attention')
     },
     {
@@ -31,7 +31,7 @@ const BenefitsSection = () => {
     {
       icon: Trophy,
       title: t('benefits.exam_prep.title'),
-      description: t('benefits.exam_prep.title'),
+      description: t('benefits.exam_prep.description'),
       highlight: t('benefits.highlights.high_success')
     },
     {
@@ -43,7 +43,7 @@ const BenefitsSection = () => {
     {
       icon: Target,
       title: t('benefits.communicative.title'),
-      description: t('benefits.communicative.title'),
+      description: t('benefits.communicative.description'),
       highlight: t('benefits.active.title')
     },
     {

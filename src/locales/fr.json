@@ -29,20 +29,24 @@
       "description": "Progressez à votre rythme avec des cours adaptés à vos besoins et objectifs."
     },
     "small_groups": {
-      "title": "Petit nombre d'élèves par classe pour une attention personnalisée"
+      "title": "Petit nombre d'élèves par classe pour une attention personnalisée",
+      "description": "Groupes réduits qui garantissent une attention individuelle et un apprentissage efficace."
     },
     "flexible": {
-      "title": "Disponibilité horaire pour s'adapter à votre agenda",
-      "description": "Matins, après-midis et modalité en ligne"
+      "title": "Horaires Flexibles",
+      "description": "Matins, après-midis et cours en ligne disponibles pour s'adapter à votre agenda."
     },
     "communicative": {
-      "title": "Approche communicative pour une communication fluide"
+      "title": "Approche communicative pour une communication fluide",
+      "description": "Méthode pratique centrée sur la conversation et compréhension dès le premier jour."
     },
     "active": {
-      "title": "Compréhension active dès le jour 1"
+      "title": "Compréhension active dès le jour 1",
+      "description": "Développement immédiat des compétences d'écoute et de compréhension."
     },
     "exam_prep": {
-      "title": "Préparation aux examens officiels"
+      "title": "Préparation aux examens officiels",
+      "description": "Spécialistes en préparation aux examens officiels avec 95% de réussite."
     }
   },
   "services": {
@@ -333,13 +337,15 @@
       "description": "Matins, après-midis et cours en ligne"
     },
     "communicative": {
-      "title": "Approche communicative pour une communication fluide"
+      "title": "Méthode Communicative",
+      "description": "Approche pratique en conversation et compréhension dès le premier jour."
     },
     "active": {
       "title": "Compréhension active dès le premier jour"
     },
     "exam_prep": {
-      "title": "Préparation aux examens officiels"
+      "title": "Préparation aux Examens",
+      "description": "Spécialistes en préparation aux examens officiels avec 95% de réussite."
     }
   }
 }

@@ -29,20 +29,24 @@
       "description": "Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos."
     },
     "small_groups": {
-      "title": "Número reducido de alumnos por clase para atención personalizada"
+      "title": "Número reducido de alumnos por clase para atención personalizada",
+      "description": "Grupos pequeños que garantizan atención individual y aprendizaje efectivo."
     },
     "flexible": {
       "title": "Disponibilidad horaria para adaptarnos a tu agenda",
       "description": "Mañanas, tardes y modalidad online"
     },
     "communicative": {
-      "title": "Enfoque comunicativo para una comunicación fluida"
+      "title": "Enfoque comunicativo para una comunicación fluida",
+      "description": "Método práctico centrado en la conversación y comprensión desde el primer día."
     },
     "active": {
-      "title": "Comprensión activa desde el primer día"
+      "title": "Comprensión activa desde el primer día",
+      "description": "Desarrollo inmediato de habilidades de escucha y comprensión."
     },
     "exam_prep": {
-      "title": "Preparación de exámenes oficiales"
+      "title": "Preparación de exámenes oficiales",
+      "description": "Especialistas en preparación para exámenes oficiales con 95% de éxito."
     }
   },
   "services": {
@@ -326,20 +330,24 @@
       "description": "Avanza a tu ritmo con clases adaptadas a tus necesidades y objetivos."
     },
     "small_groups": {
-      "title": "Número reducido de alumnos por clase para atención personalizada"
+      "title": "Grupos Reducidos",
+      "description": "Atención individual garantizada para maximizar tu aprendizaje."
     },
     "flexible": {
-      "title": "Disponibilidad horaria para adaptarnos a tu agenda",
-      "description": "Mañanas, tardes y modalidad online"
+      "title": "Horarios Flexibles",
+      "description": "Mañanas, tardes y clases online disponibles para adaptarse a tu agenda."
     },
     "communicative": {
-      "title": "Enfoque comunicativo para una comunicación fluida"
+      "title": "Método Comunicativo",
+      "description": "Enfoque práctico en conversación y comprensión desde el primer día."
     },
     "active": {
-      "title": "Comprensión activa desde el primer día"
+      "title": "Comprensión Activa",
+      "description": "Desarrollo de habilidades de escucha y comprensión desde el primer día."
     },
     "exam_prep": {
-      "title": "Preparación de exámenes oficiales"
+      "title": "Preparación de Exámenes",
+      "description": "Especialistas en preparación para exámenes oficiales con 95% de éxito."
     }
   }
 }
