@@ -14,7 +14,7 @@
   "hero": {
     "title": "Apprenez les langues naturellement",
     "subtitle": "Votre académie de langues à Estepona et Fuengirola",
-    "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
+    "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs ou hautement qualifiés. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
     "cta": "Cours d'essai gratuit"
   },
   "benefits": {
@@ -138,7 +138,7 @@
     }
   },
   "footer": {
-    "description": "Votre académie de langues de confiance sur la Costa del Sol. Apprenez l'anglais, le français et l'espagnol avec des professeurs natifs dans un environnement familial et proche.",
+    "description": "Votre académie de langues de confiance sur la Costa del Sol. Apprenez l'anglais, le français et l'espagnol avec des professeurs natifs ou hautement qualifiés dans un environnement familial et proche.",
     "quick_links": "Liens Rapides",
     "services": "Nos Services",
     "contact": "Contact",
@@ -171,7 +171,7 @@
   "hero": {
     "title": "Apprenez les langues naturellement",
     "subtitle": "Votre académie de langues à Estepona et Fuengirola",
-    "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
+    "description": "Cours personnalisés d'anglais, français et espagnol avec des professeurs natifs ou hautement qualifiés. Découvrez le plaisir d'apprendre les langues dans un environnement proche et familial.",
     "cta": "Cours d'essai gratuit",
     "method_description": "Nous vous accompagnons avec une méthode personnalisée, pratique et adaptée à vos besoins.",
     "features": "Cours pour tous les âges • Petits groupes • Préparation aux examens officiels",
@@ -211,7 +211,7 @@
       "description": "Immersion totale en anglais pendant les vacances scolaires avec des activités ludiques et éducatives.",
       "total_immersion": "Immersion totale",
       "themed_activities": "Activités thématiques",
-      "native_teachers": "Professeurs natifs",
+      "native_teachers": "Professeurs natifs ou hautement qualifiés",
       "guaranteed_fun": "Plaisir garanti"
     },
     "online_presential": {
@@ -273,7 +273,7 @@
       },
       "diana": {
         "role": "Professionnelle",
-        "text": "Mon expérience est positive. N'étant plus en âge d'être étudiante, j'ai commencé une langue qui me servira au travail. J'apprécie d'apprendre avec des professeurs natifs qui font attention à la prononciation. Les options d'horaire et l'emplacement ont été un plus.",
+        "text": "Mon expérience est positive. N'étant plus en âge d'être étudiante, j'ai commencé une langue qui me servira au travail. J'apprécie d'apprendre avec des professeurs natifs ou hautement qualifiés qui font attention à la prononciation. Les options d'horaire et l'emplacement ont été un plus.",
         "course": "Langues professionnelles"
       },
       "veronica": {
@@ -310,7 +310,7 @@
       "satisfied_students": "Des milliers d'étudiants satisfaits"
     },
     "native_teachers": {
-      "title": "Professeurs Natifs",
+      "title": "Professeurs Natifs ou Hautement Qualifiés",
       "description": "Équipe internationale de professeurs qualifiés et expérimentés"
     },
     "experience": {

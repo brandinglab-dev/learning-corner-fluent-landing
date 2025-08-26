@@ -14,7 +14,7 @@
   "hero": {
     "title": "Learn languages naturally",
     "subtitle": "Your language academy in Estepona and Fuengirola",
-    "description": "Personalized English, French and Spanish classes with native teachers. Discover the pleasure of learning languages in a close and family environment.",
+    "description": "Personalized English, French and Spanish classes with native or highly qualified teachers. Discover the pleasure of learning languages in a close and family environment.",
     "cta": "Free trial class"
   },
   "benefits": {
@@ -87,7 +87,7 @@
   },
   "contact": {
     "title": "Free trial class",
-    "subtitle": "Tailored lessons with native teachers in a welcoming, friendly environment.",
+    "subtitle": "Tailored lessons with native or highly qualified teachers in a welcoming, friendly environment.",
     "description": "No obligation. Try our method and meet our teachers.",
     "phone": "Phone",
     "email": "Email",
@@ -139,7 +139,7 @@
     }
   },
   "footer": {
-    "description": "Your trusted language academy on the Costa del Sol. Learn English, French and Spanish with native teachers in a family and close environment.",
+    "description": "Your trusted language academy on the Costa del Sol. Learn English, French and Spanish with native or highly qualified teachers in a family and close environment.",
     "quick_links": "Quick Links",
     "services": "Our Services",
     "contact": "Contact",
@@ -171,7 +171,7 @@
   },
   "hero": {
     "title": "Learn Languages Naturally",
-    "subtitle": "Tailor-made English, French and Spanish courses with native teachers. Enjoy learning in a warm, friendly and supportive atmosphere.",
+    "subtitle": "Tailor-made English, French and Spanish courses with native or highly qualified teachers. Enjoy learning in a warm, friendly and supportive atmosphere.",
     "description": "We guide you with a practical, personalized approach designed around your needs.",
     "cta": "Free Trial Class",
     "method_description": "We guide you with a practical, personalized approach designed around your needs.",
@@ -216,7 +216,7 @@
       "language": "English",
       "total_immersion": "Total immersion",
       "themed_activities": "Themed activities",
-      "native_teachers": "Native teachers",
+      "native_teachers": "Native or highly qualified teachers",
       "guaranteed_fun": "Fun guaranteed"
     },
     "online_presential": {
@@ -276,7 +276,7 @@
       },
       "diana": {
         "role": "Languages for Professionals",
-        "text": "My experience has been very positive. Even as an adult, I started learning a language that's useful for my work. I value learning with native teachers who focus on pronunciation. Flexible schedules and a great location have been a real plus.",
+        "text": "My experience has been very positive. Even as an adult, I started learning a language that's useful for my work. I value learning with native or highly qualified teachers who focus on pronunciation. Flexible schedules and a great location have been a real plus.",
         "course": "Languages for Professionals"
       },
       "veronica": {
@@ -313,7 +313,7 @@
       "satisfied_students": "Thousands of happy learners."
     },
     "native_teachers": {
-      "title": "Native Teachers",
+      "title": "Native or Highly Qualified Teachers",
       "description": "International team of qualified, experienced instructors."
     },
     "experience": {
