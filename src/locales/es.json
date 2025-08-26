@@ -67,9 +67,10 @@
     },
     "exams": {
       "title": "Preparación de exámenes",
-      "description": "Clases para desenvolverte en la vida diaria y superar con éxito los exámenes oficiales DELE y CSE.",
-      "types": "DELE, CSE, Cambridge",
-      "success": "Alto índice de aprobados"
+      "description": "Preparamos todos los niveles (A2, B1, B2, C1, C2) para exámenes oficiales. Inglés: Cambridge, Trinity, Aptis, Selectividad. Francés: DELF, DALF, TCF, Selectividad. Español: DELE, examen de nacionalidad CCSE.",
+      "types": "Cambridge, Trinity, Aptis, DELF, DALF, TCF, DELE, CCSE",
+      "success": "Alto índice de aprobados",
+      "levels": "Todos los niveles: A2, B1, B2, C1, C2"
     }
   },
   "testimonials": {
@@ -229,16 +230,18 @@
       "all_languages": "Todos los idiomas"
     },
     "exam_prep": {
-      "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE y CSE.",
-      "cambridge_toefl": "Cambridge · TOEFL",
-      "delf_dalf_tcf": "DELF · DALF · TCF",
-      "dele_cse": "DELE · CSE"
+      "description": "Preparación especializada en todos los niveles (A2-C2). Inglés: Cambridge, Trinity, Aptis, Selectividad. Francés: DELF, DALF, TCF, Selectividad. Español: DELE, CCSE.",
+      "english_exams": "Cambridge · Trinity · Aptis · Selectividad",
+      "french_exams": "DELF · DALF · TCF · Selectividad",
+      "spanish_exams": "DELE · CCSE",
+      "levels": "Niveles A2, B1, B2, C1, C2"
     },
     "exams": {
       "title": "Preparación de exámenes",
-      "description": "Preparación especializada para Cambridge, TOEFL, DELF, DALF, TCF, DELE y CSE.",
-      "types": "DELE, CSE, Cambridge",
-      "success": "Alto índice de aprobados"
+      "description": "Preparación especializada en todos los niveles (A2-C2). Inglés: Cambridge, Trinity, Aptis, Selectividad. Francés: DELF, DALF, TCF, Selectividad. Español: DELE, CCSE.",
+      "types": "Cambridge, Trinity, Aptis, DELF, DALF, TCF, DELE, CCSE",
+      "success": "Alto índice de aprobados",
+      "levels": "Todos los niveles: A2, B1, B2, C1, C2"
     }
   },
   "locations": {

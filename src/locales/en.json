@@ -62,9 +62,10 @@
     },
     "exams": {
       "title": "Exam Preparation",
-      "description": "Classes to manage daily life and successfully pass official DELE and CSE exams, as well as nationality exams.",
-      "types": "DELE, CSE, Cambridge",
-      "success": "High pass rate"
+      "description": "We prepare all levels (A2, B1, B2, C1, C2) for official exams. English: Cambridge, Trinity, Aptis, Selectividad. French: DELF, DALF, TCF, Selectividad. Spanish: DELE, CCSE nationality exam.",
+      "types": "Cambridge, Trinity, Aptis, DELF, DALF, TCF, DELE, CCSE",
+      "success": "High pass rate",
+      "levels": "All levels: A2, B1, B2, C1, C2"
     }
   },
   "testimonials": {
@@ -231,16 +232,18 @@
     },
     "exam_prep": {
       "title": "Exam Preparation",
-      "description": "Specialised training for Cambridge, TOEFL, DELF, DALF, TCF, DELE and CSE.",
+      "description": "Specialised training for all levels (A2-C2). English: Cambridge, Trinity, Aptis, Selectividad. French: DELF, DALF, TCF, Selectividad. Spanish: DELE, CCSE.",
       "languages": "English · French · Spanish",
-      "cambridge_toefl": "Cambridge · TOEFL",
-      "delf_dalf_tcf": "DELF · DALF · TCF",
-      "dele_cse": "DELE · CSE"
+      "english_exams": "Cambridge · Trinity · Aptis · Selectividad",
+      "french_exams": "DELF · DALF · TCF · Selectividad",
+      "spanish_exams": "DELE · CCSE",
+      "levels": "Levels A2, B1, B2, C1, C2"
     },
     "exams": {
       "title": "Exam Preparation",
-      "types": "DELE, CSE, Cambridge",
-      "description": "Specialised training for Cambridge, TOEFL, DELF, DALF, TCF, DELE and CSE."
+      "types": "Cambridge, Trinity, Aptis, DELF, DALF, TCF, DELE, CCSE",
+      "description": "Specialised training for all levels (A2-C2). English: Cambridge, Trinity, Aptis, Selectividad. French: DELF, DALF, TCF, Selectividad. Spanish: DELE, CCSE.",
+      "levels": "All levels: A2, B1, B2, C1, C2"
     }
   },
   "locations": {

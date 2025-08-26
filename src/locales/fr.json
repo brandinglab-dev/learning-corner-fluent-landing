@@ -67,9 +67,10 @@
     },
     "exams": {
       "title": "Préparation d'Examens",
-      "description": "Cours pour se débrouiller dans la vie quotidienne et réussir avec succès les examens officiels DELE et CSE, ainsi que l'examen de nationalité.",
-      "types": "DELE, CSE, Cambridge",
-      "success": "Taux de réussite élevé"
+      "description": "Nous préparons tous les niveaux (A2, B1, B2, C1, C2) pour les examens officiels. Anglais: Cambridge, Trinity, Aptis, Selectividad. Français: DELF, DALF, TCF, Selectividad. Espagnol: DELE, examen de nationalité CCSE.",
+      "types": "Cambridge, Trinity, Aptis, DELF, DALF, TCF, DELE, CCSE",
+      "success": "Taux de réussite élevé",
+      "levels": "Tous les niveaux: A2, B1, B2, C1, C2"
     }
   },
   "testimonials": {
@@ -229,16 +230,18 @@
       "all_languages": "Toutes les langues"
     },
     "exam_prep": {
-      "description": "Préparation spécialisée pour Cambridge, TOEFL, DELF, DALF, TCF, DELE et CSE.",
-      "cambridge_toefl": "Cambridge · TOEFL",
-      "delf_dalf_tcf": "DELF · DALF · TCF",
-      "dele_cse": "DELE · CSE"
+      "description": "Préparation spécialisée pour tous les niveaux (A2-C2). Anglais: Cambridge, Trinity, Aptis, Selectividad. Français: DELF, DALF, TCF, Selectividad. Espagnol: DELE, CCSE.",
+      "english_exams": "Cambridge · Trinity · Aptis · Selectividad",
+      "french_exams": "DELF · DALF · TCF · Selectividad",
+      "spanish_exams": "DELE · CCSE",
+      "levels": "Niveaux A2, B1, B2, C1, C2"
     },
     "exams": {
       "title": "Préparation aux examens",
-      "description": "Préparation spécialisée pour Cambridge, TOEFL, DELF, DALF, TCF, DELE et CSE.",
-      "types": "DELE, CSE, Cambridge",
-      "success": "Taux de réussite élevé"
+      "description": "Préparation spécialisée pour tous les niveaux (A2-C2). Anglais: Cambridge, Trinity, Aptis, Selectividad. Français: DELF, DALF, TCF, Selectividad. Espagnol: DELE, CCSE.",
+      "types": "Cambridge, Trinity, Aptis, DELF, DALF, TCF, DELE, CCSE",
+      "success": "Taux de réussite élevé",
+      "levels": "Tous les niveaux: A2, B1, B2, C1, C2"
     }
   },
   "locations": {
