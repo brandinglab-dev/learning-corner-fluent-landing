@@ -9,14 +9,14 @@ const LocationSection = () => {
     {
       name: t('locations.estepona.title'),
       address: t('locations.estepona.address'),
-      phone: t('header.phone'),
+      phone: t('locations.estepona.phone'),
       hours: t('locations.estepona.hours'),
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51388.41379793586!2d-5.231835180468727!3d36.39041965402949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f18d765ea7b5483%3A0x72999e1e7146e26c!2sLearning%20Corner%20School%20Estepona!5e0!3m2!1ses!2ses!4v1754898569381!5m2!1ses!2ses"
     },
     {
       name: t('locations.fuengirola.title'), 
       address: t('locations.fuengirola.address'),
-      phone: t('header.phone'),
+      phone: t('locations.fuengirola.phone'),
       hours: t('locations.fuengirola.hours'),
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6410.066271037066!2d-4.622158123712086!3d36.5533139815769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e3b50a4e5809%3A0xb96d4348f2596200!2sKampus%20Formaci%C3%B3n!5e0!3m2!1ses!2ses!4v1754898597843!5m2!1ses!2ses"
     }
