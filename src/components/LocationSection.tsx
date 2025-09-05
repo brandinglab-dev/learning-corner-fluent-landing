@@ -18,7 +18,7 @@ const LocationSection = () => {
       address: t('locations.fuengirola.address'),
       phone: t('locations.fuengirola.phone'),
       hours: t('locations.fuengirola.hours'),
-      mapUrl: "https://share.google/GOaXSkU9Xg5xSlpnO"
+      mapUrl: "https://share.google/X7S8snoQuZyNdnpcI"
     }
   ];
   return (
