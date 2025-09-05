@@ -61,7 +61,7 @@ const ContactForm = () => {
                   <Phone className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                   <div>
                     <p className="font-medium text-foreground font-montserrat">{t('contact.phone')}</p>
-                    <a href="tel:+34634489386" className="text-muted-foreground font-opensans hover:text-primary transition-colors">{t('header.phone')}</a>
+                    <a href="tel:+34634494195" className="text-muted-foreground font-opensans hover:text-primary transition-colors">{t('header.phone')}</a>
                   </div>
                 </div>
                 

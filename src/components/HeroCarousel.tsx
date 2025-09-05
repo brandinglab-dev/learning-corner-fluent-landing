@@ -134,7 +134,7 @@ const HeroCarousel = () => {
               <ArrowRight className="ml-2 h-4 md:h-5 w-4 md:w-5" />
             </Button>
             <Button
-              onClick={() => window.open('https://wa.me/34634489386', '_blank')}
+              onClick={() => window.open('https://wa.me/34634494195', '_blank')}
               variant="outline"
               size="lg"
               className="w-full sm:w-auto bg-transparent text-white border-white/40 hover:bg-white/10 transition-all duration-300 text-base md:text-lg px-4 md:px-6 py-3 md:py-4 font-montserrat font-medium backdrop-blur-sm border-2"

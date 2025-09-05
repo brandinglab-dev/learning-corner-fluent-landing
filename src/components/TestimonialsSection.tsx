@@ -135,7 +135,7 @@ const TestimonialsSection = () => {
                 {t('testimonials.cta.free_class')}
               </button>
               <button 
-                onClick={() => window.open('https://wa.me/34634489386', '_blank')}
+                onClick={() => window.open('https://wa.me/34634494195', '_blank')}
                 className="px-6 py-3 border border-primary text-primary hover:bg-primary hover:text-white font-montserrat font-medium rounded-lg transition-all duration-300"
               >
                 {t('testimonials.cta.contact')}

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 const WhatsAppButton = () => {
   const { t } = useTranslation();
-  const whatsappNumber = "+34634489386";
+  const whatsappNumber = "+34634494195";
   const message = t('whatsapp.message');
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 

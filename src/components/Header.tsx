@@ -27,7 +27,7 @@ const Header = () => {
         {/* Top bar with contact info */}
         <div className="hidden md:flex justify-between items-center py-3 text-sm border-b border-border/30">
           <div className="flex items-center gap-6">
-            <a href="tel:+34634489386" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
+            <a href="tel:+34634494195" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-105">
               <Phone className="h-3 w-3" />
               <span className="font-medium">{t('header.phone')}</span>
             </a>
