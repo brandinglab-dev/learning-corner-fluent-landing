@@ -18,7 +18,7 @@ const LocationSection = () => {
       address: t('locations.fuengirola.address'),
       phone: t('locations.fuengirola.phone'),
       hours: t('locations.fuengirola.hours'),
-      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.7855829767654!2d-4.62491512477384!3d36.55432067211843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e3b56e71b4c3%3A0x7b5e7e2b8f8b9b9b!2sAv.%20Francisco%20Rivera%20Paquirri%2C%201%2C%2029640%20Fuengirola%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1735956800000!5m2!1ses!2ses"
+      mapUrl: "https://share.google/GOaXSkU9Xg5xSlpnO"
     }
   ];
   return (
