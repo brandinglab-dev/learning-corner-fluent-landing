@@ -18,7 +18,7 @@ const LocationSection = () => {
       address: t('locations.fuengirola.address'),
       phone: t('locations.fuengirola.phone'),
       hours: t('locations.fuengirola.hours'),
-      mapUrl: "https://maps.app.goo.gl/uFPCWo2dBJx4ZtAo6"
+      mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2333.7729502629118!2d-4.620648759656681!3d36.55364884174361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e33bcd74ac41%3A0x3567e56d13f46975!2sLearning%20Corner%20School%20Fuengirola!5e0!3m2!1ses!2ses!4v1757067510735!5m2!1ses!2ses"
     }
   ];
   return (
